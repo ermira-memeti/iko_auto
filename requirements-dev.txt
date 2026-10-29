@@ -1,0 +1,5 @@
+-r requirements.txt
+-r requirements-ontology.txt
+pytest>=8
+nbformat>=5
+notebook>=7

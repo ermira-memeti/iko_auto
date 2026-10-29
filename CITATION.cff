@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or research artifact, please cite the corresponding IKO-Auto paper."
+title: "IKO-Auto: Policy-Scoped Ontology-Guided Evidence Retrieval for Motor Insurance"
+type: software
+authors:
+  - family-names: "Memeti"
+    given-names: "Ermira"
+version: "1.0-paper"
+date-released: "2026-10-29"

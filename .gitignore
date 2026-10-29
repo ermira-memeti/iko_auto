@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+.ipynb_checkpoints/
+
+# Local/third-party source documents
+data/research_corpus/
+data/research_corpus.zip
+data/reference_unrelated/*.pdf
+*.pdf
+
+# Local generated runs
+H1_RESULTS_REPRODUCED/
+H1_RESULTS/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Personal duplicate files
+*-ErmiraF.*

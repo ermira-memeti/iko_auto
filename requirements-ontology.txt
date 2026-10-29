@@ -1,0 +1,5 @@
+# IKO-Auto V2 RDF parsing, SPARQL, and graph visualization
+rdflib>=7,<9
+graphviz>=0.20,<1
+# V5 PDF extraction of AES-managed files
+cryptography>=3.1

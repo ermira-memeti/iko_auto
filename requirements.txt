@@ -1,0 +1,6 @@
+# Lightweight application (Python 3.12 recommended)
+streamlit>=1.33,<2
+pypdf>=4,<7
+rank-bm25>=0.2.2,<1
+# pypdf uses cryptography for AES-protected PDF internals, even on readable policies.
+cryptography>=3.1
