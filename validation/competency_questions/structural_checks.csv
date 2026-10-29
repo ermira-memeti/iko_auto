@@ -1,0 +1,15 @@
+graph,check,status,items_checked,issues,detail
+V6,SourcePassage_complete_document_page_quote,PASS,44,0,"Requires one known PDF ID, positive xsd:integer page, and non-empty quote"
+V6,Explicit_edge_domain_range_typing,PASS,49,0,Checks explicitly typed nodes for represented relationship paths (not OWL reasoning)
+V6,Assertion_matches_edge_and_evidence_scope,PASS,49,0,"Every reified assertion must match an edge and have a typed, insurer-matched source passage"
+V6,All_relevant_graph_edges_reified,PASS,49,0,Checks every applicable relationship edge has a supporting reified assertion
+V6,SourceChunkId_optional_gap,NOTICE,44,44,No sourceChunkId recorded for these instances; PDF page and quote provenance are present
+V6,Policy_version_effective_date_gap,NOTICE,5,5,Uploaded booklet version identifiers are present; effectiveDate values not established
+V6,No_claim_or_policyholder_instances,LIMITATION,0,0,No individual Claim or Policyholder instances: CQ6-CQ8 cannot be empirically answered with this corpus
+V8.2,SourcePassage_complete_document_page_quote,PASS,49,0,"Requires one known PDF ID, positive xsd:integer page, and non-empty quote"
+V8.2,Explicit_edge_domain_range_typing,PASS,54,0,Checks explicitly typed nodes for represented relationship paths (not OWL reasoning)
+V8.2,Assertion_matches_edge_and_evidence_scope,PASS,54,0,"Every reified assertion must match an edge and have a typed, insurer-matched source passage"
+V8.2,All_relevant_graph_edges_reified,PASS,54,0,Checks every applicable relationship edge has a supporting reified assertion
+V8.2,SourceChunkId_optional_gap,NOTICE,49,49,No sourceChunkId recorded for these instances; PDF page and quote provenance are present
+V8.2,Policy_version_effective_date_gap,NOTICE,5,5,Uploaded booklet version identifiers are present; effectiveDate values not established
+V8.2,No_claim_or_policyholder_instances,LIMITATION,0,0,No individual Claim or Policyholder instances: CQ6-CQ8 cannot be empirically answered with this corpus

@@ -1,0 +1,147 @@
+{
+  "report_created_utc": "2026-10-26T23:41:17.308329+00:00",
+  "project": ".",
+  "inputs": {
+    "v6": "outputs/v6/iko_auto_five_insurers_v6.ttl",
+    "v82": "outputs/v8_2/iko_auto_extended_v8_2.ttl",
+    "schema": "ontology/iko_auto_v6.ttl",
+    "corpus": "data/research_corpus (not redistributed)"
+  },
+  "input_sha256": {
+    "v6": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+    "v82": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+    "schema": "a1c69c312c85810d9ab788ab1b64cbaa723449e3c5f7bf54a849146f60a6a09b"
+  },
+  "checks": [
+    {
+      "check": "parse_v6",
+      "result": "PASS",
+      "detail": "932 triples, SHA256 34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7"
+    },
+    {
+      "check": "parse_v82",
+      "result": "PASS",
+      "detail": "1029 triples, SHA256 b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729"
+    },
+    {
+      "check": "base_graph_preserved",
+      "result": "PASS",
+      "detail": "V6=932; V8.2=1029; new=97; deleted=0"
+    },
+    {
+      "check": "v6_class_AutoPolicy",
+      "result": "OBSERVED",
+      "detail": "5"
+    },
+    {
+      "check": "v6_class_PolicyVersion",
+      "result": "OBSERVED",
+      "detail": "5"
+    },
+    {
+      "check": "v6_class_Coverage",
+      "result": "OBSERVED",
+      "detail": "8"
+    },
+    {
+      "check": "v6_class_Exclusion",
+      "result": "OBSERVED",
+      "detail": "21"
+    },
+    {
+      "check": "v6_class_Exception",
+      "result": "OBSERVED",
+      "detail": "1"
+    },
+    {
+      "check": "v6_class_ClaimCondition",
+      "result": "OBSERVED",
+      "detail": "5"
+    },
+    {
+      "check": "v6_class_SourcePassage",
+      "result": "OBSERVED",
+      "detail": "44"
+    },
+    {
+      "check": "v6_class_RelationshipAssertion",
+      "result": "OBSERVED",
+      "detail": "49"
+    },
+    {
+      "check": "v6_assertion_links",
+      "result": "PASS",
+      "detail": "Checked 49 assertions"
+    },
+    {
+      "check": "v82_class_AutoPolicy",
+      "result": "OBSERVED",
+      "detail": "5"
+    },
+    {
+      "check": "v82_class_PolicyVersion",
+      "result": "OBSERVED",
+      "detail": "5"
+    },
+    {
+      "check": "v82_class_Coverage",
+      "result": "OBSERVED",
+      "detail": "13"
+    },
+    {
+      "check": "v82_class_Exclusion",
+      "result": "OBSERVED",
+      "detail": "21"
+    },
+    {
+      "check": "v82_class_Exception",
+      "result": "OBSERVED",
+      "detail": "1"
+    },
+    {
+      "check": "v82_class_ClaimCondition",
+      "result": "OBSERVED",
+      "detail": "5"
+    },
+    {
+      "check": "v82_class_SourcePassage",
+      "result": "OBSERVED",
+      "detail": "49"
+    },
+    {
+      "check": "v82_class_RelationshipAssertion",
+      "result": "OBSERVED",
+      "detail": "54"
+    },
+    {
+      "check": "v82_assertion_links",
+      "result": "PASS",
+      "detail": "Checked 54 assertions"
+    },
+    {
+      "check": "schema_parse",
+      "result": "PASS",
+      "detail": "144 triples"
+    },
+    {
+      "check": "schema_sourcePage_range",
+      "result": "OBSERVED",
+      "detail": "(no explicit range)"
+    },
+    {
+      "check": "source_quote_validation",
+      "result": "OBSERVED",
+      "detail": "Counter({'PASS_EXACT_WHITESPACE_NORMALIZED': 93})"
+    }
+  ],
+  "provenance_counts": {
+    "PASS_EXACT_WHITESPACE_NORMALIZED": 93
+  },
+  "errors": [],
+  "warnings": [
+    "OWL logical entailment/consistency and business-domain correctness are NOT established by this structural validation.",
+    "Competency questions need a separate expected-output test suite; this script does not infer expected answers.",
+    "Quotation checks use PDF text extraction; apparent mismatches may be caused by line layout or OCR, and require page inspection."
+  ],
+  "conclusion": "STRUCTURAL_CHECKS_COMPLETED__NOT_FULL_ONTOLOGY_VALIDATION"
+}

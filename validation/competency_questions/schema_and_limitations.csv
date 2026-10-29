@@ -1,0 +1,8 @@
+Check,Status,Description
+SourcePage_range,UNDECLARED_PROPERTY,sourcePage appears in both instance graphs with xsd:integer values but is not declared as a datatype property or given an xsd:integer range in the supplied schema
+SourceChunkId_instance_populated,NOT_POPULATED,sourceChunkId declared but no SourcePassage instance has one
+CQ_document_has_8_questions,PASS,Eight questions defined; prior CQ1-CQ7 guidance was incomplete
+OWL_reasoner_consistency,NOT_TESTED,No OWL DL/OWL RL reasoner run; no logical consistency claim
+Formal_SHACL_validation,NOT_RUN,Equivalent Python cardinality/type checks executed; SHACL shapes supplied but no pySHACL engine run
+Domain_semantic_correctness,NOT_TESTED,RDF path checks cannot independently establish insurance-law meaning or contractual applicability
+Original_PDF_quote_verification,OUTSIDE_THIS_PACKAGE,This CQ input ZIP excludes PDF files; earlier source quote report found 93 passing V6/V8.2 checks
