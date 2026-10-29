@@ -1,0 +1,16 @@
+PREFIX iko: <https://example.org/iko-auto/v2#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?policyName ?coverageName ?exclusionName ?exceptionName ?source ?quote WHERE {
+  ?policy a iko:AutoPolicy ; rdfs:label ?policyName ; iko:hasVersion ?version .
+  ?version iko:hasCoverage ?coverage .
+  ?coverage rdfs:label ?coverageName ; iko:hasExclusion ?exclusion .
+  ?exclusion rdfs:label ?exclusionName .
+  OPTIONAL { ?exclusion iko:hasException ?exception . ?exception rdfs:label ?exceptionName . }
+  ?statement a iko:RelationshipAssertion ;
+             iko:assertionSubject ?coverage ;
+             iko:assertionPredicate iko:hasExclusion ;
+             iko:assertionObject ?exclusion ;
+             iko:supportedBy ?evidence .
+  ?evidence iko:sourceDocumentId ?source ; iko:sourceQuote ?quote .
+}
+ORDER BY ?policyName ?coverageName ?exclusionName

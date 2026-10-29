@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "H1Q_AXA_001",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_002",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_003",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_004",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_005",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_006",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_007",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p38::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_008",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_009",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_AXA_010",
+    "insurer": "AXA",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "AXA"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_001",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_002",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_003",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_004",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_005",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_006",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_007",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_008",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_009",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": true,
+    "reason": "EMPTY_GRAPH_RESULT",
+    "graph_strict_no_match": true,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p10::c0001",
+      "admiral_car_policy.pdf::p35::c0002",
+      "admiral_car_policy.pdf::p36::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_ADMIRAL_010",
+    "insurer": "Admiral",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Admiral"
+  },
+  {
+    "question_id": "H1Q_AVIVA_001",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_002",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_003",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_004",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_005",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_006",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_007",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_008",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_009",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_AVIVA_010",
+    "insurer": "Aviva",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Aviva"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_001",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_002",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_003",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_004",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_005",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_006",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_007",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_008",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p26::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_009",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p6::c0001",
+      "directline_car_policy.pdf::p30::c0003",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p14::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_DIRECTLINE_010",
+    "insurer": "Direct Line",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "Direct Line"
+  },
+  {
+    "question_id": "H1Q_ESURE_001",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_002",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p31::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_003",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_004",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_005",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p59::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_006",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p16::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_007",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_008",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_009",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  },
+  {
+    "question_id": "H1Q_ESURE_010",
+    "insurer": "esure",
+    "method": "bm25_metadata_graph_fallback",
+    "fallback_used": false,
+    "reason": "GRAPH_RETURNED_PASSAGES",
+    "graph_strict_no_match": false,
+    "n_returned": 5,
+    "result_chunk_ids": [
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003"
+    ],
+    "safe_insurer_scope": true,
+    "policy_scope": "esure"
+  }
+]

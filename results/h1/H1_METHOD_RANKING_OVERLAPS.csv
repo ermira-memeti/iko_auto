@@ -1,0 +1,6 @@
+﻿method_a,method_b,identical_top5_question_count,different_top5_question_count
+M2,M3,50,0
+M4,M5,49,1
+M4,M8,49,1
+M5,M8,49,1
+M7,M8,21,29

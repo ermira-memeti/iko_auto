@@ -1,0 +1,2788 @@
+{
+  "bm25": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p11::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p21::c0002",
+      "axa_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p18::c0004",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "aviva_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "directline_car_policy.pdf::p26::c0002",
+      "aviva_car_policy.pdf::p24::c0003"
+    ],
+    "H1Q_AXA_004": [
+      "esure_car_policy.pdf::p37::c0002",
+      "axa_car_policy.pdf::p28::c0001",
+      "aviva_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p35::c0001",
+      "directline_car_policy.pdf::p3::c0004",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004",
+      "aviva_car_policy.pdf::p19::c0001"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p38::c0001",
+      "axa_car_policy.pdf::p55::c0001",
+      "axa_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p25::c0001",
+      "axa_car_policy.pdf::p55::c0002"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p43::c0001",
+      "directline_car_policy.pdf::p30::c0001",
+      "directline_car_policy.pdf::p30::c0002",
+      "axa_car_policy.pdf::p43::c0002",
+      "aviva_car_policy.pdf::p33::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001",
+      "axa_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005",
+      "axa_car_policy.pdf::p48::c0003",
+      "directline_car_policy.pdf::p11::c0003",
+      "esure_car_policy.pdf::p51::c0002"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p4::c0001",
+      "axa_car_policy.pdf::p5::c0002",
+      "directline_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "axa_car_policy.pdf::p41::c0003"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "aviva_car_policy.pdf::p6::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "aviva_car_policy.pdf::p34::c0003"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p11::c0001",
+      "aviva_car_policy.pdf::p9::c0002",
+      "axa_car_policy.pdf::p9::c0002",
+      "axa_car_policy.pdf::p11::c0002"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "aviva_car_policy.pdf::p22::c0003",
+      "admiral_car_policy.pdf::p17::c0001",
+      "directline_car_policy.pdf::p7::c0003",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p8::c0002"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p24::c0001",
+      "axa_car_policy.pdf::p35::c0003",
+      "axa_car_policy.pdf::p33::c0001",
+      "axa_car_policy.pdf::p38::c0001",
+      "axa_car_policy.pdf::p40::c0001"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "directline_car_policy.pdf::p31::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p27::c0002",
+      "directline_car_policy.pdf::p31::c0002",
+      "admiral_car_policy.pdf::p27::c0001"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "axa_car_policy.pdf::p50::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p50::c0002",
+      "axa_car_policy.pdf::p47::c0004"
+    ],
+    "H1Q_ADMIRAL_009": [
+      "aviva_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p46::c0003",
+      "directline_car_policy.pdf::p7::c0005",
+      "axa_car_policy.pdf::p46::c0002",
+      "aviva_car_policy.pdf::p37::c0002"
+    ],
+    "H1Q_ADMIRAL_010": [
+      "axa_car_policy.pdf::p53::c0002",
+      "axa_car_policy.pdf::p29::c0001",
+      "axa_car_policy.pdf::p29::c0002",
+      "axa_car_policy.pdf::p53::c0001",
+      "directline_car_policy.pdf::p38::c0003"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "axa_car_policy.pdf::p19::c0002",
+      "admiral_car_policy.pdf::p3::c0002",
+      "admiral_car_policy.pdf::p2::c0002"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p6::c0001",
+      "esure_car_policy.pdf::p45::c0001",
+      "admiral_car_policy.pdf::p18::c0002",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002",
+      "esure_car_policy.pdf::p11::c0002",
+      "aviva_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p3::c0002",
+      "axa_car_policy.pdf::p12::c0002",
+      "directline_car_policy.pdf::p3::c0001"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p36::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AVIVA_006": [
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0001",
+      "directline_car_policy.pdf::p31::c0004"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p13::c0004",
+      "directline_car_policy.pdf::p22::c0003",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p13::c0003",
+      "admiral_car_policy.pdf::p11::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "axa_car_policy.pdf::p47::c0003",
+      "admiral_car_policy.pdf::p32::c0002",
+      "admiral_car_policy.pdf::p25::c0001"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "esure_car_policy.pdf::p34::c0002",
+      "aviva_car_policy.pdf::p27::c0001",
+      "aviva_car_policy.pdf::p29::c0004"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002",
+      "aviva_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p29::c0003"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005",
+      "directline_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p33::c0004"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "aviva_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p28::c0002",
+      "aviva_car_policy.pdf::p28::c0003",
+      "directline_car_policy.pdf::p31::c0004",
+      "aviva_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "aviva_car_policy.pdf::p18::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "axa_car_policy.pdf::p30::c0002",
+      "admiral_car_policy.pdf::p8::c0001",
+      "admiral_car_policy.pdf::p7::c0004",
+      "directline_car_policy.pdf::p9::c0001",
+      "aviva_car_policy.pdf::p24::c0001"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006",
+      "directline_car_policy.pdf::p31::c0004",
+      "aviva_car_policy.pdf::p14::c0002",
+      "axa_car_policy.pdf::p14::c0004"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "axa_car_policy.pdf::p26::c0003",
+      "aviva_car_policy.pdf::p27::c0003",
+      "directline_car_policy.pdf::p22::c0002",
+      "aviva_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p33::c0002"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p14::c0002",
+      "aviva_car_policy.pdf::p27::c0002",
+      "directline_car_policy.pdf::p24::c0003"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "esure_car_policy.pdf::p37::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "esure_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p30::c0001",
+      "axa_car_policy.pdf::p43::c0001",
+      "esure_car_policy.pdf::p19::c0003"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p32::c0001",
+      "directline_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p18::c0003"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p19::c0001",
+      "admiral_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p12::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "axa_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p31::c0002",
+      "aviva_car_policy.pdf::p17::c0002",
+      "aviva_car_policy.pdf::p18::c0004",
+      "esure_car_policy.pdf::p54::c0001",
+      "esure_car_policy.pdf::p50::c0003"
+    ],
+    "H1Q_ESURE_003": [
+      "aviva_car_policy.pdf::p25::c0003",
+      "aviva_car_policy.pdf::p28::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001",
+      "esure_car_policy.pdf::p32::c0001"
+    ],
+    "H1Q_ESURE_004": [
+      "aviva_car_policy.pdf::p28::c0004",
+      "aviva_car_policy.pdf::p27::c0003",
+      "esure_car_policy.pdf::p32::c0002",
+      "aviva_car_policy.pdf::p26::c0002",
+      "aviva_car_policy.pdf::p26::c0003"
+    ],
+    "H1Q_ESURE_005": [
+      "aviva_car_policy.pdf::p17::c0002",
+      "directline_car_policy.pdf::p31::c0001",
+      "directline_car_policy.pdf::p31::c0002",
+      "aviva_car_policy.pdf::p17::c0003",
+      "axa_car_policy.pdf::p39::c0004"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p50::c0004",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p39::c0003",
+      "esure_car_policy.pdf::p39::c0002",
+      "esure_car_policy.pdf::p52::c0002"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p43::c0002",
+      "directline_car_policy.pdf::p37::c0003",
+      "axa_car_policy.pdf::p10::c0001",
+      "axa_car_policy.pdf::p12::c0001",
+      "axa_car_policy.pdf::p38::c0004"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p45::c0002",
+      "admiral_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p16::c0002",
+      "esure_car_policy.pdf::p45::c0001",
+      "aviva_car_policy.pdf::p37::c0002"
+    ],
+    "H1Q_ESURE_009": [
+      "admiral_car_policy.pdf::p32::c0003",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "admiral_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p3::c0001"
+    ],
+    "H1Q_ESURE_010": [
+      "axa_car_policy.pdf::p29::c0001",
+      "axa_car_policy.pdf::p29::c0002",
+      "axa_car_policy.pdf::p53::c0002",
+      "esure_car_policy.pdf::p54::c0002",
+      "axa_car_policy.pdf::p53::c0001"
+    ]
+  },
+  "bm25_metadata": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p19::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003",
+      "axa_car_policy.pdf::p21::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001",
+      "axa_car_policy.pdf::p24::c0002"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002",
+      "axa_car_policy.pdf::p3::c0001"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002",
+      "axa_car_policy.pdf::p36::c0004"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004",
+      "axa_car_policy.pdf::p35::c0001"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p38::c0001",
+      "axa_car_policy.pdf::p55::c0001",
+      "axa_car_policy.pdf::p36::c0001",
+      "axa_car_policy.pdf::p55::c0002",
+      "axa_car_policy.pdf::p34::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p6::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001",
+      "axa_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005",
+      "axa_car_policy.pdf::p48::c0003",
+      "axa_car_policy.pdf::p51::c0002",
+      "axa_car_policy.pdf::p44::c0001"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p35::c0001",
+      "admiral_car_policy.pdf::p29::c0002"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003",
+      "admiral_car_policy.pdf::p26::c0001"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001",
+      "admiral_car_policy.pdf::p34::c0002"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p10::c0001",
+      "admiral_car_policy.pdf::p7::c0001"
+    ],
+    "H1Q_ADMIRAL_009": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p10::c0001",
+      "admiral_car_policy.pdf::p35::c0002",
+      "admiral_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p29::c0002"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001",
+      "aviva_car_policy.pdf::p4::c0002",
+      "aviva_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p4::c0002",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p38::c0001",
+      "aviva_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p13::c0004",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p13::c0003",
+      "aviva_car_policy.pdf::p4::c0002",
+      "aviva_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001",
+      "aviva_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p23::c0001"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002",
+      "aviva_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p29::c0003"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005",
+      "directline_car_policy.pdf::p6::c0004",
+      "directline_car_policy.pdf::p33::c0004",
+      "directline_car_policy.pdf::p22::c0004"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004",
+      "directline_car_policy.pdf::p35::c0005"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003",
+      "directline_car_policy.pdf::p14::c0005"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p20::c0001",
+      "directline_car_policy.pdf::p33::c0003",
+      "directline_car_policy.pdf::p40::c0001"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p22::c0004",
+      "directline_car_policy.pdf::p30::c0004"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004",
+      "directline_car_policy.pdf::p20::c0004",
+      "directline_car_policy.pdf::p11::c0003",
+      "directline_car_policy.pdf::p24::c0003"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002",
+      "directline_car_policy.pdf::p24::c0003",
+      "directline_car_policy.pdf::p22::c0004",
+      "directline_car_policy.pdf::p11::c0002"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p26::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p30::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p14::c0005",
+      "directline_car_policy.pdf::p16::c0005"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p32::c0001",
+      "directline_car_policy.pdf::p32::c0002",
+      "directline_car_policy.pdf::p31::c0004"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003",
+      "esure_car_policy.pdf::p50::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p31::c0002",
+      "esure_car_policy.pdf::p54::c0001",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p50::c0002",
+      "esure_car_policy.pdf::p50::c0004"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001",
+      "esure_car_policy.pdf::p32::c0001",
+      "esure_car_policy.pdf::p32::c0003",
+      "esure_car_policy.pdf::p32::c0002"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002",
+      "esure_car_policy.pdf::p32::c0001",
+      "esure_car_policy.pdf::p35::c0001",
+      "esure_car_policy.pdf::p34::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p50::c0004",
+      "esure_car_policy.pdf::p1::c0001",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p5::c0001"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p50::c0004",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p39::c0003",
+      "esure_car_policy.pdf::p39::c0002",
+      "esure_car_policy.pdf::p52::c0002"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002",
+      "esure_car_policy.pdf::p3::c0002",
+      "esure_car_policy.pdf::p16::c0003",
+      "esure_car_policy.pdf::p50::c0003"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p16::c0002",
+      "esure_car_policy.pdf::p50::c0004"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001",
+      "esure_car_policy.pdf::p50::c0004"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003",
+      "esure_car_policy.pdf::p54::c0001",
+      "esure_car_policy.pdf::p53::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ]
+  },
+  "bm25_metadata_section": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p19::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003",
+      "axa_car_policy.pdf::p21::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001",
+      "axa_car_policy.pdf::p24::c0002"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002",
+      "axa_car_policy.pdf::p3::c0001"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002",
+      "axa_car_policy.pdf::p36::c0004"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004",
+      "axa_car_policy.pdf::p35::c0001"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p38::c0001",
+      "axa_car_policy.pdf::p55::c0001",
+      "axa_car_policy.pdf::p36::c0001",
+      "axa_car_policy.pdf::p55::c0002",
+      "axa_car_policy.pdf::p34::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p6::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001",
+      "axa_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005",
+      "axa_car_policy.pdf::p48::c0003",
+      "axa_car_policy.pdf::p51::c0002",
+      "axa_car_policy.pdf::p44::c0001"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p35::c0001",
+      "admiral_car_policy.pdf::p29::c0002"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003",
+      "admiral_car_policy.pdf::p26::c0001"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001",
+      "admiral_car_policy.pdf::p34::c0002"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p10::c0001",
+      "admiral_car_policy.pdf::p7::c0001"
+    ],
+    "H1Q_ADMIRAL_009": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p10::c0001",
+      "admiral_car_policy.pdf::p35::c0002",
+      "admiral_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p29::c0002"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001",
+      "aviva_car_policy.pdf::p4::c0002",
+      "aviva_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p4::c0002",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p38::c0001",
+      "aviva_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p13::c0004",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p13::c0003",
+      "aviva_car_policy.pdf::p4::c0002",
+      "aviva_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001",
+      "aviva_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p23::c0001"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002",
+      "aviva_car_policy.pdf::p29::c0004",
+      "aviva_car_policy.pdf::p29::c0003"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005",
+      "directline_car_policy.pdf::p6::c0004",
+      "directline_car_policy.pdf::p33::c0004",
+      "directline_car_policy.pdf::p22::c0004"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004",
+      "directline_car_policy.pdf::p35::c0005"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003",
+      "directline_car_policy.pdf::p14::c0005"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p20::c0001",
+      "directline_car_policy.pdf::p33::c0003",
+      "directline_car_policy.pdf::p40::c0001"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p22::c0004",
+      "directline_car_policy.pdf::p30::c0004"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004",
+      "directline_car_policy.pdf::p20::c0004",
+      "directline_car_policy.pdf::p11::c0003",
+      "directline_car_policy.pdf::p24::c0003"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002",
+      "directline_car_policy.pdf::p24::c0003",
+      "directline_car_policy.pdf::p22::c0004",
+      "directline_car_policy.pdf::p11::c0002"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p26::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p30::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p14::c0005",
+      "directline_car_policy.pdf::p16::c0005"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p32::c0001",
+      "directline_car_policy.pdf::p32::c0002",
+      "directline_car_policy.pdf::p31::c0004"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003",
+      "esure_car_policy.pdf::p50::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p31::c0002",
+      "esure_car_policy.pdf::p54::c0001",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p50::c0002",
+      "esure_car_policy.pdf::p50::c0004"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001",
+      "esure_car_policy.pdf::p32::c0001",
+      "esure_car_policy.pdf::p32::c0003",
+      "esure_car_policy.pdf::p32::c0002"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002",
+      "esure_car_policy.pdf::p32::c0001",
+      "esure_car_policy.pdf::p35::c0001",
+      "esure_car_policy.pdf::p34::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p50::c0004",
+      "esure_car_policy.pdf::p1::c0001",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p5::c0001"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p50::c0004",
+      "esure_car_policy.pdf::p50::c0003",
+      "esure_car_policy.pdf::p39::c0003",
+      "esure_car_policy.pdf::p39::c0002",
+      "esure_car_policy.pdf::p52::c0002"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002",
+      "esure_car_policy.pdf::p3::c0002",
+      "esure_car_policy.pdf::p16::c0003",
+      "esure_car_policy.pdf::p50::c0003"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p16::c0002",
+      "esure_car_policy.pdf::p50::c0004"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001",
+      "esure_car_policy.pdf::p50::c0004"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003",
+      "esure_car_policy.pdf::p54::c0001",
+      "esure_car_policy.pdf::p53::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ]
+  },
+  "bm25_graph": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001"
+    ],
+    "H1Q_ADMIRAL_009": [],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p6::c0001",
+      "directline_car_policy.pdf::p30::c0003",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p14::c0001"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p59::c0003"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003"
+    ]
+  },
+  "bm25_metadata_graph": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001"
+    ],
+    "H1Q_ADMIRAL_009": [],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p26::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p6::c0001",
+      "directline_car_policy.pdf::p30::c0003",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p14::c0001"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p59::c0003"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003"
+    ]
+  },
+  "bm25_metadata_graph_fallback": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001"
+    ],
+    "H1Q_ADMIRAL_009": [
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p7::c0002",
+      "admiral_car_policy.pdf::p10::c0001",
+      "admiral_car_policy.pdf::p35::c0002",
+      "admiral_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002",
+      "directline_car_policy.pdf::p26::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p6::c0001",
+      "directline_car_policy.pdf::p30::c0003",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p14::c0001"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p59::c0003"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003"
+    ]
+  },
+  "bm25_metadata_graph_v8_2": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p9::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p16::c0001",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p16::c0002",
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p18::c0002",
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p18::c0002",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p18::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p18::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p18::c0002",
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p18::c0002"
+    ],
+    "H1Q_ADMIRAL_009": [],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p18::c0002",
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "H1Q_AVIVA_002": [],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p7::c0001"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p36::c0001"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p12::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p21::c0001"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p29::c0005"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p23::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p23::c0002",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p30::c0001"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p17::c0001"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p17::c0001"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p17::c0001",
+      "directline_car_policy.pdf::p15::c0001"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p17::c0001",
+      "directline_car_policy.pdf::p15::c0001"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p17::c0001"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p6::c0001",
+      "directline_car_policy.pdf::p30::c0003",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p14::c0001"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p17::c0001"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p59::c0003"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003"
+    ]
+  },
+  "bm25_metadata_graph_intent_v8_3": {
+    "H1Q_AXA_001": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p1::c0001",
+      "axa_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_AXA_002": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p22::c0001",
+      "axa_car_policy.pdf::p23::c0002",
+      "axa_car_policy.pdf::p23::c0001",
+      "axa_car_policy.pdf::p22::c0003"
+    ],
+    "H1Q_AXA_003": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p26::c0001",
+      "axa_car_policy.pdf::p25::c0003",
+      "axa_car_policy.pdf::p27::c0001",
+      "axa_car_policy.pdf::p25::c0001"
+    ],
+    "H1Q_AXA_004": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p28::c0001",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p15::c0001",
+      "axa_car_policy.pdf::p19::c0002"
+    ],
+    "H1Q_AXA_005": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p35::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p30::c0003",
+      "axa_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_AXA_006": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p34::c0001",
+      "axa_car_policy.pdf::p36::c0003",
+      "axa_car_policy.pdf::p36::c0004",
+      "axa_car_policy.pdf::p45::c0004"
+    ],
+    "H1Q_AXA_007": [
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p38::c0001"
+    ],
+    "H1Q_AXA_008": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p43::c0001",
+      "axa_car_policy.pdf::p43::c0002"
+    ],
+    "H1Q_AXA_009": [
+      "axa_car_policy.pdf::p9::c0001",
+      "axa_car_policy.pdf::p47::c0001",
+      "axa_car_policy.pdf::p8::c0002",
+      "axa_car_policy.pdf::p5::c0001",
+      "axa_car_policy.pdf::p54::c0001"
+    ],
+    "H1Q_AXA_010": [
+      "axa_car_policy.pdf::p10::c0002",
+      "axa_car_policy.pdf::p10::c0004",
+      "axa_car_policy.pdf::p10::c0003",
+      "axa_car_policy.pdf::p48::c0001",
+      "axa_car_policy.pdf::p48::c0005"
+    ],
+    "H1Q_ADMIRAL_001": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p4::c0001",
+      "admiral_car_policy.pdf::p37::c0001",
+      "admiral_car_policy.pdf::p3::c0003"
+    ],
+    "H1Q_ADMIRAL_002": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p9::c0001",
+      "admiral_car_policy.pdf::p27::c0004",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p28::c0001"
+    ],
+    "H1Q_ADMIRAL_003": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p16::c0001",
+      "admiral_car_policy.pdf::p16::c0002",
+      "admiral_car_policy.pdf::p28::c0003",
+      "admiral_car_policy.pdf::p16::c0003"
+    ],
+    "H1Q_ADMIRAL_004": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p17::c0001",
+      "admiral_car_policy.pdf::p17::c0002",
+      "admiral_car_policy.pdf::p18::c0001",
+      "admiral_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ADMIRAL_005": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p24::c0001",
+      "admiral_car_policy.pdf::p24::c0002",
+      "admiral_car_policy.pdf::p21::c0003",
+      "admiral_car_policy.pdf::p22::c0001"
+    ],
+    "H1Q_ADMIRAL_006": [
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p27::c0002",
+      "admiral_car_policy.pdf::p27::c0001",
+      "admiral_car_policy.pdf::p7::c0002"
+    ],
+    "H1Q_ADMIRAL_007": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p29::c0001",
+      "admiral_car_policy.pdf::p13::c0002",
+      "admiral_car_policy.pdf::p13::c0001",
+      "admiral_car_policy.pdf::p13::c0003"
+    ],
+    "H1Q_ADMIRAL_008": [
+      "admiral_car_policy.pdf::p15::c0003",
+      "admiral_car_policy.pdf::p15::c0002",
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p3::c0001",
+      "admiral_car_policy.pdf::p2::c0001"
+    ],
+    "H1Q_ADMIRAL_009": [],
+    "H1Q_ADMIRAL_010": [
+      "admiral_car_policy.pdf::p14::c0001",
+      "admiral_car_policy.pdf::p36::c0002",
+      "admiral_car_policy.pdf::p36::c0001",
+      "admiral_car_policy.pdf::p3::c0003",
+      "admiral_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_001": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p4::c0001",
+      "aviva_car_policy.pdf::p6::c0004",
+      "aviva_car_policy.pdf::p1::c0001"
+    ],
+    "H1Q_AVIVA_002": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p6::c0001",
+      "aviva_car_policy.pdf::p7::c0002",
+      "aviva_car_policy.pdf::p4::c0001"
+    ],
+    "H1Q_AVIVA_003": [
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p7::c0001",
+      "aviva_car_policy.pdf::p37::c0001",
+      "aviva_car_policy.pdf::p10::c0002"
+    ],
+    "H1Q_AVIVA_004": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p13::c0002",
+      "aviva_car_policy.pdf::p37::c0002",
+      "aviva_car_policy.pdf::p30::c0004",
+      "aviva_car_policy.pdf::p25::c0002"
+    ],
+    "H1Q_AVIVA_005": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p36::c0001",
+      "aviva_car_policy.pdf::p14::c0001",
+      "aviva_car_policy.pdf::p37::c0001"
+    ],
+    "H1Q_AVIVA_006": [
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p16::c0001",
+      "aviva_car_policy.pdf::p16::c0002"
+    ],
+    "H1Q_AVIVA_007": [
+      "aviva_car_policy.pdf::p12::c0002",
+      "aviva_car_policy.pdf::p12::c0003",
+      "aviva_car_policy.pdf::p13::c0001",
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001"
+    ],
+    "H1Q_AVIVA_008": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p21::c0001",
+      "aviva_car_policy.pdf::p21::c0003",
+      "aviva_car_policy.pdf::p10::c0001"
+    ],
+    "H1Q_AVIVA_009": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p29::c0001",
+      "aviva_car_policy.pdf::p27::c0001"
+    ],
+    "H1Q_AVIVA_010": [
+      "aviva_car_policy.pdf::p12::c0001",
+      "aviva_car_policy.pdf::p8::c0001",
+      "aviva_car_policy.pdf::p30::c0001",
+      "aviva_car_policy.pdf::p29::c0005",
+      "aviva_car_policy.pdf::p30::c0002"
+    ],
+    "H1Q_DIRECTLINE_001": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p5::c0001",
+      "directline_car_policy.pdf::p36::c0005"
+    ],
+    "H1Q_DIRECTLINE_002": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p31::c0004",
+      "directline_car_policy.pdf::p23::c0005",
+      "directline_car_policy.pdf::p21::c0003",
+      "directline_car_policy.pdf::p20::c0004"
+    ],
+    "H1Q_DIRECTLINE_003": [
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p26::c0005",
+      "directline_car_policy.pdf::p32::c0005",
+      "directline_car_policy.pdf::p35::c0005",
+      "directline_car_policy.pdf::p12::c0003"
+    ],
+    "H1Q_DIRECTLINE_004": [
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p9::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_005": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p21::c0001",
+      "directline_car_policy.pdf::p3::c0006"
+    ],
+    "H1Q_DIRECTLINE_006": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p22::c0002",
+      "directline_car_policy.pdf::p11::c0004"
+    ],
+    "H1Q_DIRECTLINE_007": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p23::c0001",
+      "directline_car_policy.pdf::p23::c0002"
+    ],
+    "H1Q_DIRECTLINE_008": [
+      "directline_car_policy.pdf::p15::c0001",
+      "directline_car_policy.pdf::p8::c0002",
+      "directline_car_policy.pdf::p15::c0002",
+      "directline_car_policy.pdf::p26::c0001",
+      "directline_car_policy.pdf::p9::c0002"
+    ],
+    "H1Q_DIRECTLINE_009": [
+      "directline_car_policy.pdf::p30::c0002",
+      "directline_car_policy.pdf::p6::c0001",
+      "directline_car_policy.pdf::p30::c0003",
+      "directline_car_policy.pdf::p14::c0002",
+      "directline_car_policy.pdf::p14::c0001"
+    ],
+    "H1Q_DIRECTLINE_010": [
+      "directline_car_policy.pdf::p13::c0002",
+      "directline_car_policy.pdf::p13::c0003",
+      "directline_car_policy.pdf::p16::c0001",
+      "directline_car_policy.pdf::p14::c0001",
+      "directline_car_policy.pdf::p14::c0002"
+    ],
+    "H1Q_ESURE_001": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p37::c0002",
+      "esure_car_policy.pdf::p27::c0002",
+      "esure_car_policy.pdf::p57::c0003"
+    ],
+    "H1Q_ESURE_002": [
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p31::c0002"
+    ],
+    "H1Q_ESURE_003": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p33::c0002",
+      "esure_car_policy.pdf::p33::c0001"
+    ],
+    "H1Q_ESURE_004": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p32::c0002",
+      "esure_car_policy.pdf::p35::c0002"
+    ],
+    "H1Q_ESURE_005": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p59::c0003"
+    ],
+    "H1Q_ESURE_006": [
+      "esure_car_policy.pdf::p18::c0001",
+      "esure_car_policy.pdf::p24::c0001",
+      "esure_car_policy.pdf::p19::c0001",
+      "esure_car_policy.pdf::p19::c0003",
+      "esure_car_policy.pdf::p16::c0001"
+    ],
+    "H1Q_ESURE_007": [
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p43::c0002",
+      "esure_car_policy.pdf::p47::c0002"
+    ],
+    "H1Q_ESURE_008": [
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p45::c0002",
+      "esure_car_policy.pdf::p45::c0001"
+    ],
+    "H1Q_ESURE_009": [
+      "esure_car_policy.pdf::p8::c0002",
+      "esure_car_policy.pdf::p59::c0003",
+      "esure_car_policy.pdf::p5::c0001",
+      "esure_car_policy.pdf::p7::c0002",
+      "esure_car_policy.pdf::p58::c0001"
+    ],
+    "H1Q_ESURE_010": [
+      "esure_car_policy.pdf::p23::c0001",
+      "esure_car_policy.pdf::p23::c0002",
+      "esure_car_policy.pdf::p16::c0001",
+      "esure_car_policy.pdf::p54::c0002",
+      "esure_car_policy.pdf::p53::c0003"
+    ]
+  }
+}

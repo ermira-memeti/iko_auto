@@ -1,0 +1,66 @@
+{
+  "status": "SOURCE_VERIFIED_DRAFT_NOT_INDEPENDENTLY_REVIEWED",
+  "review_status": "SOURCE_VERIFIED_DRAFT_NOT_INDEPENDENTLY_HUMAN_REVIEWED",
+  "origin": "Five V8 AI-assisted development questions that produced empty V8 graph results; selected after observing V8 performance",
+  "original_v6_graph_sha256": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+  "enhanced_graph_sha256": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+  "base_triples_preserved": 932,
+  "new_triples": 97,
+  "source_pdf_sha256": {
+    "axa_car_policy.pdf": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8",
+    "admiral_car_policy.pdf": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77",
+    "aviva_car_policy.pdf": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db",
+    "directline_car_policy.pdf": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d",
+    "esure_car_policy.pdf": "c88c00478abf625c59fffdd39043ac771c5cccc3c35ff2ba078476c84d02aeb3"
+  },
+  "draft_additions_sha256": "6982f4061ddba4d288f10781ee43eac3c685c90d600e5d17600fd3f946b1dce8",
+  "created_utc": "2026-10-26T12:35:20.505125+00:00",
+  "new_coverages": [
+    {
+      "policy_id": "axa_uploaded_wording",
+      "development_question": "V8Q_AXA_006",
+      "coverage_id": "windscreen_window_section_d_v82",
+      "source_document": "axa_car_policy.pdf",
+      "page": 16,
+      "source_quote": "If you do not use our approved repairer, the most we will pay for any windscreen replacement claim under this section is £100, or £50 for any windscreen repair.",
+      "source_sha256": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8"
+    },
+    {
+      "policy_id": "admiral_uploaded_guide",
+      "development_question": "V8Q_ADMIRAL_007",
+      "coverage_id": "windscreen_adas_section_3_v82",
+      "source_document": "admiral_car_policy.pdf",
+      "page": 18,
+      "source_quote": "When required, we will also cover the costs to recalibrate your vehicle’s ADAS (Advanced Driver Assistance System) after the replacement of your windscreen.",
+      "source_sha256": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77"
+    },
+    {
+      "policy_id": "aviva_signature_uploaded",
+      "development_question": "V8Q_AVIVA_008",
+      "coverage_id": "windscreen_glass_adas_v82",
+      "source_document": "aviva_car_policy.pdf",
+      "page": 23,
+      "source_quote": "Important note • You must get in touch with us before any work is carried out. You can report your glass claim online at aviva.co.uk/myaviva or you can call us. We will direct you to our approved repairer. • If the repairer chosen to replace your glass is not one of our approved repairers, we will apply a limit to the amount we will contribute as shown in your schedule. • If you have purchased the optional courtesy vehicle cover under Section 1, we do not provide a courtesy vehicle if you are making a claim solely under this section. • It is important to get any windscreen dependent ADAS (such as autonomous emergency braking, adaptive headlights, lane departure and traffic sign recognition) repaired or recalibrated as part of your glass claim.",
+      "source_sha256": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db"
+    },
+    {
+      "policy_id": "directline_b4c_uploaded_0622",
+      "development_question": "V8Q_DIRECTLINE_004",
+      "coverage_id": "windscreen_section_5_v82",
+      "source_document": "directline_car_policy.pdf",
+      "page": 17,
+      "source_quote": "If you choose a different supplier for repairs, we’ll pay up to £40. > If you choose a different supplier for replacement, we’ll pay up to £125.",
+      "source_sha256": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d"
+    },
+    {
+      "policy_id": "directline_b4c_uploaded_0622",
+      "development_question": "V8Q_DIRECTLINE_006",
+      "coverage_id": "guaranteed_hire_car_section_3_v82",
+      "source_document": "directline_car_policy.pdf",
+      "page": 15,
+      "source_quote": "If you use your own repairer, for up to 21 days in a row while they’re repairing your car.",
+      "source_sha256": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d"
+    }
+  ],
+  "limitation": "Selected after inspecting the V8 50-question development benchmark; not independent held-out evidence."
+}

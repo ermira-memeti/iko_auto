@@ -1,0 +1,35 @@
+{
+  "coverage": [
+    "exclusion",
+    "deductible",
+    "limit"
+  ],
+  "exclusion": [
+    "exception",
+    "coverage"
+  ],
+  "claim": [
+    "event",
+    "damage",
+    "report"
+  ],
+  "accident": [
+    "damage",
+    "claim"
+  ],
+  "risk": [
+    "premium",
+    "driving"
+  ],
+  "fraud": [
+    "indicator",
+    "suspicious"
+  ],
+  "deductible": [
+    "coverage"
+  ],
+  "theft": [
+    "claim",
+    "exclusion"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "collision": [
+    "crash",
+    "accident",
+    "collisions"
+  ],
+  "theft": [
+    "stolen",
+    "stealing"
+  ],
+  "deductible": [
+    "excess"
+  ],
+  "exclusion": [
+    "not covered",
+    "excluded"
+  ],
+  "coverage": [
+    "covered",
+    "insured"
+  ],
+  "claim": [
+    "notification of loss"
+  ],
+  "premium": [
+    "insurance price"
+  ],
+  "vehicle": [
+    "car",
+    "automobile"
+  ],
+  "fire": [
+    "burning"
+  ],
+  "natural disaster": [
+    "storm",
+    "flood"
+  ]
+}

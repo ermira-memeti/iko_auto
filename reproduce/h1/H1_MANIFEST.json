@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-26T22:09:06.622246+00:00",
+  "benchmark_id": "IKO-Auto-H1",
+  "n_questions": 50,
+  "n_existing_development_questions": 50,
+  "insurer_counts": {
+    "AXA": 10,
+    "Admiral": 10,
+    "Aviva": 10,
+    "Direct Line": 10,
+    "esure": 10
+  },
+  "n_source_anchors_unmatched": 0,
+  "unmatched_source_anchors": [],
+  "previous_dev_question_comparison_max_similarity": 0.6667,
+  "source_files": {
+    "AXA": {
+      "filename": "axa_car_policy.pdf",
+      "sha256": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8"
+    },
+    "Admiral": {
+      "filename": "admiral_car_policy.pdf",
+      "sha256": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77"
+    },
+    "Aviva": {
+      "filename": "aviva_car_policy.pdf",
+      "sha256": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db"
+    },
+    "Direct Line": {
+      "filename": "directline_car_policy.pdf",
+      "sha256": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d"
+    },
+    "esure": {
+      "filename": "esure_car_policy.pdf",
+      "sha256": "c88c00478abf625c59fffdd39043ac771c5cccc3c35ff2ba078476c84d02aeb3"
+    }
+  },
+  "study_design": "new-question heldout on five SEEN policy booklets, frozen V8.3 algorithms",
+  "important_limit": "Not unseen insurer, source document, or independent human-authored questions",
+  "benchmark_question_csv_sha256": "add0dae5a2ece86781528cbeeedabe80072f47016249443616e51a48a233e80e",
+  "status": "DRAFT_READY_FOR_INDEPENDENT_CONTENT_CHECK_AND_PRE_RUN_FREEZE",
+  "manifest_revision": "2 - esure source file SHA-256 corrected to the originally uploaded research_corpus.zip",
+  "manifest_revision_note": "Earlier H1 manifest used a locally processed PDF copy with matching extracted text on all 60 pages but different binary bytes. This manifest uses the original PDF byte hash. Question IDs/text and all other source hashes are unchanged."
+}

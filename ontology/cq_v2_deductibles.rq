@@ -1,0 +1,14 @@
+PREFIX iko: <https://example.org/iko-auto/v2#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?policyName ?coverageName ?deductible ?source ?quote WHERE {
+  ?p a iko:AutoPolicy ; rdfs:label ?policyName ; iko:hasVersion/iko:hasCoverage ?cov .
+  ?cov rdfs:label ?coverageName ; iko:hasDeductible ?ded .
+  ?ded rdfs:label ?deductible .
+  ?stmt a iko:RelationshipAssertion ;
+        iko:assertionSubject ?cov ;
+        iko:assertionPredicate iko:hasDeductible ;
+        iko:assertionObject ?ded ;
+        iko:supportedBy ?ev .
+  ?ev iko:sourceDocumentId ?source ; iko:sourceQuote ?quote .
+}
+ORDER BY ?policyName

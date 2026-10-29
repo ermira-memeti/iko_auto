@@ -1,0 +1,69 @@
+@prefix iko: <https://example.org/iko-auto/v2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/iko-auto/v2> a owl:Ontology ;
+  rdfs:label "IKO-Auto V6: backward-compatible five-insurer research schema"@en ;
+  rdfs:comment "Functional research prototype; requires expert validation and ontology reasoner review. No formal consistency claim."@en .
+
+iko:InsuranceEntity a owl:Class .
+iko:Policy a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:AutoPolicy a owl:Class ; rdfs:subClassOf iko:Policy .
+iko:PolicyVersion a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Coverage a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Exclusion a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Exception a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Deductible a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:CoverageLimit a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Endorsement a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:ClaimCondition a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Claim a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:ClaimEvent a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:CauseOfAccident a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:DamageType a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:VehiclePartDamage a owl:Class ; rdfs:subClassOf iko:DamageType .
+iko:LossSeverity a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:FraudIndicator a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:SuspiciousPattern a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:MultipleClaims a owl:Class ; rdfs:subClassOf iko:SuspiciousPattern .
+iko:LateReport a owl:Class ; rdfs:subClassOf iko:SuspiciousPattern .
+iko:Policyholder a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:DrivingHistory a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:VehicleType a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:RiskFactor a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:Premium a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+iko:SourcePassage a owl:Class .
+iko:RelationshipAssertion a owl:Class ; rdfs:subClassOf iko:InsuranceEntity .
+
+iko:hasVersion a owl:ObjectProperty ; rdfs:domain iko:Policy ; rdfs:range iko:PolicyVersion .
+iko:hasCoverage a owl:ObjectProperty ; rdfs:domain iko:PolicyVersion ; rdfs:range iko:Coverage .
+iko:hasExclusion a owl:ObjectProperty ; rdfs:domain iko:Coverage ; rdfs:range iko:Exclusion .
+iko:hasException a owl:ObjectProperty ; rdfs:domain iko:Exclusion ; rdfs:range iko:Exception .
+iko:hasDeductible a owl:ObjectProperty ; rdfs:domain iko:Coverage ; rdfs:range iko:Deductible .
+iko:hasLimit a owl:ObjectProperty ; rdfs:domain iko:Coverage ; rdfs:range iko:CoverageLimit .
+iko:hasEndorsement a owl:ObjectProperty ; rdfs:domain iko:PolicyVersion ; rdfs:range iko:Endorsement .
+iko:hasClaimCondition a owl:ObjectProperty ; rdfs:domain iko:PolicyVersion ; rdfs:range iko:ClaimCondition .
+iko:hasClaimEvent a owl:ObjectProperty ; rdfs:domain iko:Claim ; rdfs:range iko:ClaimEvent .
+iko:hasCause a owl:ObjectProperty ; rdfs:domain iko:ClaimEvent ; rdfs:range iko:CauseOfAccident .
+iko:hasDamageType a owl:ObjectProperty ; rdfs:domain iko:Claim ; rdfs:range iko:DamageType .
+iko:affects a owl:ObjectProperty ; rdfs:domain iko:DamageType ; rdfs:range iko:VehiclePartDamage .
+iko:hasSeverity a owl:ObjectProperty ; rdfs:domain iko:Claim ; rdfs:range iko:LossSeverity .
+iko:indicates a owl:ObjectProperty ; rdfs:domain iko:FraudIndicator ; rdfs:range iko:SuspiciousPattern .
+iko:hasRiskFactor a owl:ObjectProperty ; rdfs:domain iko:Policyholder ; rdfs:range iko:RiskFactor .
+iko:hasDrivingHistory a owl:ObjectProperty ; rdfs:domain iko:Policyholder ; rdfs:range iko:DrivingHistory .
+iko:hasVehicleType a owl:ObjectProperty ; rdfs:domain iko:Policyholder ; rdfs:range iko:VehicleType .
+iko:influences a owl:ObjectProperty ; rdfs:domain iko:RiskFactor ; rdfs:range iko:Premium .
+iko:supportedBy a owl:ObjectProperty ; rdfs:domain iko:InsuranceEntity ; rdfs:range iko:SourcePassage .
+iko:assertionSubject a owl:ObjectProperty ; rdfs:domain iko:RelationshipAssertion ; rdfs:range iko:InsuranceEntity .
+iko:assertionPredicate a owl:ObjectProperty ; rdfs:domain iko:RelationshipAssertion ; rdfs:range rdf:Property .
+iko:assertionObject a owl:ObjectProperty ; rdfs:domain iko:RelationshipAssertion ; rdfs:range iko:InsuranceEntity .
+
+iko:sourceDocumentId a owl:DatatypeProperty ; rdfs:domain iko:SourcePassage ; rdfs:range xsd:string .
+iko:sourceChunkId a owl:DatatypeProperty ; rdfs:domain iko:SourcePassage ; rdfs:range xsd:string .
+iko:sourceQuote a owl:DatatypeProperty ; rdfs:domain iko:SourcePassage ; rdfs:range xsd:string .
+iko:policyIdentifier a owl:DatatypeProperty ; rdfs:domain iko:Policy ; rdfs:range xsd:string .
+iko:policyVersionIdentifier a owl:DatatypeProperty ; rdfs:domain iko:PolicyVersion ; rdfs:range xsd:string .
+iko:alias a owl:DatatypeProperty ; rdfs:domain iko:InsuranceEntity ; rdfs:range xsd:string .
+iko:effectiveDate a owl:DatatypeProperty ; rdfs:domain iko:PolicyVersion ; rdfs:range xsd:date .

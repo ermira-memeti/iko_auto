@@ -1,0 +1,196 @@
+{
+  "inputs": {
+    "rankings": "H1_EIGHT_METHOD_TOP5.csv",
+    "rankings_sha256": "f779fa719c09172e21856b405deaa8fff98b21012e2f42c7a44ae55fdb50afbb",
+    "labels": "H1_FINAL_ADJUDICATED_RELEVANCE_533.csv",
+    "labels_sha256": "235f741f689bfd471685da1689b20858aa936f12d2101ea704298960b650e8ec"
+  },
+  "counts": {
+    "questions": 50,
+    "rank_rows": 1980,
+    "retrieved_rows": 1975,
+    "empty_result_rows": 5,
+    "distinct_judged_pairs": 533,
+    "grades": {
+      "0": 460,
+      "2": 46,
+      "1": 27
+    },
+    "questions_with_grade2_in_pool": 38
+  },
+  "summary": [
+    {
+      "method": "M1",
+      "name": "Unfiltered BM25",
+      "questions": 50,
+      "question_hits": 35,
+      "hit5": 0.7,
+      "precision5": 0.168,
+      "mrr5": 0.5429999999999999,
+      "ndcg5": 0.5813455194160688,
+      "graded_ndcg5": 0.6403736838813979,
+      "grade2_passage_hits": 42,
+      "empty_questions": 0
+    },
+    {
+      "method": "M2",
+      "name": "Insurer-filtered BM25",
+      "questions": 50,
+      "question_hits": 38,
+      "hit5": 0.76,
+      "precision5": 0.18400000000000002,
+      "mrr5": 0.6733333333333333,
+      "ndcg5": 0.6948320307317201,
+      "graded_ndcg5": 0.7863139148532912,
+      "grade2_passage_hits": 46,
+      "empty_questions": 0
+    },
+    {
+      "method": "M3",
+      "name": "Insurer + section BM25",
+      "questions": 50,
+      "question_hits": 38,
+      "hit5": 0.76,
+      "precision5": 0.18400000000000002,
+      "mrr5": 0.6733333333333333,
+      "ndcg5": 0.6948320307317201,
+      "graded_ndcg5": 0.7863139148532912,
+      "grade2_passage_hits": 46,
+      "empty_questions": 0
+    },
+    {
+      "method": "M4",
+      "name": "Original V6 graph",
+      "questions": 50,
+      "question_hits": 37,
+      "hit5": 0.74,
+      "precision5": 0.172,
+      "mrr5": 0.27399999999999997,
+      "ndcg5": 0.3907670877512479,
+      "graded_ndcg5": 0.43335226076314215,
+      "grade2_passage_hits": 43,
+      "empty_questions": 1
+    },
+    {
+      "method": "M5",
+      "name": "Original graph + insurer metadata",
+      "questions": 50,
+      "question_hits": 37,
+      "hit5": 0.74,
+      "precision5": 0.172,
+      "mrr5": 0.275,
+      "ndcg5": 0.3916435627680249,
+      "graded_ndcg5": 0.4377481645204475,
+      "grade2_passage_hits": 43,
+      "empty_questions": 1
+    },
+    {
+      "method": "M6",
+      "name": "Graph with lexical fallback",
+      "questions": 50,
+      "question_hits": 37,
+      "hit5": 0.74,
+      "precision5": 0.172,
+      "mrr5": 0.275,
+      "ndcg5": 0.3916435627680249,
+      "graded_ndcg5": 0.4463616956819154,
+      "grade2_passage_hits": 43,
+      "empty_questions": 0
+    },
+    {
+      "method": "M7",
+      "name": "Ungated extended V8.2 graph",
+      "questions": 50,
+      "question_hits": 28,
+      "hit5": 0.56,
+      "precision5": 0.128,
+      "mrr5": 0.1696666666666667,
+      "ndcg5": 0.2635097241953135,
+      "graded_ndcg5": 0.2887614401001276,
+      "grade2_passage_hits": 32,
+      "empty_questions": 2
+    },
+    {
+      "method": "M8",
+      "name": "Intent-gated V8.3 graph",
+      "questions": 50,
+      "question_hits": 37,
+      "hit5": 0.74,
+      "precision5": 0.172,
+      "mrr5": 0.27399999999999997,
+      "ndcg5": 0.3907670877512479,
+      "graded_ndcg5": 0.43335226076314215,
+      "grade2_passage_hits": 43,
+      "empty_questions": 1
+    }
+  ],
+  "m7_m8": {
+    "recovered_questions": [
+      "H1Q_AVIVA_002",
+      "H1Q_AVIVA_009",
+      "H1Q_AXA_005",
+      "H1Q_AXA_007",
+      "H1Q_DIRECTLINE_001",
+      "H1Q_DIRECTLINE_005",
+      "H1Q_DIRECTLINE_006",
+      "H1Q_DIRECTLINE_007",
+      "H1Q_DIRECTLINE_010"
+    ],
+    "lost_questions": [],
+    "changed_top5_question_count": 29,
+    "mcnemar_p_two_sided": 0.00390625
+  },
+  "rank_overlap": [
+    {
+      "method_a": "M2",
+      "method_b": "M3",
+      "identical_top5_question_count": 50,
+      "different_top5_question_count": 0
+    },
+    {
+      "method_a": "M4",
+      "method_b": "M5",
+      "identical_top5_question_count": 49,
+      "different_top5_question_count": 1
+    },
+    {
+      "method_a": "M4",
+      "method_b": "M8",
+      "identical_top5_question_count": 49,
+      "different_top5_question_count": 1
+    },
+    {
+      "method_a": "M5",
+      "method_b": "M8",
+      "identical_top5_question_count": 49,
+      "different_top5_question_count": 1
+    },
+    {
+      "method_a": "M7",
+      "method_b": "M8",
+      "identical_top5_question_count": 21,
+      "different_top5_question_count": 29
+    }
+  ],
+  "bootstrap_delta_CIs": {
+    "M8 minus M7": [
+      0.09999999999999998,
+      0.27999999999999997
+    ],
+    "M8 minus M2": [
+      -0.06000000000000005,
+      0.0
+    ],
+    "M7 minus M2": [
+      -0.29999999999999993,
+      -0.12
+    ]
+  },
+  "limitations": [
+    "New questions on original five documents; no unseen-policy generalization",
+    "Pool-relative labels and nDCG ceiling; no confirmed full source answerability for 12 pool-unresolved questions",
+    "Human review followed availability of AI suggestions; disclose assistance and distinguish independent pre-adjudication agreement",
+    "M2 and M3 give identical ranked passages on all 50 H1 questions; all pooled grade2 passages appear in M2 top5",
+    "Bootstrap CIs and paired p-values are exploratory conditional on fixed question/passage pool"
+  ]
+}

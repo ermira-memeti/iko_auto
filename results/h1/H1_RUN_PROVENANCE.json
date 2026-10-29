@@ -1,0 +1,56 @@
+{
+  "description": "50 AI-assisted new questions on five previously seen insurance policies",
+  "date_utc": "2026-10-26T22:43:14.654617+00:00",
+  "engine": "unmodified src.research_eval.method_runs and src.graph_retrieval.GraphIndex",
+  "methods": [
+    "bm25",
+    "bm25_metadata",
+    "bm25_metadata_section",
+    "bm25_graph",
+    "bm25_metadata_graph",
+    "bm25_metadata_graph_fallback",
+    "bm25_metadata_graph_v8_2",
+    "bm25_metadata_graph_intent_v8_3"
+  ],
+  "method_ids": {
+    "M1": "bm25",
+    "M2": "bm25_metadata",
+    "M3": "bm25_metadata_section",
+    "M4": "bm25_graph",
+    "M5": "bm25_metadata_graph",
+    "M6": "bm25_metadata_graph_fallback",
+    "M7": "bm25_metadata_graph_v8_2",
+    "M8": "bm25_metadata_graph_intent_v8_3"
+  },
+  "n_questions": 50,
+  "n_index_chunks": 717,
+  "bm25_backend": "rank_bm25.BM25Okapi",
+  "chunk_constructor": "src.pipeline.build_pipeline(folder=original_pdf_dir, chunk_words=170, overlap_words=45, graph_file=None)",
+  "n_distinct_pooled_pairs": 533,
+  "top_k": 5,
+  "pool_size": 5,
+  "alpha": 0.6,
+  "original_files_sha256": {
+    "outputs\\v6\\iko_auto_five_insurers_v6.ttl": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+    "outputs\\v8_2\\iko_auto_extended_v8_2.ttl": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+    "src\\research_eval.py": "9ff695f61a7a53c489bc00ae9e2009f74b0e4ffda741af979dc4a8e1e34a6175",
+    "src\\graph_retrieval.py": "3f0078738558c19dc54bf6ac25293a270da1dff98a5cdd53916b089e8a55eac6",
+    "src\\v8_3_intent.py": "62236a3306d432aa2fca02c4089886f17b4ba65a30e9400c428777ed96f8deee",
+    "src\\retrieval.py": "0fe25ddf39b0924051817d5da1c3d17a2dc4647e201aedd04c4bc69d32c482b4",
+    "src\\pipeline.py": "f9d83021c66b6313852fa02859a679b62710f5090f36cd6d8791ca9c81035af7",
+    "src\\models.py": "896b785dec474d1c7fd58705f9755a4a484db4899fe46b740f6cbd1677d73f0f",
+    "src\\policy_catalog.py": "df69ff5d67e13ba7465af8d09f8c62c3484989408f1ee94e74a5d539ef4eecd0",
+    "src\\v8_2_graph_build.py": "aa817cd66769014ed6fefffe3c6090007b23e5cf7f5290ee87b5fdabb149aa05",
+    "src\\heldout_v8.py": "133abbea8130fe1268a66222629f29bf5602ba301e434c6dcb6a9e0f951c328d"
+  },
+  "questions_sha256": "add0dae5a2ece86781528cbeeedabe80072f47016249443616e51a48a233e80e",
+  "corpus_sha256": {
+    "admiral_car_policy.pdf": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77",
+    "aviva_car_policy.pdf": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db",
+    "axa_car_policy.pdf": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8",
+    "directline_car_policy.pdf": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d",
+    "esure_car_policy.pdf": "c88c00478abf625c59fffdd39043ac771c5cccc3c35ff2ba078476c84d02aeb3"
+  },
+  "retrieval_csv_sha256": "f779fa719c09172e21856b405deaa8fff98b21012e2f42c7a44ae55fdb50afbb",
+  "interpretation": "Not an unseen-document evaluation. Human judgments still required."
+}

@@ -1,0 +1,51 @@
+question_id,insurer,category,question,split
+V8Q_AXA_001,AXA,uninsured_driver,A driver without insurance hits my car and is at fault. What details must I provide to AXA for the uninsured-driver promise to protect my excess and no-claims discount?,dev
+V8Q_AXA_002,AXA,additional_benefit,"After a covered accident, what will AXA pay toward replacing child car seats even when they show no visible damage?",dev
+V8Q_AXA_003,AXA,total_loss,"If AXA writes off a car with a personalised number plate, what must the owner do to keep the registration?",dev
+V8Q_AXA_004,AXA,legal_liability,"How much third-party property damage can AXA pay for one event, and what overall limit includes legal costs?",dev
+V8Q_AXA_005,AXA,driving_other_cars,"Can the AXA policyholder drive a borrowed car with third-party liability cover, and what conditions must be satisfied?",dev
+V8Q_AXA_006,AXA,glass,"If I use a windscreen company that AXA has not approved, how much will AXA contribute to replacement or repair?",dev
+V8Q_AXA_007,AXA,personal_accident,Which serious injuries trigger the personal accident payment under AXA comprehensive motor cover?,dev
+V8Q_AXA_008,AXA,geographical_scope,For how many days can I use my selected AXA policy cover abroad in the listed European countries during one insurance period?,dev
+V8Q_AXA_009,AXA,no_claims_discount,Which types of AXA insurance payments or claims can leave my no-claims discount unchanged?,dev
+V8Q_AXA_010,AXA,courtesy_car,Does AXA provide a courtesy car when the insured vehicle is a total loss or has been stolen and not recovered?,dev
+V8Q_ADMIRAL_001,Admiral,policy_administration,"On an Admiral MultiCover policy, who is responsible for payments and who can make changes across all insured vehicles and homes?",dev
+V8Q_ADMIRAL_002,Admiral,accident_procedure,"What information should an Admiral driver exchange with other people after a collision, and what photographs does the guide recommend?",dev
+V8Q_ADMIRAL_003,Admiral,towing,"When an Admiral-insured car is towing a trailer, is damage to the trailer itself included in the liability section?",dev
+V8Q_ADMIRAL_004,Admiral,electric_vehicle,Does Admiral provide third-party liability cover when a connected electric-vehicle charging cable causes an injury or damages property?,dev
+V8Q_ADMIRAL_005,Admiral,uninsured_driver,"If an uninsured motorist causes a non-fault accident, when will Admiral reinstate the no-claims bonus and reimburse the excess?",dev
+V8Q_ADMIRAL_006,Admiral,keys,"What help does Admiral offer if car keys are stolen away from the vehicle, and does a keys-only claim affect the no-claims bonus?",dev
+V8Q_ADMIRAL_007,Admiral,glass,"Will Admiral pay for recalibration of driver-assistance systems after a windscreen replacement, and how is that described?",dev
+V8Q_ADMIRAL_008,Admiral,personal_belongings,Which types of personal belongings are specifically excluded from the extra-cover benefit in the Admiral guide?,dev
+V8Q_ADMIRAL_009,Admiral,electric_vehicle,"If an electric car runs completely out of charge, where can Admiral arrange recovery and in which territories is this service available?",dev
+V8Q_ADMIRAL_010,Admiral,foreign_use,An Admiral customer plans to use their insured car in Europe for more than 90 days. What does the guide say they must arrange first?,dev
+V8Q_AVIVA_001,Aviva,policy_changes,"Which changes to a driver, vehicle, or its use must the Aviva policyholder notify the insurer about?",dev
+V8Q_AVIVA_002,Aviva,new_vehicle,What conditions must be met for Aviva to replace a car with a new vehicle after severe damage or unrecovered theft?,dev
+V8Q_AVIVA_003,Aviva,repair_guarantee,"What parts of repairs by Aviva-approved garages have a lifetime quality guarantee, and how long does it apply?",dev
+V8Q_AVIVA_004,Aviva,driving_other_cars,"Can an Aviva named driver rely on the driving-other-cars extension, or is that benefit limited to the vehicle policyholder?",dev
+V8Q_AVIVA_005,Aviva,personal_injury,"Does Aviva Motor Injury Protection cover permanent hearing loss following a motor accident, and who can receive this benefit?",dev
+V8Q_AVIVA_006,Aviva,vehicle_recovery,"If the permitted Aviva driver becomes seriously ill mid-journey, when will Aviva transport the insured car home?",dev
+V8Q_AVIVA_007,Aviva,tools,"Under Aviva tool cover, which sorts of tools can qualify and must they be kept inside the insured vehicle?",dev
+V8Q_AVIVA_008,Aviva,glass,"What should an Aviva customer do before arranging glass work, and is recalibration of windscreen-based safety technology mentioned?",dev
+V8Q_AVIVA_009,Aviva,foreign_use,How far in advance should an Aviva policyholder request optional foreign-use cover for travel in Europe?,dev
+V8Q_AVIVA_010,Aviva,home_charging,"What kinds of faults at a home electric-vehicle charging point are covered by Aviva, and what is the per-claim limit?",dev
+V8Q_DIRECTLINE_001,Direct Line,driving_other_cars,"When the main driver uses another car with permission, which Direct Line conditions must be met for third-party liability protection?",dev
+V8Q_DIRECTLINE_002,Direct Line,definitions,"Under the Direct Line policy glossary, what qualifies a vehicle as an automated car?",dev
+V8Q_DIRECTLINE_003,Direct Line,electric_vehicle,"If an electric-car charging cable attached to the insured vehicle injures someone, when does Direct Line cover that liability?",dev
+V8Q_DIRECTLINE_004,Direct Line,glass,How do Direct Line windscreen payments differ when glass repair or replacement is done by a supplier outside its approved network?,dev
+V8Q_DIRECTLINE_005,Direct Line,new_vehicle,What eligibility conditions apply to Direct Line new-car replacement when the car is stolen and not recovered?,dev
+V8Q_DIRECTLINE_006,Direct Line,hire_car,"For a repairable car sent to the policyholder's own garage, how long can Direct Line provide a Guaranteed Hire Car?",dev
+V8Q_DIRECTLINE_007,Direct Line,no_claims_discount,"Under Direct Line Protected No Claim Discount, how many claims can be made over three insurance years without reducing the discount?",dev
+V8Q_DIRECTLINE_008,Direct Line,car_sharing,When can someone with Direct Line insurance share a ride with paying passengers without breaching the car-sharing conditions?,dev
+V8Q_DIRECTLINE_009,Direct Line,foreign_use,"Does Direct Line provide the same cover in the Republic of Ireland as at home, and which optional benefits have restrictions there?",dev
+V8Q_DIRECTLINE_010,Direct Line,cancellation,"If a Direct Line customer cancels the policy after the 14-day cooling-off period, what premium and administration charges may apply?",dev
+V8Q_ESURE_001,esure,legal_liability,What is the maximum amount esure will pay per event for damage to someone else's property?,dev
+V8Q_ESURE_002,esure,driving_other_cars,What conditions must be satisfied for an esure customer to drive somebody else's car with third-party-only protection?,dev
+V8Q_ESURE_003,esure,support_service,"After a traumatic road incident, which people in the household can access esure's confidential counselling service?",dev
+V8Q_ESURE_004,esure,personal_belongings,What evidence of ownership does esure ask for when claiming personal belongings damaged or stolen with the insured car?,dev
+V8Q_ESURE_005,esure,hotel_expenses,"If an esure-insured car cannot be driven after a covered incident, what are the overnight hotel-expense limits for the driver and passengers?",dev
+V8Q_ESURE_006,esure,key_cover,"If car keys are lost or stolen away from the car, what assistance and maximum replacement-cost benefit does esure key cover describe?",dev
+V8Q_ESURE_007,esure,medical_expenses,"Which treatments and payments are included in esure's medical-expenses benefit after a fault accident, and what is the total limit?",dev
+V8Q_ESURE_008,esure,geographical_scope,"When driving in the Green Card Free Circulation Area, what cover does esure give automatically and what happens after 90 days abroad?",dev
+V8Q_ESURE_009,esure,no_claims_discount,"Which esure claims can leave the no-claims discount intact, including incidents involving animals or vandalism?",dev
+V8Q_ESURE_010,esure,cancellation,"Does stopping an esure Direct Debit cancel the car policy, and what happens to optional extras when the policy is cancelled?",dev

@@ -1,0 +1,51 @@
+question_id,insurer,category,question,split
+H1Q_AXA_001,AXA,emergency_treatment,"If AXA pays only for statutory emergency treatment following an insured-car accident, what does the wording say about the no-claims discount?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_002,AXA,rehabilitation,What is the maximum treatment value AXA offers for post-accident rehabilitation arising from one claim?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_003,AXA,legal_expenses_exclusion,Does AXA legal-assistance cover ordinarily pay for legal proceedings outside its territorial limits without written agreement?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_004,AXA,legal_notification,Within what deadline after becoming aware of an insured event must an AXA legal-assistance claim be reported?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_005,AXA,breakdown_journey,"Under AXA European breakdown wording, how long may one defined journey abroad last?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_006,AXA,emergency_driver,What document must be supplied before AXA provides an emergency driver when the original driver becomes ill during a journey?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_007,AXA,breakdown_waiting_period,Which AXA breakdown benefit is available immediately despite the general exclusion for breakdowns in the first 24 hours of taking out cover?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_008,AXA,permitted_driver_exception,Does AXA’s general exclusion for an unnamed driver automatically apply when the vehicle is being parked by a hotel employee?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_009,AXA,concurrent_insurance,"When another insurance policy covers part or all of the same AXA loss, what limit does AXA place on its contribution?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AXA_010,AXA,compulsory_payment_recovery,"If AXA is legally required to make a payment that the policy would otherwise exclude, from whom may it recover the payment?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_001,Admiral,governing_law,"Unless otherwise agreed, which law governs the Admiral motor-insurance contract, and what language is used for communications?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_002,Admiral,cyber_definitions,"How does Admiral define a cyber incident affecting a motor vehicle, as distinct from a malicious cyber act?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_003,Admiral,repairs_guarantee,How long does Admiral guarantee repairs completed by one of its approved repairers?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_004,Admiral,repair_parts,May Admiral use recycled replacement parts to repair an insured vehicle?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_005,Admiral,foreign_recovery,"When an Admiral-insured vehicle is undriveable abroad, what documentation is needed to obtain reimbursement of roadside recovery costs?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_006,Admiral,racetrack_exclusion,Does Admiral’s general-exceptions section exclude vehicle use on the Nürburgring Nordschleife?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_007,Admiral,software_security,"According to Admiral’s vehicle-care conditions, from which sources may an owner download vehicle software?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_008,Admiral,other_insurance,What exception does Admiral state to its general condition restricting claims also covered by another insurance policy?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_009,Admiral,stolen_vehicle_tracker,What tracker-related condition must be met for Admiral to pay a theft claim where its active-tracker endorsement applies?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ADMIRAL_010,Admiral,complaint_escalation,After what period without complaint resolution may an Admiral customer refer a complaint to the Financial Ombudsman Service?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_001,Aviva,contract_formation,"According to Aviva, does each policy renewal represent a new insurance contract?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_002,Aviva,adas_definition,How does Aviva define advanced driver assistance systems in the policy booklet?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_003,Aviva,insured_roles,"When the Aviva vehicle policyholder owns or is the registered keeper, to whom may certain section benefits be paid at the insurer’s discretion?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_004,Aviva,unattended_vehicle,What does Aviva exclude when a theft occurs while the insured vehicle is unattended with its engine running?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_005,Aviva,emergency_treatment,"Under Aviva’s legal-liability section, what statutory emergency-medical-treatment payments will it reimburse?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_006,Aviva,automated_vehicle_update,"Under Aviva’s liability exclusions, how may failure to install safety-critical software updates affect a claim involving automated driving mode?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_007,Aviva,personal_belongings_exclusions,Which three classes of items does Aviva explicitly exclude under its Section 6 personal-belongings cover?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_008,Aviva,ncd_transferability,Can an Aviva vehicle policyholder transfer earned no-claim-discount years from one insured vehicle to another?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_009,Aviva,legal_authorisation,Will Aviva pay legal-protection expenses incurred before it accepts a claim or without its authorisation?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_AVIVA_010,Aviva,legal_second_opinion,"If an Aviva customer disputes the appointed lawyer’s opinion, who pays for the initial independent second opinion and how is a review arranged?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_001,Direct Line,modifications_definition,Does Direct Line’s definition of a vehicle modification include changes made by a previous owner?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_002,Direct Line,defence_costs_authorisation,"Before Direct Line pays defence legal expenses after an insured accident, what approval must it give?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_003,Direct Line,personal_accident_time,Within what time after the accident must a qualifying personal-accident injury outcome occur under Direct Line?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_004,Direct Line,motor_legal_cover_options,"Under which Direct Line cover level is Motor Legal Cover included automatically, and for which cover levels is it optional?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_005,Direct Line,legal_cover_passenger,"Under Direct Line Motor Legal Cover, for what types of case can an insured vehicle’s passenger qualify as a covered person?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_006,Direct Line,legal_excluded_offences,"Does Direct Line Motor Legal Cover pay defence costs for prosecutions involving parking, obstruction or waiting offences?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_007,Direct Line,claim_cost_recovery,"If a Direct Line Motor Legal Cover policyholder breaches its terms and prejudices the insurer, what may the insurer ask regarding legal costs already paid?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_008,Direct Line,replacement_travel_allowance,"If Guaranteed Hire Car Plus cannot provide a hire car for an eligible reason, what is the maximum travel reimbursement per day and per claim?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_009,Direct Line,unauthorised_family_use,"For damage following unauthorised use by a family member, what police-report evidence does Direct Line require for the exception to apply?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_DIRECTLINE_010,Direct Line,open_car_property,Where does Direct Line require property to be kept when it is left inside an open or convertible vehicle?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_001,esure,theft_reporting,What evidence must an esure customer obtain after reporting a vehicle theft or attempted theft to the police?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_002,esure,medical_notification,Within how many weeks of a road accident must an injury be notified to esure to avoid the medical-expenses exclusion?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_003,esure,pedestrian_legal_costs,"Under esure Motor Legal Protection, when can a pedestrian seek funded legal costs to recover financial losses?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_004,esure,motor_database_dispute,"Under esure Motor Legal Protection, what is the purpose of cover for motoring database disputes?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_005,esure,pollution_exclusion,What exception does esure provide to its general pollution exclusion?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_006,esure,war_exclusion,"Under esure’s war-and-terrorism exclusion, what legal obligation may still require cover?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_007,esure,registration_accuracy,"According to esure, what can happen if the Motor Insurance Database has the wrong vehicle registration number?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_008,esure,vehicle_software_updates,What must an esure driver do when the vehicle manufacturer supplies required system or software updates?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_009,esure,residency_notification,What change in UK residency must an esure policyholder notify the insurer about?,H1_NEW_QUESTIONS_SEEN_DOCUMENTS
+H1Q_ESURE_010,esure,complaint_ombudsman,"After esure issues a final complaint decision, how long does the customer generally have to refer the matter to the Financial Ombudsman Service?",H1_NEW_QUESTIONS_SEEN_DOCUMENTS
