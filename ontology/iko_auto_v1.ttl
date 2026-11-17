@@ -1,0 +1,206 @@
+@prefix iko: <https://example.org/iko-auto/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/iko-auto/v1> a owl:Ontology ;
+  rdfs:label "IKO-Auto ontology v1 - proposed research schema"@en ;
+  rdfs:comment "Draft ontology for auto insurance; no external validation or expert consensus claimed."@en .
+
+iko:InsuranceEntity a owl:Class ;
+  rdfs:label "InsuranceEntity"@en ;
+  rdfs:comment "Root domain concept"@en .
+
+iko:Policy a owl:Class ;
+  rdfs:label "Policy"@en ;
+  rdfs:comment "Insurance contract"@en .
+
+iko:AutoPolicy a owl:Class ;
+  rdfs:label "AutoPolicy"@en ;
+  rdfs:comment "Automobile insurance contract"@en ;
+  rdfs:subClassOf iko:Policy .
+
+iko:PolicyVersion a owl:Class ;
+  rdfs:label "PolicyVersion"@en ;
+  rdfs:comment "Version of contract"@en ;
+  rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Coverage a owl:Class ;
+  rdfs:label "Coverage"@en ;
+  rdfs:comment "Covered peril or benefit"@en .
+
+iko:Exclusion a owl:Class ;
+  rdfs:label "Exclusion"@en ;
+  rdfs:comment "Condition excluded from coverage"@en .
+
+iko:Exception a owl:Class ;
+  rdfs:label "Exception"@en ;
+  rdfs:comment "Exception to exclusion"@en .
+
+iko:Deductible a owl:Class ;
+  rdfs:label "Deductible"@en ;
+  rdfs:comment "Amount payable by insured"@en .
+
+iko:CoverageLimit a owl:Class ;
+  rdfs:label "CoverageLimit"@en ;
+  rdfs:comment "Maximum amount payable"@en .
+
+iko:Endorsement a owl:Class ;
+  rdfs:label "Endorsement"@en ;
+  rdfs:comment "Policy amendment"@en .
+
+iko:Claim a owl:Class ;
+  rdfs:label "Claim"@en ;
+  rdfs:comment "Request for compensation"@en .
+
+iko:ClaimEvent a owl:Class ;
+  rdfs:label "ClaimEvent"@en ;
+  rdfs:comment "Occurrence leading to claim"@en .
+
+iko:CauseOfAccident a owl:Class ;
+  rdfs:label "CauseOfAccident"@en ;
+  rdfs:comment "Cause of loss"@en .
+
+iko:DamageType a owl:Class ;
+  rdfs:label "DamageType"@en ;
+  rdfs:comment "Damage category"@en .
+
+iko:VehiclePartDamage a owl:Class ;
+  rdfs:label "VehiclePartDamage"@en ;
+  rdfs:comment "Damage to a vehicle part"@en ;
+  rdfs:subClassOf iko:DamageType .
+
+iko:LossSeverity a owl:Class ;
+  rdfs:label "LossSeverity"@en ;
+  rdfs:comment "Severity of loss"@en .
+
+iko:FraudIndicator a owl:Class ;
+  rdfs:label "FraudIndicator"@en ;
+  rdfs:comment "Potential fraud signal; not proof of fraud"@en .
+
+iko:SuspiciousPattern a owl:Class ;
+  rdfs:label "SuspiciousPattern"@en ;
+  rdfs:comment "Pattern warranting review"@en .
+
+iko:MultipleClaims a owl:Class ;
+  rdfs:label "MultipleClaims"@en ;
+  rdfs:comment "Multiple claim pattern"@en ;
+  rdfs:subClassOf iko:SuspiciousPattern .
+
+iko:LateReport a owl:Class ;
+  rdfs:label "LateReport"@en ;
+  rdfs:comment "Late notification pattern"@en ;
+  rdfs:subClassOf iko:SuspiciousPattern .
+
+iko:Policyholder a owl:Class ;
+  rdfs:label "Policyholder"@en ;
+  rdfs:comment "Insured party"@en .
+
+iko:DrivingHistory a owl:Class ;
+  rdfs:label "DrivingHistory"@en ;
+  rdfs:comment "Prior driving history"@en .
+
+iko:VehicleType a owl:Class ;
+  rdfs:label "VehicleType"@en ;
+  rdfs:comment "Vehicle classification"@en .
+
+iko:RiskFactor a owl:Class ;
+  rdfs:label "RiskFactor"@en ;
+  rdfs:comment "Underwriting factor"@en .
+
+iko:Premium a owl:Class ;
+  rdfs:label "Premium"@en ;
+  rdfs:comment "Price of insurance"@en .
+
+iko:SourcePassage a owl:Class ;
+  rdfs:label "SourcePassage"@en ;
+  rdfs:comment "Traceable supporting source passage"@en .
+
+iko:hasVersion a owl:ObjectProperty ;
+  rdfs:domain iko:Policy ;
+  rdfs:range iko:PolicyVersion .
+
+iko:hasCoverage a owl:ObjectProperty ;
+  rdfs:domain iko:PolicyVersion ;
+  rdfs:range iko:Coverage .
+
+iko:hasExclusion a owl:ObjectProperty ;
+  rdfs:domain iko:Coverage ;
+  rdfs:range iko:Exclusion .
+
+iko:hasException a owl:ObjectProperty ;
+  rdfs:domain iko:Exclusion ;
+  rdfs:range iko:Exception .
+
+iko:hasDeductible a owl:ObjectProperty ;
+  rdfs:domain iko:Coverage ;
+  rdfs:range iko:Deductible .
+
+iko:hasLimit a owl:ObjectProperty ;
+  rdfs:domain iko:Coverage ;
+  rdfs:range iko:CoverageLimit .
+
+iko:hasEndorsement a owl:ObjectProperty ;
+  rdfs:domain iko:PolicyVersion ;
+  rdfs:range iko:Endorsement .
+
+iko:hasClaimEvent a owl:ObjectProperty ;
+  rdfs:domain iko:Claim ;
+  rdfs:range iko:ClaimEvent .
+
+iko:hasCause a owl:ObjectProperty ;
+  rdfs:domain iko:ClaimEvent ;
+  rdfs:range iko:CauseOfAccident .
+
+iko:hasDamageType a owl:ObjectProperty ;
+  rdfs:domain iko:Claim ;
+  rdfs:range iko:DamageType .
+
+iko:affects a owl:ObjectProperty ;
+  rdfs:domain iko:DamageType ;
+  rdfs:range iko:VehiclePartDamage .
+
+iko:hasSeverity a owl:ObjectProperty ;
+  rdfs:domain iko:Claim ;
+  rdfs:range iko:LossSeverity .
+
+iko:indicates a owl:ObjectProperty ;
+  rdfs:domain iko:FraudIndicator ;
+  rdfs:range iko:SuspiciousPattern .
+
+iko:hasRiskFactor a owl:ObjectProperty ;
+  rdfs:domain iko:Policyholder ;
+  rdfs:range iko:RiskFactor .
+
+iko:hasDrivingHistory a owl:ObjectProperty ;
+  rdfs:domain iko:Policyholder ;
+  rdfs:range iko:DrivingHistory .
+
+iko:hasVehicleType a owl:ObjectProperty ;
+  rdfs:domain iko:Policyholder ;
+  rdfs:range iko:VehicleType .
+
+iko:influences a owl:ObjectProperty ;
+  rdfs:domain iko:RiskFactor ;
+  rdfs:range iko:Premium .
+
+iko:supportedBy a owl:ObjectProperty ;
+  rdfs:domain iko:InsuranceEntity ;
+  rdfs:range iko:SourcePassage .
+
+iko:sourceDocumentId a owl:DatatypeProperty ;
+  rdfs:domain iko:SourcePassage ;
+  rdfs:range xsd:string .
+
+iko:sourceChunkId a owl:DatatypeProperty ;
+  rdfs:domain iko:SourcePassage ;
+  rdfs:range xsd:string .
+
+iko:policyIdentifier a owl:DatatypeProperty ;
+  rdfs:domain iko:Policy ;
+  rdfs:range xsd:string .
+
+iko:effectiveDate a owl:DatatypeProperty ;
+  rdfs:domain iko:PolicyVersion ;
+  rdfs:range xsd:date .
