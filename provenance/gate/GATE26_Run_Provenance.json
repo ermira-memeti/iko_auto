@@ -1,0 +1,56 @@
+{
+  "run_utc": "2026-11-17T21:22:14.769986+00:00",
+  "source_code_hashes": {
+    "src/v8_3_intent.py": "62236a3306d432aa2fca02c4089886f17b4ba65a30e9400c428777ed96f8deee",
+    "src/research_eval.py": "9ff695f61a7a53c489bc00ae9e2009f74b0e4ffda741af979dc4a8e1e34a6175",
+    "src/retrieval.py": "0fe25ddf39b0924051817d5da1c3d17a2dc4647e201aedd04c4bc69d32c482b4",
+    "src/graph_retrieval.py": "3f0078738558c19dc54bf6ac25293a270da1dff98a5cdd53916b089e8a55eac6",
+    "src/pipeline.py": "f9d83021c66b6313852fa02859a679b62710f5090f36cd6d8791ca9c81035af7"
+  },
+  "bm25_backend": "rank_bm25.BM25Okapi",
+  "indexed_passages": 717,
+  "question_sha256": "1b89752dea0e31ed642546650a0c0a0aafea008708af9b2e359300d79bfdbe7e",
+  "method_ids": {
+    "bm25_metadata": "M2",
+    "bm25_metadata_graph": "M5",
+    "bm25_metadata_graph_v8_2": "M7",
+    "bm25_metadata_graph_intent_v8_3": "M8"
+  },
+  "per_method": {
+    "bm25_metadata": {
+      "empty_questions": 0,
+      "distinct_rankings": 50
+    },
+    "bm25_metadata_graph": {
+      "empty_questions": 26,
+      "distinct_rankings": 25
+    },
+    "bm25_metadata_graph_v8_2": {
+      "empty_questions": 4,
+      "distinct_rankings": 47
+    },
+    "bm25_metadata_graph_intent_v8_3": {
+      "empty_questions": 6,
+      "distinct_rankings": 45
+    }
+  },
+  "gate_route_counts": {
+    "enhanced_v8_2": 28,
+    "original_v6": 22
+  },
+  "gate_topic_counts": {
+    "windscreen": 12,
+    "windscreen_adas": 4,
+    "": 22,
+    "glass_adas": 6,
+    "hire_car": 6
+  },
+  "n_ranking_rows": 856,
+  "n_unique_question_passage_pairs": 327,
+  "retrieval_score_status": "NOT_SCORED_HUMAN_LABELS_MISSING",
+  "data_limitations": [
+    "AI-assisted author-written candidate questions are post-hoc and not external held-out queries.",
+    "Gate route is a software prediction; no independently determined semantic gold labels exist.",
+    "Ranked-passage relevance has not been independently graded."
+  ]
+}

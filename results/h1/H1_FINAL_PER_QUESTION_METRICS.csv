@@ -1,4 +1,4 @@
-﻿method,question_id,insurer,category,returned,hit5,precision5,rr5,ndcg5,grade2_retrieved,pool_grade2_count,pool_grade2_present,first_grade2_rank,graded_ndcg5,ranked_passage_ids
+method,question_id,insurer,category,returned,hit5,precision5,rr5,ndcg5,grade2_retrieved,pool_grade2_count,pool_grade2_present,first_grade2_rank,graded_ndcg5,ranked_passage_ids
 M1,H1Q_ADMIRAL_001,Admiral,governing_law,5,1,0.2,1.0,1.0,1,1,1,1,1.0,admiral_car_policy.pdf::p4::c0001 | axa_car_policy.pdf::p5::c0002 | directline_car_policy.pdf::p37::c0001 | admiral_car_policy.pdf::p37::c0001 | axa_car_policy.pdf::p41::c0003
 M1,H1Q_ADMIRAL_002,Admiral,cyber_definitions,5,0,0.0,0.0,0.0,0,0,0,0,1.0,admiral_car_policy.pdf::p9::c0001 | admiral_car_policy.pdf::p27::c0004 | aviva_car_policy.pdf::p6::c0002 | admiral_car_policy.pdf::p15::c0003 | aviva_car_policy.pdf::p34::c0003
 M1,H1Q_ADMIRAL_003,Admiral,repairs_guarantee,5,1,0.2,1.0,1.0,1,1,1,1,1.0,admiral_car_policy.pdf::p16::c0001 | aviva_car_policy.pdf::p11::c0001 | aviva_car_policy.pdf::p9::c0002 | axa_car_policy.pdf::p9::c0002 | axa_car_policy.pdf::p11::c0002

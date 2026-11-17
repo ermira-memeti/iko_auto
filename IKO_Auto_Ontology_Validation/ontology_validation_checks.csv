@@ -1,0 +1,25 @@
+﻿check,result,detail
+parse_v6,PASS,"932 triples, SHA256 34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7"
+parse_v82,PASS,"1029 triples, SHA256 b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729"
+base_graph_preserved,PASS,V6=932; V8.2=1029; new=97; deleted=0
+v6_class_AutoPolicy,OBSERVED,5
+v6_class_PolicyVersion,OBSERVED,5
+v6_class_Coverage,OBSERVED,8
+v6_class_Exclusion,OBSERVED,21
+v6_class_Exception,OBSERVED,1
+v6_class_ClaimCondition,OBSERVED,5
+v6_class_SourcePassage,OBSERVED,44
+v6_class_RelationshipAssertion,OBSERVED,49
+v6_assertion_links,PASS,Checked 49 assertions
+v82_class_AutoPolicy,OBSERVED,5
+v82_class_PolicyVersion,OBSERVED,5
+v82_class_Coverage,OBSERVED,13
+v82_class_Exclusion,OBSERVED,21
+v82_class_Exception,OBSERVED,1
+v82_class_ClaimCondition,OBSERVED,5
+v82_class_SourcePassage,OBSERVED,49
+v82_class_RelationshipAssertion,OBSERVED,54
+v82_assertion_links,PASS,Checked 54 assertions
+schema_parse,PASS,144 triples
+schema_sourcePage_range,OBSERVED,(no explicit range)
+source_quote_validation,OBSERVED,Counter({'PASS_EXACT_WHITESPACE_NORMALIZED': 93})

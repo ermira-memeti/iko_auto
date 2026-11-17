@@ -1,0 +1,67 @@
+IKO-AUTO H1 V8.3: NATIVE PYTHON RUNNER (V3)
+==========================================
+
+PURPOSE
+Run all ORIGINAL M1-M8 methods on 50 new questions for five SEEN policy
+booklets. The original engine code in src/ is left untouched.
+
+WHY V3
+The source ZIP confirmed the exact original constructor:
+  src.pipeline.build_pipeline(folder,chunk_words=170,overlap_words=45,
+                              embedding_model_name=...,graph_file=None)
+The previous H1 runner did not provide the `folder` parameter and therefore
+failed even though your original engine was present. This version directly
+calls the original build_pipeline, original GraphIndex and method_runs.
+
+INSTALL ON WINDOWS
+1) Extract ALL files from this ZIP directly into the original
+   IKO_Auto_RAG_Starter project root containing src/, outputs/, data/.
+   Replace prior H1 files when prompted. DO NOT replace or change src/.
+2) Use your working project Python environment. Install the ORIGINAL project
+   requirements if needed, not a different implementation of BM25.
+3) In Command Prompt at the project root, run:
+
+   python H1_native_v83_runner.py --project . --run
+
+   If you prefer an absolute output folder:
+   python H1_native_v83_runner.py --project . --output-dir H1_RESULTS_NEW --run
+
+EXPECTED OUTPUT
+  H1_RESULTS/H1_EIGHT_METHOD_TOP5.csv
+  H1_RESULTS/H1_ORIGINAL_METHOD_RUNS.json
+  H1_RESULTS/H1_POOLED_ANNOTATION_CANDIDATES.csv
+  H1_RESULTS/H1_REVIEWER_A_BLINDED_BLANK.csv
+  H1_RESULTS/H1_REVIEWER_B_BLINDED_BLANK.csv
+  H1_RESULTS/H1_RUN_PROVENANCE.json
+  H1_RESULTS/H1_FALLBACK_AUDIT.json
+  H1_RESULTS/H1_INTENT_GATE_AUDIT.json
+
+SAFETY/VALIDATION
+Checks the 50 question IDs and checksum, PDF hashes, original V6 graph hash,
+717 unique indexed chunks, all M1-M8 question rankings and source-code hashes.
+Writes no results if the original engine cannot be initialized and validated.
+Logs the actual BM25 backend in H1_RUN_PROVENANCE.json. Verify that this
+backend is the same as the original V8.3 baseline for cross-run comparison.
+Does not rewrite or modify the original V8.3 experiment, RDF files or src/.
+If H1_RESULTS/H1_EIGHT_METHOD_TOP5.csv already exists, the script stops to
+avoid accidentally overwriting a prior run; use --output-dir for a fresh run.
+
+NEXT STEP AFTER SUCCESS
+Send the two blank reviewer files separately to your two reviewers. They
+should independently label every pooled question/chunk pair with 0/1/2
+and must not see source answer keys or the system ranking. After review,
+name the returned files:
+  H1_RESULTS/H1_REVIEWER_A_FILLED.csv
+  H1_RESULTS/H1_REVIEWER_B_FILLED.csv
+Then run:
+  python H1_prepare_and_evaluate.py evaluate H1_RESULTS/H1_EIGHT_METHOD_TOP5.csv H1_RESULTS/H1_REVIEWER_A_FILLED.csv H1_RESULTS/H1_REVIEWER_B_FILLED.csv
+
+If the reviewers disagree, the script reports disagreements and needs
+independent adjudication before method metrics can be finalized.
+
+STUDY LIMITATIONS
+The 50 new questions were AI-assisted and concern the same five source PDFs
+used during development. This is NOT unseen-policy generalization. The
+new source key should remain private and is not included in this ZIP.
+The native runner was smoke-tested here but has NOT run inside your Windows
+project, which remains authoritative for final experimental results.

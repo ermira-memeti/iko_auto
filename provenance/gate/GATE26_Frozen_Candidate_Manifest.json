@@ -1,0 +1,35 @@
+{
+  "benchmark": "REVIEWER_1_COMMENT_2_POST_HOC_AI_DRAFTED_CANDIDATES",
+  "n_questions": 50,
+  "strata": {
+    "AXA_REPLACEMENT": 5,
+    "ADMIRAL_ADAS": 5,
+    "AVIVA_GLASS": 5,
+    "DL_GLASS": 5,
+    "DL_HIRE": 5,
+    "AXA_CONTROL": 5,
+    "ADMIRAL_CONTROL": 5,
+    "AVIVA_CONTROL": 5,
+    "DL_CONTROL": 5,
+    "ESURE_CONTROL": 5
+  },
+  "question_sha256": "1b89752dea0e31ed642546650a0c0a0aafea008708af9b2e359300d79bfdbe7e",
+  "question_jsonl_sha256": "bb747199249b29133770992e118894a77b6c85adcb00183b8c5cbc41f3f1192e",
+  "source_pdf_sha256": {
+    "admiral_car_policy.pdf": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77",
+    "aviva_car_policy.pdf": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db",
+    "axa_car_policy.pdf": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8",
+    "directline_car_policy.pdf": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d",
+    "esure_car_policy.pdf": "c88c00478abf625c59fffdd39043ac771c5cccc3c35ff2ba078476c84d02aeb3"
+  },
+  "source_graph_sha256": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+  "extended_graph_sha256": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+  "gate_code_sha256": "62236a3306d432aa2fca02c4089886f17b4ba65a30e9400c428777ed96f8deee",
+  "development_informed": true,
+  "independent_gold": false,
+  "limitations": [
+    "Question text AI-assisted and tailored to the five known graph additions; not an independent held-out test of external users",
+    "Human assessors must verify both contract source grounding and semantic G+ relevance",
+    "Retrieval metrics require separately graded method-blind pooled passages"
+  ]
+}

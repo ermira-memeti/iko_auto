@@ -1,0 +1,10 @@
+{
+  "description": "Source PDF checksum records from the frozen post-hoc gate diagnostic; original PDFs not redistributed.",
+  "sha256": {
+    "admiral_car_policy.pdf": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77",
+    "aviva_car_policy.pdf": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db",
+    "axa_car_policy.pdf": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8",
+    "directline_car_policy.pdf": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d",
+    "esure_car_policy.pdf": "c88c00478abf625c59fffdd39043ac771c5cccc3c35ff2ba078476c84d02aeb3"
+  }
+}

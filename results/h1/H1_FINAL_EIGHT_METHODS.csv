@@ -1,4 +1,4 @@
-﻿method,name,questions,question_hits,hit5,precision5,mrr5,ndcg5,graded_ndcg5,grade2_passage_hits,empty_questions
+method,name,questions,question_hits,hit5,precision5,mrr5,ndcg5,graded_ndcg5,grade2_passage_hits,empty_questions
 M1,Unfiltered BM25,50,35,0.7,0.168,0.5429999999999999,0.5813455194160688,0.6403736838813979,42,0
 M2,Insurer-filtered BM25,50,38,0.76,0.18400000000000002,0.6733333333333333,0.6948320307317201,0.7863139148532912,46,0
 M3,Insurer + section BM25,50,38,0.76,0.18400000000000002,0.6733333333333333,0.6948320307317201,0.7863139148532912,46,0

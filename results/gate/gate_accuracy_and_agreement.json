@@ -1,0 +1,21 @@
+{
+  "n_all": 50,
+  "n_grounded": 48,
+  "n_scored": 48,
+  "n_unclear_or_invalid": 2,
+  "confusion": {
+    "TP": 24,
+    "FP": 4,
+    "TN": 19,
+    "FN": 1
+  },
+  "precision": 0.8571428571428571,
+  "recall": 0.96,
+  "specificity": 0.8260869565217391,
+  "false_positive_rate": 0.17391304347826086,
+  "routing_agreement": 1.0,
+  "routing_exact_agreement": 1.0,
+  "passage_kappa": 1.0,
+  "passage_exact_agreement": 1.0,
+  "n_passage_pairs": 327
+}

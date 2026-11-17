@@ -1,4 +1,4 @@
-﻿baseline,comparison,delta_hit5,gain_questions,lost_questions,discordant,mcnemar_exact_two_sided_p,delta_mrr5,delta_ndcg5
+baseline,comparison,delta_hit5,gain_questions,lost_questions,discordant,mcnemar_exact_two_sided_p,delta_mrr5,delta_ndcg5
 M2,M1,-0.06,0,3,3,0.25,-0.13033333333333333,-0.11348651131565117
 M7,M1,0.14,9,2,11,0.0654296875,0.37333333333333335,0.3178357952207554
 M7,M2,0.2,10,0,10,0.001953125,0.5036666666666667,0.4313223065364065

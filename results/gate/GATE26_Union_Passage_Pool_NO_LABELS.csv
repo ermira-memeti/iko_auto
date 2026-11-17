@@ -1,0 +1,328 @@
+question_id,insurer,question,chunk_id,source_document,pdf_page
+GATE26_001,AXA,"Under AXA motor insurance, what is the maximum payment for a windscreen replacement carried out by a repairer who is not approved?",axa_car_policy.pdf::p9::c0002,axa_car_policy.pdf,9
+GATE26_001,AXA,"Under AXA motor insurance, what is the maximum payment for a windscreen replacement carried out by a repairer who is not approved?",axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_001,AXA,"Under AXA motor insurance, what is the maximum payment for a windscreen replacement carried out by a repairer who is not approved?",axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_001,AXA,"Under AXA motor insurance, what is the maximum payment for a windscreen replacement carried out by a repairer who is not approved?",axa_car_policy.pdf::p19::c0001,axa_car_policy.pdf,19
+GATE26_001,AXA,"Under AXA motor insurance, what is the maximum payment for a windscreen replacement carried out by a repairer who is not approved?",axa_car_policy.pdf::p24::c0001,axa_car_policy.pdf,24
+GATE26_002,AXA,"If an AXA policyholder arranges a windscreen repair without an approved repairer, how much can AXA pay at most?",axa_car_policy.pdf::p3::c0001,axa_car_policy.pdf,3
+GATE26_002,AXA,"If an AXA policyholder arranges a windscreen repair without an approved repairer, how much can AXA pay at most?",axa_car_policy.pdf::p9::c0001,axa_car_policy.pdf,9
+GATE26_002,AXA,"If an AXA policyholder arranges a windscreen repair without an approved repairer, how much can AXA pay at most?",axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_002,AXA,"If an AXA policyholder arranges a windscreen repair without an approved repairer, how much can AXA pay at most?",axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_002,AXA,"If an AXA policyholder arranges a windscreen repair without an approved repairer, how much can AXA pay at most?",axa_car_policy.pdf::p37::c0001,axa_car_policy.pdf,37
+GATE26_003,AXA,"For AXA Section D, how do the payout ceilings differ between a windscreen repair and replacement by an independent glass business?",axa_car_policy.pdf::p4::c0001,axa_car_policy.pdf,4
+GATE26_003,AXA,"For AXA Section D, how do the payout ceilings differ between a windscreen repair and replacement by an independent glass business?",axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_003,AXA,"For AXA Section D, how do the payout ceilings differ between a windscreen repair and replacement by an independent glass business?",axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_003,AXA,"For AXA Section D, how do the payout ceilings differ between a windscreen repair and replacement by an independent glass business?",axa_car_policy.pdf::p19::c0001,axa_car_policy.pdf,19
+GATE26_003,AXA,"For AXA Section D, how do the payout ceilings differ between a windscreen repair and replacement by an independent glass business?",axa_car_policy.pdf::p36::c0001,axa_car_policy.pdf,36
+GATE26_004,AXA,What payment restrictions apply when AXA windscreen work is not done by its approved glass repairer?,axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_004,AXA,What payment restrictions apply when AXA windscreen work is not done by its approved glass repairer?,axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_004,AXA,What payment restrictions apply when AXA windscreen work is not done by its approved glass repairer?,axa_car_policy.pdf::p19::c0001,axa_car_policy.pdf,19
+GATE26_004,AXA,What payment restrictions apply when AXA windscreen work is not done by its approved glass repairer?,axa_car_policy.pdf::p39::c0004,axa_car_policy.pdf,39
+GATE26_004,AXA,What payment restrictions apply when AXA windscreen work is not done by its approved glass repairer?,axa_car_policy.pdf::p40::c0001,axa_car_policy.pdf,40
+GATE26_005,AXA,"For an AXA policyholder using a non-network provider to replace a damaged vehicle windscreen, what is the stated reimbursement limit?",axa_car_policy.pdf::p3::c0001,axa_car_policy.pdf,3
+GATE26_005,AXA,"For an AXA policyholder using a non-network provider to replace a damaged vehicle windscreen, what is the stated reimbursement limit?",axa_car_policy.pdf::p9::c0004,axa_car_policy.pdf,9
+GATE26_005,AXA,"For an AXA policyholder using a non-network provider to replace a damaged vehicle windscreen, what is the stated reimbursement limit?",axa_car_policy.pdf::p11::c0004,axa_car_policy.pdf,11
+GATE26_005,AXA,"For an AXA policyholder using a non-network provider to replace a damaged vehicle windscreen, what is the stated reimbursement limit?",axa_car_policy.pdf::p14::c0001,axa_car_policy.pdf,14
+GATE26_005,AXA,"For an AXA policyholder using a non-network provider to replace a damaged vehicle windscreen, what is the stated reimbursement limit?",axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_006,Admiral,"Does Admiral pay to recalibrate the ADAS after a windscreen has been replaced, when this is required?",admiral_car_policy.pdf::p7::c0002,admiral_car_policy.pdf,7
+GATE26_006,Admiral,"Does Admiral pay to recalibrate the ADAS after a windscreen has been replaced, when this is required?",admiral_car_policy.pdf::p17::c0002,admiral_car_policy.pdf,17
+GATE26_006,Admiral,"Does Admiral pay to recalibrate the ADAS after a windscreen has been replaced, when this is required?",admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_006,Admiral,"Does Admiral pay to recalibrate the ADAS after a windscreen has been replaced, when this is required?",admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_006,Admiral,"Does Admiral pay to recalibrate the ADAS after a windscreen has been replaced, when this is required?",admiral_car_policy.pdf::p27::c0002,admiral_car_policy.pdf,27
+GATE26_007,Admiral,"Under Admiral windscreen cover, who bears the cost of a required driver-assistance recalibration following replacement?",admiral_car_policy.pdf::p7::c0002,admiral_car_policy.pdf,7
+GATE26_007,Admiral,"Under Admiral windscreen cover, who bears the cost of a required driver-assistance recalibration following replacement?",admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_007,Admiral,"Under Admiral windscreen cover, who bears the cost of a required driver-assistance recalibration following replacement?",admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_007,Admiral,"Under Admiral windscreen cover, who bears the cost of a required driver-assistance recalibration following replacement?",admiral_car_policy.pdf::p29::c0002,admiral_car_policy.pdf,29
+GATE26_007,Admiral,"Under Admiral windscreen cover, who bears the cost of a required driver-assistance recalibration following replacement?",admiral_car_policy.pdf::p32::c0001,admiral_car_policy.pdf,32
+GATE26_008,Admiral,"If replacing an Admiral-insured windscreen means the vehicle safety sensors must be calibrated again, does the policy address that cost?",admiral_car_policy.pdf::p3::c0003,admiral_car_policy.pdf,3
+GATE26_008,Admiral,"If replacing an Admiral-insured windscreen means the vehicle safety sensors must be calibrated again, does the policy address that cost?",admiral_car_policy.pdf::p3::c0004,admiral_car_policy.pdf,3
+GATE26_008,Admiral,"If replacing an Admiral-insured windscreen means the vehicle safety sensors must be calibrated again, does the policy address that cost?",admiral_car_policy.pdf::p15::c0002,admiral_car_policy.pdf,15
+GATE26_008,Admiral,"If replacing an Admiral-insured windscreen means the vehicle safety sensors must be calibrated again, does the policy address that cost?",admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_008,Admiral,"If replacing an Admiral-insured windscreen means the vehicle safety sensors must be calibrated again, does the policy address that cost?",admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_008,Admiral,"If replacing an Admiral-insured windscreen means the vehicle safety sensors must be calibrated again, does the policy address that cost?",admiral_car_policy.pdf::p32::c0001,admiral_car_policy.pdf,32
+GATE26_009,Admiral,Is required Advanced Driver Assistance System calibration included following an Admiral windscreen replacement?,admiral_car_policy.pdf::p8::c0001,admiral_car_policy.pdf,8
+GATE26_009,Admiral,Is required Advanced Driver Assistance System calibration included following an Admiral windscreen replacement?,admiral_car_policy.pdf::p17::c0002,admiral_car_policy.pdf,17
+GATE26_009,Admiral,Is required Advanced Driver Assistance System calibration included following an Admiral windscreen replacement?,admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_009,Admiral,Is required Advanced Driver Assistance System calibration included following an Admiral windscreen replacement?,admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_009,Admiral,Is required Advanced Driver Assistance System calibration included following an Admiral windscreen replacement?,admiral_car_policy.pdf::p27::c0002,admiral_car_policy.pdf,27
+GATE26_010,Admiral,"Does Admiral cover ADAS recalibration after glass is replaced, or is this always left to the customer?",admiral_car_policy.pdf::p7::c0004,admiral_car_policy.pdf,7
+GATE26_010,Admiral,"Does Admiral cover ADAS recalibration after glass is replaced, or is this always left to the customer?",admiral_car_policy.pdf::p14::c0001,admiral_car_policy.pdf,14
+GATE26_010,Admiral,"Does Admiral cover ADAS recalibration after glass is replaced, or is this always left to the customer?",admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_010,Admiral,"Does Admiral cover ADAS recalibration after glass is replaced, or is this always left to the customer?",admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_010,Admiral,"Does Admiral cover ADAS recalibration after glass is replaced, or is this always left to the customer?",admiral_car_policy.pdf::p29::c0002,admiral_car_policy.pdf,29
+GATE26_010,Admiral,"Does Admiral cover ADAS recalibration after glass is replaced, or is this always left to the customer?",admiral_car_policy.pdf::p37::c0001,admiral_car_policy.pdf,37
+GATE26_011,Aviva,"Before an Aviva policyholder has a windscreen repaired, what contact step does the glass-claim section require?",aviva_car_policy.pdf::p10::c0001,aviva_car_policy.pdf,10
+GATE26_011,Aviva,"Before an Aviva policyholder has a windscreen repaired, what contact step does the glass-claim section require?",aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_011,Aviva,"Before an Aviva policyholder has a windscreen repaired, what contact step does the glass-claim section require?",aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_011,Aviva,"Before an Aviva policyholder has a windscreen repaired, what contact step does the glass-claim section require?",aviva_car_policy.pdf::p36::c0001,aviva_car_policy.pdf,36
+GATE26_011,Aviva,"Before an Aviva policyholder has a windscreen repaired, what contact step does the glass-claim section require?",aviva_car_policy.pdf::p36::c0002,aviva_car_policy.pdf,36
+GATE26_011,Aviva,"Before an Aviva policyholder has a windscreen repaired, what contact step does the glass-claim section require?",aviva_car_policy.pdf::p38::c0001,aviva_car_policy.pdf,38
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p8::c0002,aviva_car_policy.pdf,8
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p9::c0002,aviva_car_policy.pdf,9
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p10::c0001,aviva_car_policy.pdf,10
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p12::c0001,aviva_car_policy.pdf,12
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p12::c0002,aviva_car_policy.pdf,12
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p12::c0003,aviva_car_policy.pdf,12
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_012,Aviva,"If a glass replacement is performed by a repairer not approved by Aviva, where is the contribution limit specified?",aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_013,Aviva,Does Aviva provide a courtesy vehicle for a claim solely under its glass claim section when optional courtesy vehicle cover exists?,aviva_car_policy.pdf::p12::c0001,aviva_car_policy.pdf,12
+GATE26_013,Aviva,Does Aviva provide a courtesy vehicle for a claim solely under its glass claim section when optional courtesy vehicle cover exists?,aviva_car_policy.pdf::p12::c0002,aviva_car_policy.pdf,12
+GATE26_013,Aviva,Does Aviva provide a courtesy vehicle for a claim solely under its glass claim section when optional courtesy vehicle cover exists?,aviva_car_policy.pdf::p12::c0003,aviva_car_policy.pdf,12
+GATE26_013,Aviva,Does Aviva provide a courtesy vehicle for a claim solely under its glass claim section when optional courtesy vehicle cover exists?,aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_013,Aviva,Does Aviva provide a courtesy vehicle for a claim solely under its glass claim section when optional courtesy vehicle cover exists?,aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_014,Aviva,What does Aviva require for windscreen-dependent ADAS systems when a glass claim involves repair or replacement?,aviva_car_policy.pdf::p6::c0001,aviva_car_policy.pdf,6
+GATE26_014,Aviva,What does Aviva require for windscreen-dependent ADAS systems when a glass claim involves repair or replacement?,aviva_car_policy.pdf::p7::c0002,aviva_car_policy.pdf,7
+GATE26_014,Aviva,What does Aviva require for windscreen-dependent ADAS systems when a glass claim involves repair or replacement?,aviva_car_policy.pdf::p9::c0002,aviva_car_policy.pdf,9
+GATE26_014,Aviva,What does Aviva require for windscreen-dependent ADAS systems when a glass claim involves repair or replacement?,aviva_car_policy.pdf::p10::c0001,aviva_car_policy.pdf,10
+GATE26_014,Aviva,What does Aviva require for windscreen-dependent ADAS systems when a glass claim involves repair or replacement?,aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_014,Aviva,What does Aviva require for windscreen-dependent ADAS systems when a glass claim involves repair or replacement?,aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_015,Aviva,"When claiming for an Aviva windscreen repair, must the insurer direct the customer to its approved repairer before work starts?",aviva_car_policy.pdf::p9::c0002,aviva_car_policy.pdf,9
+GATE26_015,Aviva,"When claiming for an Aviva windscreen repair, must the insurer direct the customer to its approved repairer before work starts?",aviva_car_policy.pdf::p10::c0001,aviva_car_policy.pdf,10
+GATE26_015,Aviva,"When claiming for an Aviva windscreen repair, must the insurer direct the customer to its approved repairer before work starts?",aviva_car_policy.pdf::p11::c0001,aviva_car_policy.pdf,11
+GATE26_015,Aviva,"When claiming for an Aviva windscreen repair, must the insurer direct the customer to its approved repairer before work starts?",aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_015,Aviva,"When claiming for an Aviva windscreen repair, must the insurer direct the customer to its approved repairer before work starts?",aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_015,Aviva,"When claiming for an Aviva windscreen repair, must the insurer direct the customer to its approved repairer before work starts?",aviva_car_policy.pdf::p37::c0001,aviva_car_policy.pdf,37
+GATE26_016,Direct Line,"Under Direct Line, what is the cap for a windscreen repair carried out by a different supplier?",directline_car_policy.pdf::p4::c0002,directline_car_policy.pdf,4
+GATE26_016,Direct Line,"Under Direct Line, what is the cap for a windscreen repair carried out by a different supplier?",directline_car_policy.pdf::p7::c0002,directline_car_policy.pdf,7
+GATE26_016,Direct Line,"Under Direct Line, what is the cap for a windscreen repair carried out by a different supplier?",directline_car_policy.pdf::p7::c0003,directline_car_policy.pdf,7
+GATE26_016,Direct Line,"Under Direct Line, what is the cap for a windscreen repair carried out by a different supplier?",directline_car_policy.pdf::p9::c0001,directline_car_policy.pdf,9
+GATE26_016,Direct Line,"Under Direct Line, what is the cap for a windscreen repair carried out by a different supplier?",directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_017,Direct Line,How much can Direct Line pay for a windscreen replacement when the customer chooses their own glass supplier?,directline_car_policy.pdf::p7::c0003,directline_car_policy.pdf,7
+GATE26_017,Direct Line,How much can Direct Line pay for a windscreen replacement when the customer chooses their own glass supplier?,directline_car_policy.pdf::p9::c0001,directline_car_policy.pdf,9
+GATE26_017,Direct Line,How much can Direct Line pay for a windscreen replacement when the customer chooses their own glass supplier?,directline_car_policy.pdf::p13::c0004,directline_car_policy.pdf,13
+GATE26_017,Direct Line,How much can Direct Line pay for a windscreen replacement when the customer chooses their own glass supplier?,directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_017,Direct Line,How much can Direct Line pay for a windscreen replacement when the customer chooses their own glass supplier?,directline_car_policy.pdf::p17::c0002,directline_car_policy.pdf,17
+GATE26_018,Direct Line,How do Direct Line payment limits differ for independent windscreen repair and replacement services?,directline_car_policy.pdf::p7::c0003,directline_car_policy.pdf,7
+GATE26_018,Direct Line,How do Direct Line payment limits differ for independent windscreen repair and replacement services?,directline_car_policy.pdf::p13::c0004,directline_car_policy.pdf,13
+GATE26_018,Direct Line,How do Direct Line payment limits differ for independent windscreen repair and replacement services?,directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_018,Direct Line,How do Direct Line payment limits differ for independent windscreen repair and replacement services?,directline_car_policy.pdf::p21::c0002,directline_car_policy.pdf,21
+GATE26_018,Direct Line,How do Direct Line payment limits differ for independent windscreen repair and replacement services?,directline_car_policy.pdf::p32::c0005,directline_car_policy.pdf,32
+GATE26_019,Direct Line,What reimbursement ceiling applies to a windscreen replacement undertaken outside Direct Line’s approved supplier network?,directline_car_policy.pdf::p3::c0003,directline_car_policy.pdf,3
+GATE26_019,Direct Line,What reimbursement ceiling applies to a windscreen replacement undertaken outside Direct Line’s approved supplier network?,directline_car_policy.pdf::p4::c0002,directline_car_policy.pdf,4
+GATE26_019,Direct Line,What reimbursement ceiling applies to a windscreen replacement undertaken outside Direct Line’s approved supplier network?,directline_car_policy.pdf::p7::c0003,directline_car_policy.pdf,7
+GATE26_019,Direct Line,What reimbursement ceiling applies to a windscreen replacement undertaken outside Direct Line’s approved supplier network?,directline_car_policy.pdf::p9::c0001,directline_car_policy.pdf,9
+GATE26_019,Direct Line,What reimbursement ceiling applies to a windscreen replacement undertaken outside Direct Line’s approved supplier network?,directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_020,Direct Line,"If a Direct Line policyholder opts for a separate windscreen repair company, is the full invoice covered or is there a stated upper limit?",directline_car_policy.pdf::p3::c0003,directline_car_policy.pdf,3
+GATE26_020,Direct Line,"If a Direct Line policyholder opts for a separate windscreen repair company, is the full invoice covered or is there a stated upper limit?",directline_car_policy.pdf::p6::c0004,directline_car_policy.pdf,6
+GATE26_020,Direct Line,"If a Direct Line policyholder opts for a separate windscreen repair company, is the full invoice covered or is there a stated upper limit?",directline_car_policy.pdf::p7::c0002,directline_car_policy.pdf,7
+GATE26_020,Direct Line,"If a Direct Line policyholder opts for a separate windscreen repair company, is the full invoice covered or is there a stated upper limit?",directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_020,Direct Line,"If a Direct Line policyholder opts for a separate windscreen repair company, is the full invoice covered or is there a stated upper limit?",directline_car_policy.pdf::p20::c0004,directline_car_policy.pdf,20
+GATE26_021,Direct Line,"For Direct Line, how long is a hire car supplied while the policyholder’s own repairer fixes a repairable vehicle?",directline_car_policy.pdf::p14::c0004,directline_car_policy.pdf,14
+GATE26_021,Direct Line,"For Direct Line, how long is a hire car supplied while the policyholder’s own repairer fixes a repairable vehicle?",directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_021,Direct Line,"For Direct Line, how long is a hire car supplied while the policyholder’s own repairer fixes a repairable vehicle?",directline_car_policy.pdf::p15::c0005,directline_car_policy.pdf,15
+GATE26_021,Direct Line,"For Direct Line, how long is a hire car supplied while the policyholder’s own repairer fixes a repairable vehicle?",directline_car_policy.pdf::p25::c0004,directline_car_policy.pdf,25
+GATE26_021,Direct Line,"For Direct Line, how long is a hire car supplied while the policyholder’s own repairer fixes a repairable vehicle?",directline_car_policy.pdf::p26::c0005,directline_car_policy.pdf,26
+GATE26_022,Direct Line,"Under Direct Line Guaranteed Hire Car Plus, what is the stated time limit when a customer selects their own repairer?",directline_car_policy.pdf::p8::c0002,directline_car_policy.pdf,8
+GATE26_022,Direct Line,"Under Direct Line Guaranteed Hire Car Plus, what is the stated time limit when a customer selects their own repairer?",directline_car_policy.pdf::p9::c0002,directline_car_policy.pdf,9
+GATE26_022,Direct Line,"Under Direct Line Guaranteed Hire Car Plus, what is the stated time limit when a customer selects their own repairer?",directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_022,Direct Line,"Under Direct Line Guaranteed Hire Car Plus, what is the stated time limit when a customer selects their own repairer?",directline_car_policy.pdf::p25::c0005,directline_car_policy.pdf,25
+GATE26_022,Direct Line,"Under Direct Line Guaranteed Hire Car Plus, what is the stated time limit when a customer selects their own repairer?",directline_car_policy.pdf::p26::c0005,directline_car_policy.pdf,26
+GATE26_023,Direct Line,Does Direct Line limit a hired car to 21 consecutive days when the insured chooses a non-approved repairer?,directline_car_policy.pdf::p9::c0002,directline_car_policy.pdf,9
+GATE26_023,Direct Line,Does Direct Line limit a hired car to 21 consecutive days when the insured chooses a non-approved repairer?,directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_023,Direct Line,Does Direct Line limit a hired car to 21 consecutive days when the insured chooses a non-approved repairer?,directline_car_policy.pdf::p25::c0004,directline_car_policy.pdf,25
+GATE26_023,Direct Line,Does Direct Line limit a hired car to 21 consecutive days when the insured chooses a non-approved repairer?,directline_car_policy.pdf::p25::c0005,directline_car_policy.pdf,25
+GATE26_023,Direct Line,Does Direct Line limit a hired car to 21 consecutive days when the insured chooses a non-approved repairer?,directline_car_policy.pdf::p28::c0004,directline_car_policy.pdf,28
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p9::c0002,directline_car_policy.pdf,9
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p13::c0002,directline_car_policy.pdf,13
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p13::c0003,directline_car_policy.pdf,13
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p16::c0001,directline_car_policy.pdf,16
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p25::c0004,directline_car_policy.pdf,25
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p25::c0005,directline_car_policy.pdf,25
+GATE26_024,Direct Line,"When an independent repairer is repairing a Direct Line insured car, for how many days can a replacement hire vehicle be provided?",directline_car_policy.pdf::p26::c0005,directline_car_policy.pdf,26
+GATE26_025,Direct Line,Does the Direct Line hire car duration change depending on whether repairs use an approved garage or the customer’s own garage?,directline_car_policy.pdf::p5::c0003,directline_car_policy.pdf,5
+GATE26_025,Direct Line,Does the Direct Line hire car duration change depending on whether repairs use an approved garage or the customer’s own garage?,directline_car_policy.pdf::p6::c0004,directline_car_policy.pdf,6
+GATE26_025,Direct Line,Does the Direct Line hire car duration change depending on whether repairs use an approved garage or the customer’s own garage?,directline_car_policy.pdf::p9::c0002,directline_car_policy.pdf,9
+GATE26_025,Direct Line,Does the Direct Line hire car duration change depending on whether repairs use an approved garage or the customer’s own garage?,directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_025,Direct Line,Does the Direct Line hire car duration change depending on whether repairs use an approved garage or the customer’s own garage?,directline_car_policy.pdf::p25::c0004,directline_car_policy.pdf,25
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p9::c0001,axa_car_policy.pdf,9
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p31::c0002,axa_car_policy.pdf,31
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p34::c0001,axa_car_policy.pdf,34
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p35::c0001,axa_car_policy.pdf,35
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p37::c0001,axa_car_policy.pdf,37
+GATE26_026,AXA,"For AXA European breakdown cover, how many consecutive days may a single trip abroad last?",axa_car_policy.pdf::p47::c0004,axa_car_policy.pdf,47
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p9::c0001,axa_car_policy.pdf,9
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p24::c0002,axa_car_policy.pdf,24
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p24::c0003,axa_car_policy.pdf,24
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p25::c0003,axa_car_policy.pdf,25
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p27::c0001,axa_car_policy.pdf,27
+GATE26_027,AXA,"When there is a conflict of interest in a legal dispute, can an AXA customer choose a lawyer under legal assistance cover?",axa_car_policy.pdf::p27::c0002,axa_car_policy.pdf,27
+GATE26_028,AXA,Will an AXA claim exclusively for windscreen glass damage reduce the No Claims Discount?,axa_car_policy.pdf::p3::c0001,axa_car_policy.pdf,3
+GATE26_028,AXA,Will an AXA claim exclusively for windscreen glass damage reduce the No Claims Discount?,axa_car_policy.pdf::p4::c0001,axa_car_policy.pdf,4
+GATE26_028,AXA,Will an AXA claim exclusively for windscreen glass damage reduce the No Claims Discount?,axa_car_policy.pdf::p9::c0001,axa_car_policy.pdf,9
+GATE26_028,AXA,Will an AXA claim exclusively for windscreen glass damage reduce the No Claims Discount?,axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_028,AXA,Will an AXA claim exclusively for windscreen glass damage reduce the No Claims Discount?,axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_028,AXA,Will an AXA claim exclusively for windscreen glass damage reduce the No Claims Discount?,axa_car_policy.pdf::p19::c0001,axa_car_policy.pdf,19
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p1::c0001,axa_car_policy.pdf,1
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p9::c0001,axa_car_policy.pdf,9
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p31::c0001,axa_car_policy.pdf,31
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p32::c0004,axa_car_policy.pdf,32
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p33::c0002,axa_car_policy.pdf,33
+GATE26_029,AXA,Does AXA breakdown assistance mention help after a flat battery?,axa_car_policy.pdf::p34::c0002,axa_car_policy.pdf,34
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p9::c0001,axa_car_policy.pdf,9
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p16::c0001,axa_car_policy.pdf,16
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p16::c0002,axa_car_policy.pdf,16
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p28::c0001,axa_car_policy.pdf,28
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p41::c0003,axa_car_policy.pdf,41
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p41::c0004,axa_car_policy.pdf,41
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p42::c0001,axa_car_policy.pdf,42
+GATE26_030,AXA,What can an AXA customer do to withdraw consent to direct marketing communications?,axa_car_policy.pdf::p49::c0004,axa_car_policy.pdf,49
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p7::c0002,admiral_car_policy.pdf,7
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p7::c0003,admiral_car_policy.pdf,7
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p7::c0004,admiral_car_policy.pdf,7
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p11::c0001,admiral_car_policy.pdf,11
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p14::c0001,admiral_car_policy.pdf,14
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_031,Admiral,How many days of cover does Admiral describe for driving the insured vehicle in Europe?,admiral_car_policy.pdf::p23::c0001,admiral_car_policy.pdf,23
+GATE26_032,Admiral,What conditions apply to replacement of a car less than twelve months old after a theft or major damage under Admiral?,admiral_car_policy.pdf::p7::c0002,admiral_car_policy.pdf,7
+GATE26_032,Admiral,What conditions apply to replacement of a car less than twelve months old after a theft or major damage under Admiral?,admiral_car_policy.pdf::p7::c0003,admiral_car_policy.pdf,7
+GATE26_032,Admiral,What conditions apply to replacement of a car less than twelve months old after a theft or major damage under Admiral?,admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_032,Admiral,What conditions apply to replacement of a car less than twelve months old after a theft or major damage under Admiral?,admiral_car_policy.pdf::p19::c0001,admiral_car_policy.pdf,19
+GATE26_032,Admiral,What conditions apply to replacement of a car less than twelve months old after a theft or major damage under Admiral?,admiral_car_policy.pdf::p20::c0001,admiral_car_policy.pdf,20
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p9::c0003,admiral_car_policy.pdf,9
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p12::c0003,admiral_car_policy.pdf,12
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p13::c0002,admiral_car_policy.pdf,13
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p14::c0001,admiral_car_policy.pdf,14
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_033,Admiral,Could Admiral reduce a claim because the driver ignored manufacturer vehicle software updates?,admiral_car_policy.pdf::p29::c0001,admiral_car_policy.pdf,29
+GATE26_034,Admiral,Does Admiral windscreen cover also mention bodywork scratches caused by broken vehicle glass?,admiral_car_policy.pdf::p7::c0002,admiral_car_policy.pdf,7
+GATE26_034,Admiral,Does Admiral windscreen cover also mention bodywork scratches caused by broken vehicle glass?,admiral_car_policy.pdf::p7::c0003,admiral_car_policy.pdf,7
+GATE26_034,Admiral,Does Admiral windscreen cover also mention bodywork scratches caused by broken vehicle glass?,admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_034,Admiral,Does Admiral windscreen cover also mention bodywork scratches caused by broken vehicle glass?,admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_034,Admiral,Does Admiral windscreen cover also mention bodywork scratches caused by broken vehicle glass?,admiral_car_policy.pdf::p26::c0001,admiral_car_policy.pdf,26
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p7::c0004,admiral_car_policy.pdf,7
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p10::c0001,admiral_car_policy.pdf,10
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p14::c0001,admiral_car_policy.pdf,14
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p18::c0001,admiral_car_policy.pdf,18
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p18::c0002,admiral_car_policy.pdf,18
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p20::c0001,admiral_car_policy.pdf,20
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p26::c0001,admiral_car_policy.pdf,26
+GATE26_035,Admiral,Is an additional amount available for accessories damaged with a child car seat under Admiral?,admiral_car_policy.pdf::p35::c0001,admiral_car_policy.pdf,35
+GATE26_036,Aviva,Does an Aviva claim solely for glass damage change the customer’s no claim discount?,aviva_car_policy.pdf::p4::c0002,aviva_car_policy.pdf,4
+GATE26_036,Aviva,Does an Aviva claim solely for glass damage change the customer’s no claim discount?,aviva_car_policy.pdf::p21::c0002,aviva_car_policy.pdf,21
+GATE26_036,Aviva,Does an Aviva claim solely for glass damage change the customer’s no claim discount?,aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_036,Aviva,Does an Aviva claim solely for glass damage change the customer’s no claim discount?,aviva_car_policy.pdf::p36::c0001,aviva_car_policy.pdf,36
+GATE26_036,Aviva,Does an Aviva claim solely for glass damage change the customer’s no claim discount?,aviva_car_policy.pdf::p38::c0001,aviva_car_policy.pdf,38
+GATE26_037,Aviva,"If an Aviva customer requests original manufacturer glass for a windscreen repair, who pays any price difference?",aviva_car_policy.pdf::p4::c0003,aviva_car_policy.pdf,4
+GATE26_037,Aviva,"If an Aviva customer requests original manufacturer glass for a windscreen repair, who pays any price difference?",aviva_car_policy.pdf::p9::c0002,aviva_car_policy.pdf,9
+GATE26_037,Aviva,"If an Aviva customer requests original manufacturer glass for a windscreen repair, who pays any price difference?",aviva_car_policy.pdf::p22::c0003,aviva_car_policy.pdf,22
+GATE26_037,Aviva,"If an Aviva customer requests original manufacturer glass for a windscreen repair, who pays any price difference?",aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_037,Aviva,"If an Aviva customer requests original manufacturer glass for a windscreen repair, who pays any price difference?",aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_037,Aviva,"If an Aviva customer requests original manufacturer glass for a windscreen repair, who pays any price difference?",aviva_car_policy.pdf::p36::c0001,aviva_car_policy.pdf,36
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p8::c0001,aviva_car_policy.pdf,8
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p9::c0001,aviva_car_policy.pdf,9
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p9::c0002,aviva_car_policy.pdf,9
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p10::c0001,aviva_car_policy.pdf,10
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p11::c0001,aviva_car_policy.pdf,11
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p12::c0001,aviva_car_policy.pdf,12
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_038,Aviva,"For Aviva repairs using a garage outside the approved network, must an itemised repair estimate be agreed before the work starts?",aviva_car_policy.pdf::p23::c0002,aviva_car_policy.pdf,23
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p2::c0001,aviva_car_policy.pdf,2
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p2::c0002,aviva_car_policy.pdf,2
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p2::c0003,aviva_car_policy.pdf,2
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p12::c0001,aviva_car_policy.pdf,12
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p12::c0002,aviva_car_policy.pdf,12
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p12::c0003,aviva_car_policy.pdf,12
+GATE26_039,Aviva,Is optional Aviva courtesy vehicle cover available when the claim has not yet been accepted?,aviva_car_policy.pdf::p24::c0002,aviva_car_policy.pdf,24
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p4::c0002,aviva_car_policy.pdf,4
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p8::c0001,aviva_car_policy.pdf,8
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p12::c0001,aviva_car_policy.pdf,12
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p12::c0002,aviva_car_policy.pdf,12
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p12::c0003,aviva_car_policy.pdf,12
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p13::c0001,aviva_car_policy.pdf,13
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p13::c0003,aviva_car_policy.pdf,13
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p20::c0001,aviva_car_policy.pdf,20
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p20::c0002,aviva_car_policy.pdf,20
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p23::c0001,aviva_car_policy.pdf,23
+GATE26_040,Aviva,What is excluded from Aviva Tool Cover regarding goods or samples used for trade?,aviva_car_policy.pdf::p38::c0001,aviva_car_policy.pdf,38
+GATE26_041,Direct Line,"If a Direct Line windscreen claim is the only claim, does it affect the No Claim Discount?",directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_041,Direct Line,"If a Direct Line windscreen claim is the only claim, does it affect the No Claim Discount?",directline_car_policy.pdf::p19::c0001,directline_car_policy.pdf,19
+GATE26_041,Direct Line,"If a Direct Line windscreen claim is the only claim, does it affect the No Claim Discount?",directline_car_policy.pdf::p19::c0002,directline_car_policy.pdf,19
+GATE26_041,Direct Line,"If a Direct Line windscreen claim is the only claim, does it affect the No Claim Discount?",directline_car_policy.pdf::p27::c0002,directline_car_policy.pdf,27
+GATE26_041,Direct Line,"If a Direct Line windscreen claim is the only claim, does it affect the No Claim Discount?",directline_car_policy.pdf::p36::c0004,directline_car_policy.pdf,36
+GATE26_041,Direct Line,"If a Direct Line windscreen claim is the only claim, does it affect the No Claim Discount?",directline_car_policy.pdf::p36::c0005,directline_car_policy.pdf,36
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p9::c0002,directline_car_policy.pdf,9
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p13::c0002,directline_car_policy.pdf,13
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p13::c0003,directline_car_policy.pdf,13
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p16::c0001,directline_car_policy.pdf,16
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p27::c0001,directline_car_policy.pdf,27
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p27::c0002,directline_car_policy.pdf,27
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p36::c0004,directline_car_policy.pdf,36
+GATE26_042,Direct Line,How many protected No Claim Discount claims can a Direct Line policyholder make over three years without affecting NCD?,directline_car_policy.pdf::p36::c0005,directline_car_policy.pdf,36
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p3::c0006,directline_car_policy.pdf,3
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p13::c0002,directline_car_policy.pdf,13
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p13::c0003,directline_car_policy.pdf,13
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p16::c0001,directline_car_policy.pdf,16
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p20::c0004,directline_car_policy.pdf,20
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p22::c0001,directline_car_policy.pdf,22
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p22::c0004,directline_car_policy.pdf,22
+GATE26_043,Direct Line,Are parking fines covered by Direct Line Motor Legal Cover?,directline_car_policy.pdf::p40::c0001,directline_car_policy.pdf,40
+GATE26_044,Direct Line,"Can a Direct Line driver keep a hire car after the vehicle is written off, and what deadline applies?",directline_car_policy.pdf::p5::c0003,directline_car_policy.pdf,5
+GATE26_044,Direct Line,"Can a Direct Line driver keep a hire car after the vehicle is written off, and what deadline applies?",directline_car_policy.pdf::p10::c0002,directline_car_policy.pdf,10
+GATE26_044,Direct Line,"Can a Direct Line driver keep a hire car after the vehicle is written off, and what deadline applies?",directline_car_policy.pdf::p10::c0003,directline_car_policy.pdf,10
+GATE26_044,Direct Line,"Can a Direct Line driver keep a hire car after the vehicle is written off, and what deadline applies?",directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_044,Direct Line,"Can a Direct Line driver keep a hire car after the vehicle is written off, and what deadline applies?",directline_car_policy.pdf::p15::c0002,directline_car_policy.pdf,15
+GATE26_044,Direct Line,"Can a Direct Line driver keep a hire car after the vehicle is written off, and what deadline applies?",directline_car_policy.pdf::p25::c0005,directline_car_policy.pdf,25
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p9::c0002,directline_car_policy.pdf,9
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p13::c0002,directline_car_policy.pdf,13
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p13::c0003,directline_car_policy.pdf,13
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p15::c0001,directline_car_policy.pdf,15
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p16::c0001,directline_car_policy.pdf,16
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p17::c0001,directline_car_policy.pdf,17
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p27::c0001,directline_car_policy.pdf,27
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p27::c0002,directline_car_policy.pdf,27
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p36::c0004,directline_car_policy.pdf,36
+GATE26_045,Direct Line,What happens to a Direct Line protected No Claim Discount when more than two claims occur within three years?,directline_car_policy.pdf::p36::c0005,directline_car_policy.pdf,36
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p5::c0001,esure_car_policy.pdf,5
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p16::c0001,esure_car_policy.pdf,16
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p19::c0001,esure_car_policy.pdf,19
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p23::c0001,esure_car_policy.pdf,23
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p23::c0002,esure_car_policy.pdf,23
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p27::c0001,esure_car_policy.pdf,27
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p50::c0003,esure_car_policy.pdf,50
+GATE26_046,esure,Does esure cover a mechanical or electrical breakdown as accidental vehicle damage?,esure_car_policy.pdf::p50::c0004,esure_car_policy.pdf,50
+GATE26_047,esure,What should an esure policyholder report when their details or circumstances change?,esure_car_policy.pdf::p3::c0002,esure_car_policy.pdf,3
+GATE26_047,esure,What should an esure policyholder report when their details or circumstances change?,esure_car_policy.pdf::p5::c0001,esure_car_policy.pdf,5
+GATE26_047,esure,What should an esure policyholder report when their details or circumstances change?,esure_car_policy.pdf::p8::c0002,esure_car_policy.pdf,8
+GATE26_047,esure,What should an esure policyholder report when their details or circumstances change?,esure_car_policy.pdf::p49::c0003,esure_car_policy.pdf,49
+GATE26_047,esure,What should an esure policyholder report when their details or circumstances change?,esure_car_policy.pdf::p57::c0003,esure_car_policy.pdf,57
+GATE26_047,esure,What should an esure policyholder report when their details or circumstances change?,esure_car_policy.pdf::p58::c0001,esure_car_policy.pdf,58
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p3::c0002,esure_car_policy.pdf,3
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p8::c0002,esure_car_policy.pdf,8
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p18::c0001,esure_car_policy.pdf,18
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p19::c0001,esure_car_policy.pdf,19
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p19::c0003,esure_car_policy.pdf,19
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p24::c0001,esure_car_policy.pdf,24
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p27::c0001,esure_car_policy.pdf,27
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p27::c0002,esure_car_policy.pdf,27
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p36::c0003,esure_car_policy.pdf,36
+GATE26_048,esure,Is an esure car-key claim excluded for losses in the first 48 hours of new cover?,esure_car_policy.pdf::p50::c0004,esure_car_policy.pdf,50
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p3::c0002,esure_car_policy.pdf,3
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p5::c0001,esure_car_policy.pdf,5
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p16::c0001,esure_car_policy.pdf,16
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p23::c0001,esure_car_policy.pdf,23
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p23::c0002,esure_car_policy.pdf,23
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p53::c0002,esure_car_policy.pdf,53
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p53::c0003,esure_car_policy.pdf,53
+GATE26_049,esure,How does an esure customer start a complaint about a motor insurance claim?,esure_car_policy.pdf::p54::c0001,esure_car_policy.pdf,54
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p12::c0002,esure_car_policy.pdf,12
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p15::c0001,esure_car_policy.pdf,15
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p16::c0001,esure_car_policy.pdf,16
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p23::c0001,esure_car_policy.pdf,23
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p23::c0002,esure_car_policy.pdf,23
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p36::c0003,esure_car_policy.pdf,36
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p38::c0002,esure_car_policy.pdf,38
+GATE26_050,esure,Does esure cover driving a rented or hired car if a hire company requires its own insurance?,esure_car_policy.pdf::p60::c0003,esure_car_policy.pdf,60
