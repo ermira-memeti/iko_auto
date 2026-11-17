@@ -1,0 +1,501 @@
+@prefix iko: <https://example.org/iko-auto/v2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/iko-auto/v2> a owl:Ontology ;
+    rdfs:label "IKO-Auto ontology v2: prototype schema"@en ;
+    rdfs:comment "Functional research prototype; requires expert validation and ontology reasoner review. No formal consistency claim."@en .
+
+iko:LateReport a owl:Class ;
+    rdfs:subClassOf iko:SuspiciousPattern .
+
+iko:MultipleClaims a owl:Class ;
+    rdfs:subClassOf iko:SuspiciousPattern .
+
+iko:affects a owl:ObjectProperty ;
+    rdfs:domain iko:DamageType ;
+    rdfs:range iko:VehiclePartDamage .
+
+iko:alias a owl:DatatypeProperty ;
+    rdfs:domain iko:InsuranceEntity ;
+    rdfs:range xsd:string .
+
+iko:assertionObject a owl:ObjectProperty ;
+    rdfs:domain iko:RelationshipAssertion ;
+    rdfs:range iko:InsuranceEntity .
+
+iko:assertionPredicate a owl:ObjectProperty ;
+    rdfs:domain iko:RelationshipAssertion ;
+    rdfs:range rdf:Property .
+
+iko:assertionSubject a owl:ObjectProperty ;
+    rdfs:domain iko:RelationshipAssertion ;
+    rdfs:range iko:InsuranceEntity .
+
+iko:assertion_117be2ac5b645c7ea2eb a iko:RelationshipAssertion ;
+    iko:assertionObject iko:orange_o_2026_coverage_collision ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:orange_o_2026_policyversion_2026_a ;
+    iko:supportedBy iko:passage_a441bfa1eec46daeacbd .
+
+iko:assertion_4b0fcf1f015cb11316d6 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:orange_o_2026_deductible_deductible_300 ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:orange_o_2026_coverage_collision ;
+    iko:supportedBy iko:passage_cd2e15d5a2df2d256318 .
+
+iko:assertion_4c908aa58ad1c6516e4d a iko:RelationshipAssertion ;
+    iko:assertionObject iko:blue_b_2026_coveragelimit_limit_20000 ;
+    iko:assertionPredicate iko:hasLimit ;
+    iko:assertionSubject iko:blue_b_2026_coverage_collision ;
+    iko:supportedBy iko:passage_9424a239e53e4bdfab8c .
+
+iko:assertion_4e65a2662ae8df277b96 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:blue_b_2026_policyversion_2026_b ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:blue_b_2026_autopolicy_policy ;
+    iko:supportedBy iko:passage_4c4fcef5d9a6ec50ae86 .
+
+iko:assertion_69ae43107c6ad420e453 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:green_g_2026_policyversion_2026_c ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:green_g_2026_autopolicy_policy ;
+    iko:supportedBy iko:passage_ebf766804a77576ac9fe .
+
+iko:assertion_6d034f107d15d2ce9440 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:orange_o_2026_exclusion_racing ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:orange_o_2026_coverage_collision ;
+    iko:supportedBy iko:passage_0bc48b4e82a76bc75b67 .
+
+iko:assertion_76d3194a7746f25bba11 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:green_g_2026_deductible_deductible_250 ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:green_g_2026_coverage_fire ;
+    iko:supportedBy iko:passage_d83cd5069fbf23758ed7 .
+
+iko:assertion_7ea15db5f9bcc67468cb a iko:RelationshipAssertion ;
+    iko:assertionObject iko:orange_o_2026_exclusion_intentional ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:orange_o_2026_coverage_collision ;
+    iko:supportedBy iko:passage_ea75e818459941df7df3 .
+
+iko:assertion_8c2c720cb52118829642 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:blue_b_2026_exception_endorsement_exception ;
+    iko:assertionPredicate iko:hasException ;
+    iko:assertionSubject iko:blue_b_2026_exclusion_commercial_ride_hailing ;
+    iko:supportedBy iko:passage_a968826de3fa71600227 .
+
+iko:assertion_8ec496a17f661b8b2768 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:green_g_2026_exclusion_intentional_fire ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:green_g_2026_coverage_fire ;
+    iko:supportedBy iko:passage_f13483fda464f77f2837 .
+
+iko:assertion_8febc3f668933d615560 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:blue_b_2026_exclusion_commercial_ride_hailing ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:blue_b_2026_coverage_collision ;
+    iko:supportedBy iko:passage_bfdf515743f301c172ea .
+
+iko:assertion_a1aa1a5210615292409d a iko:RelationshipAssertion ;
+    iko:assertionObject iko:blue_b_2026_coverage_collision ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:blue_b_2026_policyversion_2026_b ;
+    iko:supportedBy iko:passage_7361ec7af245abdeced7 .
+
+iko:assertion_af7efc820b083d866021 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:green_g_2026_coverage_fire ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:green_g_2026_policyversion_2026_c ;
+    iko:supportedBy iko:passage_4054ef432c3fe71d690b .
+
+iko:assertion_c0cb4a7f460dee592c42 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:orange_o_2026_coveragelimit_limit_15000 ;
+    iko:assertionPredicate iko:hasLimit ;
+    iko:assertionSubject iko:orange_o_2026_coverage_collision ;
+    iko:supportedBy iko:passage_5977c7aef4009e5beb05 .
+
+iko:assertion_d9051d6c91be85a74f1f a iko:RelationshipAssertion ;
+    iko:assertionObject iko:blue_b_2026_deductible_deductible_500 ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:blue_b_2026_coverage_collision ;
+    iko:supportedBy iko:passage_04a1f31b52a18c79954d .
+
+iko:assertion_fea84cf34545e4829bd9 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:orange_o_2026_policyversion_2026_a ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:orange_o_2026_autopolicy_policy ;
+    iko:supportedBy iko:passage_673d245367035311eec3 .
+
+iko:effectiveDate a owl:DatatypeProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range xsd:date .
+
+iko:hasCause a owl:ObjectProperty ;
+    rdfs:domain iko:ClaimEvent ;
+    rdfs:range iko:CauseOfAccident .
+
+iko:hasClaimEvent a owl:ObjectProperty ;
+    rdfs:domain iko:Claim ;
+    rdfs:range iko:ClaimEvent .
+
+iko:hasDamageType a owl:ObjectProperty ;
+    rdfs:domain iko:Claim ;
+    rdfs:range iko:DamageType .
+
+iko:hasDrivingHistory a owl:ObjectProperty ;
+    rdfs:domain iko:Policyholder ;
+    rdfs:range iko:DrivingHistory .
+
+iko:hasEndorsement a owl:ObjectProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range iko:Endorsement .
+
+iko:hasRiskFactor a owl:ObjectProperty ;
+    rdfs:domain iko:Policyholder ;
+    rdfs:range iko:RiskFactor .
+
+iko:hasSeverity a owl:ObjectProperty ;
+    rdfs:domain iko:Claim ;
+    rdfs:range iko:LossSeverity .
+
+iko:hasVehicleType a owl:ObjectProperty ;
+    rdfs:domain iko:Policyholder ;
+    rdfs:range iko:VehicleType .
+
+iko:indicates a owl:ObjectProperty ;
+    rdfs:domain iko:FraudIndicator ;
+    rdfs:range iko:SuspiciousPattern .
+
+iko:influences a owl:ObjectProperty ;
+    rdfs:domain iko:RiskFactor ;
+    rdfs:range iko:Premium .
+
+iko:policyIdentifier a owl:DatatypeProperty ;
+    rdfs:domain iko:Policy ;
+    rdfs:range xsd:string .
+
+iko:policyVersionIdentifier a owl:DatatypeProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range xsd:string .
+
+iko:sourceChunkId a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:string .
+
+iko:sourceDocumentId a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:string .
+
+iko:sourceQuote a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:string .
+
+iko:supportedBy a owl:ObjectProperty ;
+    rdfs:domain iko:InsuranceEntity ;
+    rdfs:range iko:SourcePassage .
+
+iko:CauseOfAccident a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:DrivingHistory a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Endorsement a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:FraudIndicator a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:LossSeverity a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Premium a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:VehiclePartDamage a owl:Class ;
+    rdfs:subClassOf iko:DamageType .
+
+iko:VehicleType a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:blue_b_2026_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "Blue Shield Motor Auto Policy B-2026" ;
+    iko:alias "b-2026",
+        "blue",
+        "blue shield",
+        "blue shield motor" ;
+    iko:hasVersion iko:blue_b_2026_policyversion_2026_b ;
+    iko:policyIdentifier "blue_b_2026" .
+
+iko:green_g_2026_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "Green Road Auto Policy G-2026" ;
+    iko:alias "g-2026",
+        "green",
+        "green road",
+        "green road auto" ;
+    iko:hasVersion iko:green_g_2026_policyversion_2026_c ;
+    iko:policyIdentifier "green_g_2026" .
+
+iko:hasException a owl:ObjectProperty ;
+    rdfs:domain iko:Exclusion ;
+    rdfs:range iko:Exception .
+
+iko:orange_o_2026_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "Orange Insurance Auto Policy O-2026" ;
+    iko:alias "o-2026",
+        "orange",
+        "orange insurance" ;
+    iko:hasVersion iko:orange_o_2026_policyversion_2026_a ;
+    iko:policyIdentifier "orange_o_2026" .
+
+iko:passage_4c4fcef5d9a6ec50ae86 a iko:SourcePassage ;
+    iko:sourceDocumentId "blue_coverage.txt" ;
+    iko:sourceQuote "BLUE SHIELD MOTOR (FICTIONAL DEMONSTRATION) | AUTO POLICY B-2026 | VERSION 2026-B" .
+
+iko:passage_673d245367035311eec3 a iko:SourcePassage ;
+    iko:sourceDocumentId "orange_coverage.txt" ;
+    iko:sourceQuote "ORANGE INSURANCE (FICTIONAL DEMONSTRATION) | AUTO POLICY O-2026 | VERSION 2026-A" .
+
+iko:passage_ebf766804a77576ac9fe a iko:SourcePassage ;
+    iko:sourceDocumentId "green_coverage.txt" ;
+    iko:sourceQuote "GREEN ROAD AUTO (FICTIONAL DEMONSTRATION) | AUTO POLICY G-2026 | VERSION 2026-C" .
+
+iko:ClaimEvent a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Exception a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:RiskFactor a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:blue_b_2026_coveragelimit_limit_20000 a iko:CoverageLimit ;
+    rdfs:label "EUR 20000 limit" ;
+    iko:alias "20000",
+        "limit",
+        "maximum payment" ;
+    iko:supportedBy iko:passage_9424a239e53e4bdfab8c .
+
+iko:blue_b_2026_deductible_deductible_500 a iko:Deductible ;
+    rdfs:label "EUR 500 deductible" ;
+    iko:alias "500",
+        "deductible",
+        "excess" ;
+    iko:supportedBy iko:passage_04a1f31b52a18c79954d .
+
+iko:blue_b_2026_exception_endorsement_exception a iko:Exception ;
+    rdfs:label "Explicit commercial-use endorsement exception" ;
+    iko:alias "commercial-use endorsement",
+        "endorsement" ;
+    iko:supportedBy iko:passage_a968826de3fa71600227 .
+
+iko:green_g_2026_deductible_deductible_250 a iko:Deductible ;
+    rdfs:label "EUR 250 deductible" ;
+    iko:alias "250",
+        "deductible",
+        "excess" ;
+    iko:supportedBy iko:passage_d83cd5069fbf23758ed7 .
+
+iko:green_g_2026_exclusion_intentional_fire a iko:Exclusion ;
+    rdfs:label "Intentional fire exclusion" ;
+    iko:alias "deliberate fire",
+        "intentional fire" ;
+    iko:supportedBy iko:passage_f13483fda464f77f2837 .
+
+iko:hasLimit a owl:ObjectProperty ;
+    rdfs:domain iko:Coverage ;
+    rdfs:range iko:CoverageLimit .
+
+iko:orange_o_2026_coveragelimit_limit_15000 a iko:CoverageLimit ;
+    rdfs:label "EUR 15000 limit" ;
+    iko:alias "15000",
+        "limit",
+        "maximum payment" ;
+    iko:supportedBy iko:passage_5977c7aef4009e5beb05 .
+
+iko:orange_o_2026_deductible_deductible_300 a iko:Deductible ;
+    rdfs:label "EUR 300 deductible" ;
+    iko:alias "300",
+        "deductible",
+        "excess" ;
+    iko:supportedBy iko:passage_cd2e15d5a2df2d256318 .
+
+iko:orange_o_2026_exclusion_intentional a iko:Exclusion ;
+    rdfs:label "Intentional damage exclusion" ;
+    iko:alias "deliberate damage",
+        "intentional damage" ;
+    iko:supportedBy iko:passage_ea75e818459941df7df3 .
+
+iko:orange_o_2026_exclusion_racing a iko:Exclusion ;
+    rdfs:label "Organized motor racing exclusion" ;
+    iko:alias "motorsport",
+        "racing" ;
+    iko:supportedBy iko:passage_0bc48b4e82a76bc75b67 .
+
+iko:passage_04a1f31b52a18c79954d a iko:SourcePassage ;
+    iko:sourceDocumentId "blue_terms.txt" ;
+    iko:sourceQuote "The deductible for an eligible Blue Shield collision claim is EUR 500 per claim." .
+
+iko:passage_0bc48b4e82a76bc75b67 a iko:SourcePassage ;
+    iko:sourceDocumentId "orange_exclusions.txt" ;
+    iko:sourceQuote "Under Orange collision coverage, damage occurring during organized motor racing is excluded." .
+
+iko:passage_4054ef432c3fe71d690b a iko:SourcePassage ;
+    iko:sourceDocumentId "green_coverage.txt" ;
+    iko:sourceQuote "Fire coverage compensates direct damage to the insured vehicle caused by an accidental vehicle fire." .
+
+iko:passage_5977c7aef4009e5beb05 a iko:SourcePassage ;
+    iko:sourceDocumentId "orange_terms.txt" ;
+    iko:sourceQuote "The maximum payment for collision damage under this sample is EUR 15,000." .
+
+iko:passage_7361ec7af245abdeced7 a iko:SourcePassage ;
+    iko:sourceDocumentId "blue_coverage.txt" ;
+    iko:sourceQuote "Collision coverage under Blue Shield Motor reimburses accidental damage to the policyholder vehicle resulting from a crash involving another automobile." .
+
+iko:passage_9424a239e53e4bdfab8c a iko:SourcePassage ;
+    iko:sourceDocumentId "blue_terms.txt" ;
+    iko:sourceQuote "The maximum payment under collision coverage is EUR 20,000." .
+
+iko:passage_a441bfa1eec46daeacbd a iko:SourcePassage ;
+    iko:sourceDocumentId "orange_coverage.txt" ;
+    iko:sourceQuote "Collision coverage pays for accidental physical damage to the insured vehicle caused by a collision with another vehicle or stationary object." .
+
+iko:passage_a968826de3fa71600227 a iko:SourcePassage ;
+    iko:sourceDocumentId "blue_exclusions.txt" ;
+    iko:sourceQuote "Exception: ride-hailing damage is eligible only if the commercial-use endorsement is explicitly listed on policy version 2026-B." .
+
+iko:passage_bfdf515743f301c172ea a iko:SourcePassage ;
+    iko:sourceDocumentId "blue_exclusions.txt" ;
+    iko:sourceQuote "Under Blue Shield collision coverage, damage from paid commercial ride-hailing use is excluded." .
+
+iko:passage_cd2e15d5a2df2d256318 a iko:SourcePassage ;
+    iko:sourceDocumentId "orange_terms.txt" ;
+    iko:sourceQuote "The deductible for an eligible Orange collision claim is EUR 300 per claim." .
+
+iko:passage_d83cd5069fbf23758ed7 a iko:SourcePassage ;
+    iko:sourceDocumentId "green_exclusions.txt" ;
+    iko:sourceQuote "The deductible for an eligible Green Road fire claim is EUR 250." .
+
+iko:passage_ea75e818459941df7df3 a iko:SourcePassage ;
+    iko:sourceDocumentId "orange_exclusions.txt" ;
+    iko:sourceQuote "Damage deliberately caused by the insured driver is also excluded." .
+
+iko:passage_f13483fda464f77f2837 a iko:SourcePassage ;
+    iko:sourceDocumentId "green_exclusions.txt" ;
+    iko:sourceQuote "Under Green Road fire coverage, fire damage intentionally caused by the policyholder is excluded." .
+
+iko:AutoPolicy a owl:Class ;
+    rdfs:subClassOf iko:Policy .
+
+iko:Claim a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:CoverageLimit a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:DamageType a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Policy a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Policyholder a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:SuspiciousPattern a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:blue_b_2026_exclusion_commercial_ride_hailing a iko:Exclusion ;
+    rdfs:label "Commercial ride-hailing exclusion" ;
+    iko:alias "commercial use",
+        "ride-hailing" ;
+    iko:hasException iko:blue_b_2026_exception_endorsement_exception ;
+    iko:supportedBy iko:passage_bfdf515743f301c172ea .
+
+iko:blue_b_2026_policyversion_2026_b a iko:PolicyVersion ;
+    rdfs:label "Blue Shield Motor Auto Policy B-2026 version 2026-B" ;
+    iko:alias "2026-B" ;
+    iko:hasCoverage iko:blue_b_2026_coverage_collision ;
+    iko:policyVersionIdentifier "2026-B" .
+
+iko:green_g_2026_policyversion_2026_c a iko:PolicyVersion ;
+    rdfs:label "Green Road Auto Policy G-2026 version 2026-C" ;
+    iko:alias "2026-C" ;
+    iko:hasCoverage iko:green_g_2026_coverage_fire ;
+    iko:policyVersionIdentifier "2026-C" .
+
+iko:hasCoverage a owl:ObjectProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range iko:Coverage .
+
+iko:hasDeductible a owl:ObjectProperty ;
+    rdfs:domain iko:Coverage ;
+    rdfs:range iko:Deductible .
+
+iko:hasVersion a owl:ObjectProperty ;
+    rdfs:domain iko:Policy ;
+    rdfs:range iko:PolicyVersion .
+
+iko:orange_o_2026_policyversion_2026_a a iko:PolicyVersion ;
+    rdfs:label "Orange Insurance Auto Policy O-2026 version 2026-A" ;
+    iko:alias "2026-A" ;
+    iko:hasCoverage iko:orange_o_2026_coverage_collision ;
+    iko:policyVersionIdentifier "2026-A" .
+
+iko:Deductible a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:green_g_2026_coverage_fire a iko:Coverage ;
+    rdfs:label "Fire Coverage" ;
+    iko:alias "fire",
+        "fire damage",
+        "vehicle fire" ;
+    iko:hasDeductible iko:green_g_2026_deductible_deductible_250 ;
+    iko:hasExclusion iko:green_g_2026_exclusion_intentional_fire ;
+    iko:supportedBy iko:passage_4054ef432c3fe71d690b .
+
+iko:hasExclusion a owl:ObjectProperty ;
+    rdfs:domain iko:Coverage ;
+    rdfs:range iko:Exclusion .
+
+iko:blue_b_2026_coverage_collision a iko:Coverage ;
+    rdfs:label "Collision Coverage" ;
+    iko:alias "accident damage",
+        "collision",
+        "crash" ;
+    iko:hasDeductible iko:blue_b_2026_deductible_deductible_500 ;
+    iko:hasExclusion iko:blue_b_2026_exclusion_commercial_ride_hailing ;
+    iko:hasLimit iko:blue_b_2026_coveragelimit_limit_20000 ;
+    iko:supportedBy iko:passage_7361ec7af245abdeced7 .
+
+iko:Exclusion a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:orange_o_2026_coverage_collision a iko:Coverage ;
+    rdfs:label "Collision Coverage" ;
+    iko:alias "accident damage",
+        "collision",
+        "crash" ;
+    iko:hasDeductible iko:orange_o_2026_deductible_deductible_300 ;
+    iko:hasExclusion iko:orange_o_2026_exclusion_intentional,
+        iko:orange_o_2026_exclusion_racing ;
+    iko:hasLimit iko:orange_o_2026_coveragelimit_limit_15000 ;
+    iko:supportedBy iko:passage_a441bfa1eec46daeacbd .
+
+iko:Coverage a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:PolicyVersion a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:RelationshipAssertion a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:SourcePassage a owl:Class .
+
+iko:InsuranceEntity a owl:Class .
+
