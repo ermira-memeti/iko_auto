@@ -1,100 +1,72 @@
-# IKO-Auto: Policy-Scoped Ontology-Guided Evidence Retrieval for Motor Insurance
+# IKO-Auto: research reproducibility release (2026-11-17)
 
-This repository contains the implementation and public research artifacts corresponding to the IKO-Auto paper.
+This folder is a **public-upload candidate** assembled from the preserved IKO-Auto project,
+the final expanded-fusion evaluation, and the finalized extension-topic gate diagnostic.
+It does not assert that these files have already been uploaded to GitHub or independently
+verified on the remote repository.
 
-IKO-Auto is a policy-scoped RDF/OWL evidence representation and retrieval prototype for motor insurance. The study separates two questions: (1) whether structured, source-linked contractual evidence improves traceability and inspectability, and (2) whether graph-guided retrieval improves passage ranking. The reported experiments evaluate eight BM25-centered retrieval configurations over five motor-insurance policy booklets.
+## Data and experimental separation
 
-## Evaluation scope
+1. **Historical Development:** 50 questions; 519 adjudicated question-passage pairs.
+   See `questions/development_questions_50.csv`, `labels/development_adjudicated_519_public.csv`,
+   `results/development/`.
+2. **Historical H1:** 50 questions on the same five policies; 533 adjudicated pairs.
+   See `questions/h1_questions_50.csv`, `labels/h1_adjudicated_533_public.csv`, `results/h1/`.
+3. **Post-hoc fusion ablations:** 658 Development and 667 H1 labeled pairs, including
+   301 additional independently graded/regraded pairs; see `labels/fusion_expanded_relevance_public.csv`
+   and `results/fusion/`. Results are **not** a new holdout evaluation.
+4. **Post-hoc extension-topic gate diagnostic:** 50 AI-assisted topic-balanced questions;
+   EU and BK separately evaluated routing and 327 question-passage pairs, with 48 grounded
+   questions contributing to reported gate/retrieval metrics. See `questions/GATE26_50_Candidate_Questions.csv`,
+   `labels/gate/`, `results/gate/`, `provenance/gate/`.
+   The two ambiguous questions remain in the public question and judgment files, but do not
+   contribute to the primary metric denominator. These are **not** naturally occurring user queries.
 
-- **Corpus:** five policy booklets (AXA, Admiral, Aviva, Direct Line, esure), segmented into **717 passages**.
-- **Development:** 50 development-informed questions, ten per insurer.
-- **H1:** 50 subsequent questions on the **same five policy booklets**. H1 is a new-question evaluation on known documents, not an unseen-policy benchmark.
-- **Primary relevance criterion:** grade 2 = direct passage-level support.
-- **Reported H1 result:** insurer-filtered BM25 (M2) and section-aware BM25 (M3) tie for the strongest primary performance; selective graph activation (M8) improves over unconditional extended-graph use (M7) but does not outperform M2/M3.
+## Reproduction from saved outputs
 
-## Repository layout
+Run `python reproduce/verify_release.py --section all` to recompute and cross-check the
+main reported retrieval metrics, confusion matrix, and experiment counts against the
+text-minimized rankings and relevance labels. The check does **not** reproduce the
+original PDF -> chunking -> retrieval execution because that requires the original
+third-party PDFs and the exact environment; historic software dependency versions
+were not completely recorded.
 
-- `src/` — retrieval, graph, evaluation, chunking and pipeline implementation.
-- `scripts/` — graph-building, evaluation and diagnostic scripts retained from the research project.
-- `tests/` — project tests.
-- `ontology/` — frozen schema, ontology configuration and competency-query definitions.
-- `outputs/v6/` — original populated graph \(G_0\).
-- `outputs/v8_2/` — extended populated graph \(G_+\) and audit output.
-- `questions/` — public Development and H1 question sets.
-- `labels/` — public, text-minimized relevance labels. Full policy passage text is intentionally omitted.
-- `results/development/` — final Development summaries and a text-minimized rank-detail export.
-- `results/h1/` — final H1 summaries, routing/fallback audits, per-question results and a text-minimized ranking export.
-- `audits/` — public summaries of the Development and H1 source-evidence audits.
-- `validation/` — ontology structural/provenance checks and public CQ1-CQ8 validation summaries.
-- `reproduce/` — scripts for recalculating the public metrics and the H1 execution package.
+This release includes original evaluation and retrieval source files in `src/`,
+`ontology/`, and the **unchanged G0 and G+** graph exports in `outputs/`.
+Historical research scripts are preserved under `reproduce/original_scripts/` with
+their original hard-coded research working-directory paths; they are archived for
+provenance, not advertised as portable one-command rerun tools.
 
-## Third-party source documents
+## Text-minimization and privacy
 
-The five insurer policy PDFs are **not redistributed in this repository**. They are third-party documents. Their filenames and SHA-256 identifiers are recorded in `reproduce/h1/H1_MANIFEST.json` and `results/h1/H1_RUN_PROVENANCE.json` so that the source editions used in the experiment can be identified.
+- Public ranked outputs preserve method, question ID, rank, and passage ID, **not copied
+  insurance policy passage text**. The expert judgment outputs include final grades
+  but not raw identifiable reviewer worksheets, private notes, or AI-proposal workbooks.
+- The original five insurer policy PDFs are third-party documents and have **not** been
+  included. See `source_documents/SOURCE_POLICY_SHA256.json` for frozen source hashes.
+  Obtain the identical PDFs legally and check redistribution rights before publishing them.
+- RDF source quotations still appear in the ontology graph exports. Their reuse and
+  redistribution should be checked against source-document rights before public upload.
+- The candidate question file and graph artifacts do not constitute evidence of transfer
+  to new insurers or unseen policy documents.
 
-The RDF graphs contain selected short source quotations as provenance for modeled relationships. They do not contain the complete policy documents.
+## Documentation consistency
 
-## Self-contained tests
+The manuscript's Appendix A uses shorthand filenames in some rows. The complete
+repository-relative paths are listed in `APPENDIX_A_PATH_MAP.md`. In particular,
+`GATE26_Run_Provenance.json` ends in `.json`, **not** `.jso`.
 
-The public release includes the self-contained V7.1/V8.1/V8.2/V8.3 tests that do not require third-party policy PDFs or omitted historical development folders. Run:
+The frozen candidate manifest's original input-file hashes refer to the historical
+unmodified internal files. Public ranking/pool CSVs in this release omit policy passages
+for redistribution; their own hashes are recorded separately in `PUBLIC_ARTIFACT_MANIFEST.json`.
 
-```bash
-python -m pytest -q tests
-```
+## Before public upload
 
-## Recalculate reported metrics from public artifacts
-
-From the repository root:
-
-```bash
-python reproduce/recalculate_development_public.py
-python reproduce/recalculate_h1_public.py
-```
-
-These scripts use the text-minimized public ranking and relevance files and reproduce the primary binary Hit@5, P@5, MRR@5 and nDCG@5 tables.
-
-## Re-execute H1 retrieval from the PDFs
-
-A fresh PDF-to-ranking run additionally requires authorized/local copies of the same five source PDFs. Place them under:
-
-```text
-data/research_corpus/
-```
-
-Then, after installing the project dependencies, the recorded H1 runner can be inspected or executed. The runner expects the frozen graphs under `outputs/v6/` and `outputs/v8_2/`, which are retained in this repository.
-
-Example inspection:
-
-```bash
-python reproduce/h1/H1_native_v83_runner.py --inspect --project .
-```
-
-Example execution:
-
-```bash
-python reproduce/h1/H1_native_v83_runner.py --run --project . --package-dir reproduce/h1 --output-dir H1_RESULTS_REPRODUCED
-```
-
-The historical H1 provenance records `rank_bm25.BM25Okapi` as the active lexical backend, 170-word chunks with 45-word overlap, 717 indexed passages and a Top-5 retrieval budget. Historical Python and dependency versions were not fully recorded, so an exact fresh PDF-to-ranking execution depends on a sufficiently matched environment.
-
-## Public relevance files
-
-The public label files intentionally omit the full passage text and evidence-quote columns to avoid republishing large extracts of third-party policy documents. Passage identity is preserved through `chunk_id`, `source_path` and page number.
-
-For Development, the two retained reviewer files agree on all 519 question-passage pairs. The public derivative stores the agreed relevance value and omits the underlying passage text. For H1, the public file retains final and pre-adjudication reviewer grades while omitting the passage text.
-
-## Ontology validation scope
-
-The validation artifacts support RDF parsing, graph-preservation checks, source/provenance structure, deterministic structural constraints and execution of eight competency-query templates. CQ1-CQ5 return populated contractual paths. CQ6-CQ8 have no real claim/policyholder instances and were exercised only through synthetic smoke tests. No full SHACL-engine conformance run, OWL reasoner consistency proof or independent legal-semantic validation is claimed.
-
-## Questions and benchmark status
-
-`questions/development_questions_50.csv` contains the 50 development-informed questions. `questions/h1_questions_50.csv` contains the 50 subsequent H1 questions. Publishing these files improves transparency but does not change their experimental status.
-
-## License
-
-The repository currently uses an **all-rights-reserved** notice. Replace `LICENSE` with a standard open-source license such as MIT or Apache-2.0 before publication if you want to grant reuse rights for the code.
-
-## Citation
-
-See `CITATION.cff`. Update the repository URL, DOI and publication venue when they become available.
+1. Review `UPLOAD_CHECKLIST.md` and the graph quotation rights.
+2. Compare these additions with existing GitHub files before overwriting; the remote
+   repository was not accessible for verification when this package was made.
+3. Publish all files in this folder, preserving directory paths, not the outer ZIP file.
+4. Link a fixed Git commit/release from the manuscript, update the Data Availability Statement,
+   and archive the submission version of `PUBLIC_ARTIFACT_MANIFEST.json`.
+5. Do not upload `.venv`, cached Python packages, draft experiments, raw reviewer workbooks,
+   AI screening suggestions, unlicensed policy PDFs, or manuscript drafts under review.
