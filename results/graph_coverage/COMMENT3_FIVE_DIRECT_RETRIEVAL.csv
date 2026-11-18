@@ -1,0 +1,5 @@
+Dataset,Group,Method,N,Hit@5,P@5,P@1,MRR@5,Binary nDCG@5,Empty
+Development,G+ only direct,M2,5,0.6,0.28,0.4,0.44,0.457893,0
+Development,G+ only direct,M5,5,0.0,0.0,0.0,0.0,0.0,5
+Development,G+ only direct,M7,5,0.6,0.28,0.6,0.6,0.596578,0
+Development,G+ only direct,M8,5,0.6,0.28,0.6,0.6,0.596578,0

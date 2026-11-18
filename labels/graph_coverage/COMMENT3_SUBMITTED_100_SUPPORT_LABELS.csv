@@ -1,0 +1,101 @@
+question_id,dataset,insurer,source_grounding_submitted,g0_grade_submitted,gplus_grade_submitted,g0_assertion,gplus_assertion,author_direct_source_checked,author_located_unclear_source
+H1Q_ADMIRAL_001,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_002,H1,Admiral,Yes,1,1,assertion_90abc730f310021f42f5,assertion_90abc730f310021f42f5,False,False
+H1Q_ADMIRAL_003,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_004,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_005,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_006,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_007,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_008,H1,Admiral,Unclear,0,0,,,False,True
+H1Q_ADMIRAL_009,H1,Admiral,Yes,0,0,,,False,False
+H1Q_ADMIRAL_010,H1,Admiral,Yes,0,0,,,False,False
+H1Q_AVIVA_001,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_002,H1,Aviva,Yes,0,1,,assertion_76ef624c64260c76b31a,False,False
+H1Q_AVIVA_003,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_004,H1,Aviva,Yes,1,1,assertion_e67fc57e76de9bc94909,assertion_e67fc57e76de9bc94909,False,False
+H1Q_AVIVA_005,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_006,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_007,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_008,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_009,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AVIVA_010,H1,Aviva,Yes,0,0,,,False,False
+H1Q_AXA_001,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_002,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_003,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_004,H1,AXA,Yes,1,1,assertion_8f0a4da027e1b6c4bf4d,assertion_8f0a4da027e1b6c4bf4d,False,False
+H1Q_AXA_005,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_006,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_007,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_008,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_009,H1,AXA,Yes,0,0,,,False,False
+H1Q_AXA_010,H1,AXA,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_001,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_002,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_003,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_004,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_005,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_006,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_007,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_008,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_009,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_DIRECTLINE_010,H1,Direct Line,Yes,0,0,,,False,False
+H1Q_ESURE_001,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_002,H1,esure,Yes,1,1,assertion_68ffb45b2284ad4fa263,assertion_68ffb45b2284ad4fa263,False,False
+H1Q_ESURE_003,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_004,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_005,H1,esure,Unclear,0,0,,,False,True
+H1Q_ESURE_006,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_007,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_008,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_009,H1,esure,Yes,0,0,,,False,False
+H1Q_ESURE_010,H1,esure,Yes,0,0,,,False,False
+V8Q_ADMIRAL_001,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_002,Development,Admiral,Unclear,0,0,,,False,True
+V8Q_ADMIRAL_003,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_004,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_005,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_006,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_007,Development,Admiral,Yes,0,2,,assertion_5269b84354ff52959ada,True,False
+V8Q_ADMIRAL_008,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_009,Development,Admiral,Yes,0,0,,,False,False
+V8Q_ADMIRAL_010,Development,Admiral,Yes,0,0,,,False,False
+V8Q_AVIVA_001,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AVIVA_002,Development,Aviva,Yes,1,1,assertion_e67fc57e76de9bc94909,assertion_e67fc57e76de9bc94909,False,False
+V8Q_AVIVA_003,Development,Aviva,Yes,1,1,assertion_e67fc57e76de9bc94909,assertion_e67fc57e76de9bc94909,False,False
+V8Q_AVIVA_004,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AVIVA_005,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AVIVA_006,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AVIVA_007,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AVIVA_008,Development,Aviva,Yes,0,2,,assertion_76ef624c64260c76b31a,True,False
+V8Q_AVIVA_009,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AVIVA_010,Development,Aviva,Yes,0,0,,,False,False
+V8Q_AXA_001,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_002,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_003,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_004,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_005,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_006,Development,AXA,Yes,0,2,,assertion_8b789e0b05de3f66673a,True,False
+V8Q_AXA_007,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_008,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_009,Development,AXA,Yes,0,0,,,False,False
+V8Q_AXA_010,Development,AXA,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_001,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_002,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_003,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_004,Development,Direct Line,Yes,0,2,,assertion_c083c23a89c0bb39c7e7,True,False
+V8Q_DIRECTLINE_005,Development,Direct Line,Yes,1,1,assertion_7af8cca8e1991b9827c2,assertion_7af8cca8e1991b9827c2,False,False
+V8Q_DIRECTLINE_006,Development,Direct Line,Yes,0,2,,assertion_296c270c0de089c42ef1,True,False
+V8Q_DIRECTLINE_007,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_008,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_009,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_DIRECTLINE_010,Development,Direct Line,Yes,0,0,,,False,False
+V8Q_ESURE_001,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_002,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_003,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_004,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_005,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_006,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_007,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_008,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_009,Development,esure,Yes,0,0,,,False,False
+V8Q_ESURE_010,Development,esure,Yes,0,0,,,False,False

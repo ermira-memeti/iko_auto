@@ -1,0 +1,4 @@
+Dataset,N,G0_direct,G0_partial,G0_none,Gplus_direct,Gplus_partial,Gplus_none,Source_grounding_Unclear_subset_of_none
+Development,50,0,3,47,5,3,42,1
+H1,50,0,4,46,0,5,45,2
+Both,100,0,7,93,5,8,87,3
