@@ -1,0 +1,41 @@
+@prefix iko: <https://example.org/iko-auto/v2#> .
+@prefix cv: <https://example.org/iko-auto/comment7/validation#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# OPTIONAL COMMENT-7 SEMANTIC PROFILE -- NOT PRESENT IN G0 OR G+.
+# Not part of the executed M1--M8 retrieval methods. Evaluate separately.
+# Non-contradictory axioms are illustrative candidates, not validated improvements in retrieval.
+
+cv:CompanionSemanticProfile a owl:Ontology ;
+    rdfs:comment "Proposed OWL axioms used only for retrospective targeted semantic checks." .
+
+# The missing sourcePage declaration in the frozen schema is supplied only here.
+iko:sourcePage a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:integer .
+
+# Inverses yield additional navigational edges only in the companion profile.
+iko:isVersionOf a owl:ObjectProperty ; owl:inverseOf iko:hasVersion ;
+    rdfs:domain iko:PolicyVersion ; rdfs:range iko:Policy .
+iko:isCoverageOf a owl:ObjectProperty ; owl:inverseOf iko:hasCoverage ;
+    rdfs:domain iko:Coverage ; rdfs:range iko:PolicyVersion .
+iko:supportsEvidenceEntity a owl:ObjectProperty ; owl:inverseOf iko:supportedBy ;
+    rdfs:domain iko:SourcePassage ; rdfs:range iko:InsuranceEntity .
+
+# Clear semantically distinct categories; OWL disjointness is different from SHACL validation.
+iko:SourcePassage owl:disjointWith iko:InsuranceEntity .
+iko:PolicyVersion owl:disjointWith iko:Coverage .
+iko:Coverage owl:disjointWith iko:Exclusion .
+iko:RelationshipAssertion owl:disjointWith iko:Coverage .
+
+# Each RelationshipAssertion has exactly one value for these reification slots
+# in the model; SHACL enforces explicit multiplicity on the recorded RDF graph.
+iko:assertionSubject a owl:FunctionalProperty .
+iko:assertionPredicate a owl:FunctionalProperty .
+iko:assertionObject a owl:FunctionalProperty .
+
+iko:RelationshipAssertion rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty iko:supportedBy ; owl:someValuesFrom iko:SourcePassage ] .

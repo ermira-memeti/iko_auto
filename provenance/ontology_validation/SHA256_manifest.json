@@ -1,0 +1,82 @@
+{
+  "README.md": {
+    "sha256": "8f2aa70ad4cda6416e5ca6182ee158d0d72d841f1581621a9b607e95dd0b890d",
+    "size_bytes": 6035
+  },
+  "RUN_STANDARD_VALIDATION_WINDOWS.bat": {
+    "sha256": "5dd3cc47b17e358d70eb913e675fff2f7a4af3f1a9dd01800b6eb1362d2d0812",
+    "size_bytes": 729
+  },
+  "START_HERE.txt": {
+    "sha256": "219fb796533483a98017485fbce8c8f445b51f92d701617bead85cd876fd2db5",
+    "size_bytes": 1038
+  },
+  "documents/IKO_Auto_Comment7_Manuscript_CHANGES_ONLY.docx": {
+    "sha256": "f8c51e2c86be566b11e2eca78ed5d811e05c3e0c936918d325e285a7a5f0c3c9",
+    "size_bytes": 41310
+  },
+  "documents/IKO_Auto_Reviewer1_Comment7_Response_DRAFT.docx": {
+    "sha256": "8310c637dc6055b7e47d8f865003621e0a2b380590e01a9dff76cd07dcb16217",
+    "size_bytes": 39124
+  },
+  "requirements.txt": {
+    "sha256": "c2c6e875c317983405008431a58f8888a4a4cb1a8fa5c1355b3551e21e6cd14c",
+    "size_bytes": 190
+  },
+  "results/G0_offline_shacl_report.ttl": {
+    "sha256": "75372eaaf26dc713d534b7a6d162805ed68ae6b4730e5e3729c8953a735fee98",
+    "size_bytes": 232
+  },
+  "results/Gplus_offline_shacl_report.ttl": {
+    "sha256": "75372eaaf26dc713d534b7a6d162805ed68ae6b4730e5e3729c8953a735fee98",
+    "size_bytes": 232
+  },
+  "results/RESULTS_SUMMARY.md": {
+    "sha256": "c6fdaf4c463363597ac3d3d653c5d05ba69eb28e0067138b1e35da4a6fed2081",
+    "size_bytes": 1512
+  },
+  "results/comment7_validation_offline.json": {
+    "sha256": "60b5cf81849523d12929494aae9f774566dd54de34ebeac71b872946078e5896",
+    "size_bytes": 6127
+  },
+  "results/negative_controls.json": {
+    "sha256": "e6702b89d53848e64db0b3dbb7e9cf59a039109c44a7035afd6aa625f42d6b16",
+    "size_bytes": 1609
+  },
+  "scripts/__pycache__/run_standard_engines.cpython-313.pyc": {
+    "sha256": "93fd768565e41c955ff2e0222fcb125f41c2ff2948a5769b4d73072e820981a7",
+    "size_bytes": 5822
+  },
+  "scripts/__pycache__/validate_comment7_offline.cpython-313.pyc": {
+    "sha256": "94b58748082b6b25da0394934642d2ac36876e925239e0baacf7797cbb92ea34",
+    "size_bytes": 28659
+  },
+  "scripts/run_standard_engines.py": {
+    "sha256": "90d60f21c3832412b5bda35cf87c3673f4d22d53a6887053ca66fe52e549a171",
+    "size_bytes": 4303
+  },
+  "scripts/validate_comment7_offline.py": {
+    "sha256": "45921add0f85e7eff3cf5a17a14116f19c210ddc88d70e537c42c0412b2147d1",
+    "size_bytes": 16133
+  },
+  "semantic_profile/iko_auto_semantic_profile_PROPOSED.ttl": {
+    "sha256": "a56f928d20436e9fb2c8f735985c9f099a3141b6889e719f665a8baf2c8cf963",
+    "size_bytes": 2147
+  },
+  "shapes/iko_auto_evidence_shapes.ttl": {
+    "sha256": "5cf7e546432c51e9acfb579c2b71eaa3fa40703c1e02490651cce54931d14b61",
+    "size_bytes": 3938
+  },
+  "source/G0_original_frozen.ttl": {
+    "sha256": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+    "size_bytes": 54197
+  },
+  "source/Gplus_extended_frozen.ttl": {
+    "sha256": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+    "size_bytes": 60561
+  },
+  "source/iko_auto_v6.ttl": {
+    "sha256": "a1c69c312c85810d9ab788ab1b64cbaa723449e3c5f7bf54a849146f60a6a09b",
+    "size_bytes": 5288
+  }
+}

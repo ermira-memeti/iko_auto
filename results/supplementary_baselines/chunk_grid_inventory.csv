@@ -1,0 +1,4 @@
+chunk_words,overlap_words,n_chunks,n_unique_chunk_ids,corpus_hash_note
+120,30,980,980,This is a NEW indexing condition: old chunk-ID qrels CANNOT be reused.
+170,45,717,717,This is a NEW indexing condition: old chunk-ID qrels CANNOT be reused.
+240,60,520,520,This is a NEW indexing condition: old chunk-ID qrels CANNOT be reused.

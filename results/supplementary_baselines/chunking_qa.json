@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED_SOURCE_PAGE_DIAGNOSTIC",
+  "original_top5_exact_matches": 100,
+  "n_questions": 100,
+  "n_known_grade2_questions_by_split": {
+    "Development": 22,
+    "H1": 39
+  },
+  "warning": "Never describe these page/overlap tests as new human-judged passage-level Hit@5"
+}

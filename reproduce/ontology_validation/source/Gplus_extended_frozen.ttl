@@ -1,0 +1,1255 @@
+@prefix iko: <https://example.org/iko-auto/v2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/iko-auto/v2> a owl:Ontology ;
+    rdfs:label "IKO-Auto V6: backward-compatible five-insurer research schema"@en ;
+    rdfs:comment "Functional research prototype; requires expert validation and ontology reasoner review. No formal consistency claim."@en .
+
+iko:LateReport a owl:Class ;
+    rdfs:subClassOf iko:SuspiciousPattern .
+
+iko:MultipleClaims a owl:Class ;
+    rdfs:subClassOf iko:SuspiciousPattern .
+
+iko:affects a owl:ObjectProperty ;
+    rdfs:domain iko:DamageType ;
+    rdfs:range iko:VehiclePartDamage .
+
+iko:alias a owl:DatatypeProperty ;
+    rdfs:domain iko:InsuranceEntity ;
+    rdfs:range xsd:string .
+
+iko:assertionObject a owl:ObjectProperty ;
+    rdfs:domain iko:RelationshipAssertion ;
+    rdfs:range iko:InsuranceEntity .
+
+iko:assertionPredicate a owl:ObjectProperty ;
+    rdfs:domain iko:RelationshipAssertion ;
+    rdfs:range rdf:Property .
+
+iko:assertionSubject a owl:ObjectProperty ;
+    rdfs:domain iko:RelationshipAssertion ;
+    rdfs:range iko:InsuranceEntity .
+
+iko:assertion_026573522df237c14e1c a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_claimcondition_prompt_claim_notice ;
+    iko:assertionPredicate iko:hasClaimCondition ;
+    iko:assertionSubject iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_1bcc30a74989e0114084 .
+
+iko:assertion_0a18037652835e8b03f8 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_coveragelimit_market_value_limit ;
+    iko:assertionPredicate iko:hasLimit ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 ;
+    iko:supportedBy iko:passage_ababe6cd3e569e26fab9 .
+
+iko:assertion_0bb8ea72dba1b035136b a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_exclusion_fraudulent_buyer ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_fire_theft_section_2 ;
+    iko:supportedBy iko:passage_225972490325f2594cba .
+
+iko:assertion_0c89d3fbf5a7b1d036eb a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_coverage_optional_courtesy_vehicle ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_f04d31b2fbb414ab59a6 .
+
+iko:assertion_0fc6942476e765a8d664 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_exclusion_mechanical_computer_failure ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 ;
+    iko:supportedBy iko:passage_accb6fecc6f549085155 .
+
+iko:assertion_12f446a13f3699457917 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_exclusion_wear_and_tear ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:admiral_uploaded_guide_coverage_damage_section_2 ;
+    iko:supportedBy iko:passage_901a88a1b528f0d6824c .
+
+iko:assertion_176e820faf2224149b3f a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_deductible_glass_excess_schedule ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_glass_damage_section_05 ;
+    iko:supportedBy iko:passage_9a973a7920741d0a64a9 .
+
+iko:assertion_1875e0c5dfd13ef42d31 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_coverage_glass_damage_section_05 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:esure_uploaded_booklet_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_29af28a44f606b47df30 .
+
+iko:assertion_19485176d2481b2e9066 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:axa_uploaded_wording_autopolicy_policy ;
+    iko:supportedBy iko:passage_0c5cef624900ff941a35 .
+
+iko:assertion_1fba25ae1a3f227a983b a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_exclusion_wear_tear ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4 ;
+    iko:supportedBy iko:passage_b3365a7a65104ebc7899 .
+
+iko:assertion_21939cd8023ea850d8dd a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_exclusion_wrong_fuel ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:axa_uploaded_wording_coverage_damage_section_a ;
+    iko:supportedBy iko:passage_54e67b886726d87419a3 .
+
+iko:assertion_220af348892059ffd9fe a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_exclusion_staged_accident ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 ;
+    iko:supportedBy iko:passage_255eda45efd676ede21f .
+
+iko:assertion_296c270c0de089c42ef1 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_coverage_guaranteed_hire_car_section_3_v82 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:supportedBy iko:passage_014ab51b2849bb6b6cdd .
+
+iko:assertion_2e34c1bed4558d464555 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:admiral_uploaded_guide_autopolicy_policy ;
+    iko:supportedBy iko:passage_eb57e9f755ee862b5f0b .
+
+iko:assertion_2eac698356a71dd0fcd2 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_exclusion_nonapproved_repairer ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_optional_courtesy_vehicle ;
+    iko:supportedBy iko:passage_1b7f9862390e9f6dcdbe .
+
+iko:assertion_479848bf1763578ab9b2 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_coveragelimit_max_28_days ;
+    iko:assertionPredicate iko:hasLimit ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_optional_courtesy_vehicle ;
+    iko:supportedBy iko:passage_6394cf0e1d170a8d123b .
+
+iko:assertion_4d31d2301f505bbc1c9f a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_exclusion_car_failure ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4 ;
+    iko:supportedBy iko:passage_531019ab316cb48af9fe .
+
+iko:assertion_5269b84354ff52959ada a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_coverage_windscreen_adas_section_3_v82 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:admiral_uploaded_guide_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:supportedBy iko:passage_3fb118553bde604568e5 .
+
+iko:assertion_5329c16960efe141d0e1 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_exclusion_unapproved_driver ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 ;
+    iko:supportedBy iko:passage_ab9f963732bd1c302278 .
+
+iko:assertion_542f5c981344c677814f a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_autopolicy_policy ;
+    iko:supportedBy iko:passage_c8ca8d47318e8480c370 .
+
+iko:assertion_5ce96273baa6af9e1632 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_exclusion_breakdown ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:axa_uploaded_wording_coverage_damage_section_a ;
+    iko:supportedBy iko:passage_5e3a01ade856104d2161 .
+
+iko:assertion_5de85014ca9d960f934c a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_deductible_schedule_excess ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:admiral_uploaded_guide_coverage_damage_section_2 ;
+    iko:supportedBy iko:passage_b8b3efd73eb1ab42f508 .
+
+iko:assertion_657743f2800cf94ccbbd a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_exclusion_glass_only_claim ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_optional_courtesy_vehicle ;
+    iko:supportedBy iko:passage_033c8de4bfabad2ba5f0 .
+
+iko:assertion_677ae184f25eb1e1804f a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_exclusion_unlocked_vehicle ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_fire_theft_section_2 ;
+    iko:supportedBy iko:passage_22361026899186466507 .
+
+iko:assertion_68f8d3f12b262d897c9f a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_exclusion_misfuel_drain_cost ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4 ;
+    iko:supportedBy iko:passage_37af500a13d2ca2c59fe .
+
+iko:assertion_68ffb45b2284ad4fa263 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_claimcondition_prompt_incident_report ;
+    iko:assertionPredicate iko:hasClaimCondition ;
+    iko:assertionSubject iko:esure_uploaded_booklet_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_b1ea3b86896bc7915af0 .
+
+iko:assertion_74f6405a5d4942aea164 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_coverage_damage_section_a ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:axa_uploaded_wording_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:supportedBy iko:passage_0c5cef624900ff941a35 .
+
+iko:assertion_76cbab3920efb91c1b58 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_claimcondition_claim_48_hour_notice ;
+    iko:assertionPredicate iko:hasClaimCondition ;
+    iko:assertionSubject iko:admiral_uploaded_guide_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:supportedBy iko:passage_fd4f8816007ab5f7aef8 .
+
+iko:assertion_76ef624c64260c76b31a a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_coverage_windscreen_glass_adas_v82 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_f30d76672fc72350296c .
+
+iko:assertion_7af8cca8e1991b9827c2 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_coverage_fire_theft_section_2 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:supportedBy iko:passage_fe99af009a5af58ef676 .
+
+iko:assertion_7f2b371553be6f48d006 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_exclusion_sunroof_panels ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_glass_damage_section_05 ;
+    iko:supportedBy iko:passage_8d298c022476b4098381 .
+
+iko:assertion_81bbc1d3d7db5eff698b a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_exclusion_track_day_use ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 ;
+    iko:supportedBy iko:passage_ae43f2967191e4bad2d5 .
+
+iko:assertion_82ddc7a1773b29141ace a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_deductible_schedule_excess_and_extra_repairer ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 ;
+    iko:supportedBy iko:passage_52c7b38c6d4266c8f894 .
+
+iko:assertion_83689c0d702395e7f206 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_deductible_schedule_excess ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 ;
+    iko:supportedBy iko:passage_fee0dcdd64478fdf4cf0 .
+
+iko:assertion_84b07c38ede87fed4e3a a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_deductible_schedule_excess ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:axa_uploaded_wording_coverage_damage_section_a ;
+    iko:supportedBy iko:passage_fc7d3370d930a0f43ba9 .
+
+iko:assertion_8b789e0b05de3f66673a a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_coverage_windscreen_window_section_d_v82 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:axa_uploaded_wording_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:supportedBy iko:passage_ed915388f82a0190274c .
+
+iko:assertion_8f0a4da027e1b6c4bf4d a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_claimcondition_incident_notification ;
+    iko:assertionPredicate iko:hasClaimCondition ;
+    iko:assertionSubject iko:axa_uploaded_wording_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:supportedBy iko:passage_b58db839db56dba15afa .
+
+iko:assertion_90abc730f310021f42f5 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_exclusion_mechanical_electrical ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:admiral_uploaded_guide_coverage_damage_section_2 ;
+    iko:supportedBy iko:passage_fa21c9bf3ff6fd2bb68c .
+
+iko:assertion_9a1bedc743cd69de7cb9 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_exclusion_convertible_hood ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_glass_damage_section_05 ;
+    iko:supportedBy iko:passage_80e1d0e345b431e7d53f .
+
+iko:assertion_ada15789337f3749ab37 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_exclusion_tracker_not_operational ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_fire_theft_section_2 ;
+    iko:supportedBy iko:passage_d28d5e76261ec3453bf6 .
+
+iko:assertion_b766cb9b502097635834 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:supportedBy iko:passage_c8ca8d47318e8480c370 .
+
+iko:assertion_b76e48e60f022a6f2229 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:aviva_signature_uploaded_autopolicy_policy ;
+    iko:supportedBy iko:passage_cb79e63f5bdbb7b69f6f .
+
+iko:assertion_c083c23a89c0bb39c7e7 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_coverage_windscreen_section_5_v82 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:supportedBy iko:passage_08e342982c4ac4bec710 .
+
+iko:assertion_cb9ac29e2fc3ff67e4ef a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_exception_police_report_qualification ;
+    iko:assertionPredicate iko:hasException ;
+    iko:assertionSubject iko:aviva_signature_uploaded_exclusion_unapproved_driver ;
+    iko:supportedBy iko:passage_5798829c92e87025d8c3 .
+
+iko:assertion_ccfdc3bbc1f4075c4562 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:axa_uploaded_wording_exclusion_wear_and_tear ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:axa_uploaded_wording_coverage_damage_section_a ;
+    iko:supportedBy iko:passage_62770e285c75ee96539a .
+
+iko:assertion_d0678abd1f00a27e5166 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_exclusion_gradual_damage_wear_breakdown ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 ;
+    iko:supportedBy iko:passage_235595f634f15bb38069 .
+
+iko:assertion_d4f97ee5a149f245f779 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:esure_uploaded_booklet_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_6d7df7eb22c7d943e62f .
+
+iko:assertion_daac1cbf69894c9f77db a iko:RelationshipAssertion ;
+    iko:assertionObject iko:admiral_uploaded_guide_coverage_damage_section_2 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:admiral_uploaded_guide_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:supportedBy iko:passage_eb57e9f755ee862b5f0b .
+
+iko:assertion_dc003438075db66a0c2b a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_claimcondition_prompt_accident_report ;
+    iko:assertionPredicate iko:hasClaimCondition ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:supportedBy iko:passage_ede3000fd579fe85bbb8 .
+
+iko:assertion_e0fffafe1c416dca0796 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:directline_b4c_uploaded_0622_deductible_claim_excess ;
+    iko:assertionPredicate iko:hasDeductible ;
+    iko:assertionSubject iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4 ;
+    iko:supportedBy iko:passage_4e58c8932a74c80e2742 .
+
+iko:assertion_e67fc57e76de9bc94909 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 ;
+    iko:assertionPredicate iko:hasCoverage ;
+    iko:assertionSubject iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established ;
+    iko:supportedBy iko:passage_cb79e63f5bdbb7b69f6f .
+
+iko:assertion_e79f67a535a93ce430a7 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_coveragelimit_own_repairer_100 ;
+    iko:assertionPredicate iko:hasLimit ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_glass_damage_section_05 ;
+    iko:supportedBy iko:passage_c0aecc35a7a0a98184e5 .
+
+iko:assertion_f3ed0430061d60bc5a20 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_policyversion_source_pdf_edition_date_not_established ;
+    iko:assertionPredicate iko:hasVersion ;
+    iko:assertionSubject iko:esure_uploaded_booklet_autopolicy_policy ;
+    iko:supportedBy iko:passage_6d7df7eb22c7d943e62f .
+
+iko:assertion_f8b2e6a882e2f5e2c125 a iko:RelationshipAssertion ;
+    iko:assertionObject iko:esure_uploaded_booklet_exclusion_wear_and_tear ;
+    iko:assertionPredicate iko:hasExclusion ;
+    iko:assertionSubject iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 ;
+    iko:supportedBy iko:passage_0c99a570ce0f5ce3d3db .
+
+iko:effectiveDate a owl:DatatypeProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range xsd:date .
+
+iko:hasCause a owl:ObjectProperty ;
+    rdfs:domain iko:ClaimEvent ;
+    rdfs:range iko:CauseOfAccident .
+
+iko:hasClaimEvent a owl:ObjectProperty ;
+    rdfs:domain iko:Claim ;
+    rdfs:range iko:ClaimEvent .
+
+iko:hasDamageType a owl:ObjectProperty ;
+    rdfs:domain iko:Claim ;
+    rdfs:range iko:DamageType .
+
+iko:hasDrivingHistory a owl:ObjectProperty ;
+    rdfs:domain iko:Policyholder ;
+    rdfs:range iko:DrivingHistory .
+
+iko:hasEndorsement a owl:ObjectProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range iko:Endorsement .
+
+iko:hasRiskFactor a owl:ObjectProperty ;
+    rdfs:domain iko:Policyholder ;
+    rdfs:range iko:RiskFactor .
+
+iko:hasSeverity a owl:ObjectProperty ;
+    rdfs:domain iko:Claim ;
+    rdfs:range iko:LossSeverity .
+
+iko:hasVehicleType a owl:ObjectProperty ;
+    rdfs:domain iko:Policyholder ;
+    rdfs:range iko:VehicleType .
+
+iko:indicates a owl:ObjectProperty ;
+    rdfs:domain iko:FraudIndicator ;
+    rdfs:range iko:SuspiciousPattern .
+
+iko:influences a owl:ObjectProperty ;
+    rdfs:domain iko:RiskFactor ;
+    rdfs:range iko:Premium .
+
+iko:policyIdentifier a owl:DatatypeProperty ;
+    rdfs:domain iko:Policy ;
+    rdfs:range xsd:string .
+
+iko:policyVersionIdentifier a owl:DatatypeProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range xsd:string .
+
+iko:sourceChunkId a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:string .
+
+iko:sourceDocumentId a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:string .
+
+iko:sourceQuote a owl:DatatypeProperty ;
+    rdfs:domain iko:SourcePassage ;
+    rdfs:range xsd:string .
+
+iko:supportedBy a owl:ObjectProperty ;
+    rdfs:domain iko:InsuranceEntity ;
+    rdfs:range iko:SourcePassage .
+
+iko:CauseOfAccident a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:DrivingHistory a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Endorsement a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:FraudIndicator a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:LossSeverity a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Premium a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:VehiclePartDamage a owl:Class ;
+    rdfs:subClassOf iko:DamageType .
+
+iko:VehicleType a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:admiral_uploaded_guide_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "Admiral Your Car Insurance Guide (uploaded edition)" ;
+    iko:alias "admiral",
+        "admiral car insurance" ;
+    iko:hasVersion iko:admiral_uploaded_guide_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:policyIdentifier "admiral_uploaded_guide" .
+
+iko:aviva_signature_uploaded_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "Aviva Signature Motor Insurance (uploaded wording)" ;
+    iko:alias "aviva",
+        "aviva motor insurance",
+        "aviva signature" ;
+    iko:hasVersion iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established ;
+    iko:policyIdentifier "aviva_signature_uploaded" .
+
+iko:axa_uploaded_wording_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "AXA Car Insurance (uploaded sample wording)" ;
+    iko:alias "axa",
+        "axa car insurance" ;
+    iko:hasVersion iko:axa_uploaded_wording_policyversion_uploaded_pdf_edition_date_unconfirmed ;
+    iko:policyIdentifier "axa_uploaded_wording" .
+
+iko:directline_b4c_uploaded_0622_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "Direct Line Car Insurance (June 2022 booklet, uploaded)" ;
+    iko:alias "direct line",
+        "direct line car insurance",
+        "directline" ;
+    iko:hasVersion iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule ;
+    iko:policyIdentifier "directline_b4c_uploaded_0622" .
+
+iko:esure_uploaded_booklet_autopolicy_policy a iko:AutoPolicy ;
+    rdfs:label "esure Car Insurance (uploaded booklet)" ;
+    iko:alias "esure",
+        "esure car insurance" ;
+    iko:hasVersion iko:esure_uploaded_booklet_policyversion_source_pdf_edition_date_not_established ;
+    iko:policyIdentifier "esure_uploaded_booklet" .
+
+iko:hasException a owl:ObjectProperty ;
+    rdfs:domain iko:Exclusion ;
+    rdfs:range iko:Exception .
+
+iko:ClaimEvent a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Exception a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:RiskFactor a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:admiral_uploaded_guide_claimcondition_claim_48_hour_notice a iko:ClaimCondition ;
+    rdfs:label "Notice to insurer within 48 hours even when no claim intended" ;
+    iko:alias "accident",
+        "claim notification",
+        "report within 48 hours" ;
+    iko:supportedBy iko:passage_fd4f8816007ab5f7aef8 .
+
+iko:admiral_uploaded_guide_coverage_windscreen_adas_section_3_v82 a iko:Coverage ;
+    rdfs:label "Section 3: Windscreen damage and ADAS recalibration" ;
+    iko:alias "ADAS",
+        "driver assistance",
+        "driver-assistance systems",
+        "glass helpline",
+        "recalibration",
+        "windscreen",
+        "windscreen replacement" ;
+    iko:supportedBy iko:passage_3fb118553bde604568e5 .
+
+iko:admiral_uploaded_guide_deductible_schedule_excess a iko:Deductible ;
+    rdfs:label "Excess specified in policy schedule, amount not in wording" ;
+    iko:alias "deductible",
+        "excess",
+        "policy schedule" ;
+    iko:supportedBy iko:passage_b8b3efd73eb1ab42f508 .
+
+iko:admiral_uploaded_guide_exclusion_mechanical_electrical a iko:Exclusion ;
+    rdfs:label "Mechanical, electrical, electronic and cyber incident exclusion" ;
+    iko:alias "cyber incident",
+        "electrical failure",
+        "mechanical breakdown" ;
+    iko:supportedBy iko:passage_fa21c9bf3ff6fd2bb68c .
+
+iko:admiral_uploaded_guide_exclusion_wear_and_tear a iko:Exclusion ;
+    rdfs:label "Wear and tear exclusion" ;
+    iko:alias "wear and tear" ;
+    iko:supportedBy iko:passage_901a88a1b528f0d6824c .
+
+iko:aviva_signature_uploaded_claimcondition_prompt_claim_notice a iko:ClaimCondition ;
+    rdfs:label "Report the incident as soon as possible" ;
+    iko:alias "claim notification",
+        "notify",
+        "report an accident" ;
+    iko:supportedBy iko:passage_1bcc30a74989e0114084 .
+
+iko:aviva_signature_uploaded_coverage_windscreen_glass_adas_v82 a iko:Coverage ;
+    rdfs:label "Glass claims: approval before work and windscreen-dependent ADAS recalibration" ;
+    iko:alias "ADAS",
+        "approved glass repairer",
+        "glass claim",
+        "glass work",
+        "recalibration",
+        "windscreen",
+        "windscreen-based safety technology" ;
+    iko:supportedBy iko:passage_f30d76672fc72350296c .
+
+iko:aviva_signature_uploaded_coveragelimit_market_value_limit a iko:CoverageLimit ;
+    rdfs:label "Vehicle market value settlement limit" ;
+    iko:alias "limit",
+        "market value" ;
+    iko:supportedBy iko:passage_ababe6cd3e569e26fab9 .
+
+iko:aviva_signature_uploaded_coveragelimit_max_28_days a iko:CoverageLimit ;
+    rdfs:label "Up to 28 days or earlier settlement if vehicle not repairable or stolen" ;
+    iko:alias "28 days",
+        "courtesy car duration",
+        "settlement" ;
+    iko:supportedBy iko:passage_6394cf0e1d170a8d123b .
+
+iko:aviva_signature_uploaded_deductible_schedule_excess a iko:Deductible ;
+    rdfs:label "Excesses defined in policy schedule; amounts not established in booklet" ;
+    iko:alias "deductible",
+        "excess",
+        "schedule" ;
+    iko:supportedBy iko:passage_fee0dcdd64478fdf4cf0 .
+
+iko:aviva_signature_uploaded_exception_police_report_qualification a iko:Exception ;
+    rdfs:label "Reported-to-police qualification for unauthorized use by known person; not proof of cover" ;
+    iko:alias "police report",
+        "reported to police",
+        "without permission" ;
+    iko:supportedBy iko:passage_5798829c92e87025d8c3 .
+
+iko:aviva_signature_uploaded_exclusion_glass_only_claim a iko:Exclusion ;
+    rdfs:label "No courtesy vehicle for glass-only claim" ;
+    iko:alias "courtesy car",
+        "glass",
+        "windscreen" ;
+    iko:supportedBy iko:passage_033c8de4bfabad2ba5f0 .
+
+iko:aviva_signature_uploaded_exclusion_gradual_damage_wear_breakdown a iko:Exclusion ;
+    rdfs:label "Gradual damage, wear and tear and mechanical breakdown exclusion" ;
+    iko:alias "depreciation",
+        "mechanical breakdown",
+        "tyre damage",
+        "wear and tear" ;
+    iko:supportedBy iko:passage_235595f634f15bb38069 .
+
+iko:aviva_signature_uploaded_exclusion_nonapproved_repairer a iko:Exclusion ;
+    rdfs:label "No courtesy vehicle when non-approved repairer is chosen" ;
+    iko:alias "courtesy vehicle",
+        "non approved repairer",
+        "own repairer" ;
+    iko:supportedBy iko:passage_1b7f9862390e9f6dcdbe .
+
+iko:aviva_signature_uploaded_exclusion_track_day_use a iko:Exclusion ;
+    rdfs:label "Track-day and Nuerburgring use exclusion" ;
+    iko:alias "nuerburgring",
+        "racing",
+        "track day" ;
+    iko:supportedBy iko:passage_ae43f2967191e4bad2d5 .
+
+iko:axa_uploaded_wording_claimcondition_incident_notification a iko:ClaimCondition ;
+    rdfs:label "General policy incident notification requirement" ;
+    iko:alias "claim notification",
+        "notify",
+        "report incident" ;
+    iko:supportedBy iko:passage_b58db839db56dba15afa .
+
+iko:axa_uploaded_wording_coverage_windscreen_window_section_d_v82 a iko:Coverage ;
+    rdfs:label "Section D: Windscreen and window damage (comprehensive cover only)" ;
+    iko:alias "approved repairer",
+        "glass repair",
+        "glass replacement",
+        "non-approved windscreen supplier",
+        "windscreen",
+        "windscreen company" ;
+    iko:supportedBy iko:passage_ed915388f82a0190274c .
+
+iko:axa_uploaded_wording_deductible_schedule_excess a iko:Deductible ;
+    rdfs:label "Excess specified in policy schedule, amount not in wording" ;
+    iko:alias "deductible",
+        "excess",
+        "policy excess" ;
+    iko:supportedBy iko:passage_fc7d3370d930a0f43ba9 .
+
+iko:axa_uploaded_wording_exclusion_breakdown a iko:Exclusion ;
+    rdfs:label "Mechanical and electrical breakdown exclusion" ;
+    iko:alias "computer breakdown",
+        "electrical failure",
+        "mechanical breakdown" ;
+    iko:supportedBy iko:passage_5e3a01ade856104d2161 .
+
+iko:axa_uploaded_wording_exclusion_wear_and_tear a iko:Exclusion ;
+    rdfs:label "Wear and tear exclusion" ;
+    iko:alias "corrosion",
+        "rust",
+        "wear and tear" ;
+    iko:supportedBy iko:passage_62770e285c75ee96539a .
+
+iko:axa_uploaded_wording_exclusion_wrong_fuel a iko:Exclusion ;
+    rdfs:label "Incorrect fuel exclusion" ;
+    iko:alias "misfuelling",
+        "wrong fuel" ;
+    iko:supportedBy iko:passage_54e67b886726d87419a3 .
+
+iko:directline_b4c_uploaded_0622_claimcondition_prompt_accident_report a iko:ClaimCondition ;
+    rdfs:label "Report accident promptly even without a claim" ;
+    iko:alias "accident notification",
+        "claims reporting",
+        "prompt notice" ;
+    iko:supportedBy iko:passage_ede3000fd579fe85bbb8 .
+
+iko:directline_b4c_uploaded_0622_coverage_guaranteed_hire_car_section_3_v82 a iko:Coverage ;
+    rdfs:label "Section 3: Guaranteed Hire Car; own repairer duration" ;
+    iko:alias "21 days",
+        "guaranteed hire car",
+        "hire car",
+        "own garage",
+        "own repairer",
+        "repairable car" ;
+    iko:supportedBy iko:passage_014ab51b2849bb6b6cdd .
+
+iko:directline_b4c_uploaded_0622_coverage_windscreen_section_5_v82 a iko:Coverage ;
+    rdfs:label "Section 5: Windscreen damage; approved vs other suppliers" ;
+    iko:alias "approved windscreen supplier",
+        "external supplier",
+        "glass repair",
+        "glass replacement",
+        "windscreen",
+        "windscreen supplier" ;
+    iko:supportedBy iko:passage_08e342982c4ac4bec710 .
+
+iko:directline_b4c_uploaded_0622_deductible_claim_excess a iko:Deductible ;
+    rdfs:label "Excess specified in customer car insurance details; amount not in booklet" ;
+    iko:alias "deductible",
+        "excess" ;
+    iko:supportedBy iko:passage_4e58c8932a74c80e2742 .
+
+iko:directline_b4c_uploaded_0622_exclusion_car_failure a iko:Exclusion ;
+    rdfs:label "General policy exclusion: mechanical, electrical or computer failure" ;
+    iko:alias "computer failure",
+        "electrical failure",
+        "mechanical breakdown" ;
+    iko:supportedBy iko:passage_531019ab316cb48af9fe .
+
+iko:directline_b4c_uploaded_0622_exclusion_fraudulent_buyer a iko:Exclusion ;
+    rdfs:label "Theft by fraudulent buyer exclusion" ;
+    iko:alias "buyer deception",
+        "fraud",
+        "theft" ;
+    iko:supportedBy iko:passage_225972490325f2594cba .
+
+iko:directline_b4c_uploaded_0622_exclusion_misfuel_drain_cost a iko:Exclusion ;
+    rdfs:label "Excludes draining, flushing or replacing incorrect fuel (not resultant damage)" ;
+    iko:alias "flushing",
+        "misfuelling",
+        "wrong fuel" ;
+    iko:supportedBy iko:passage_37af500a13d2ca2c59fe .
+
+iko:directline_b4c_uploaded_0622_exclusion_tracker_not_operational a iko:Exclusion ;
+    rdfs:label "Required tracking device absence or non-operation exclusion" ;
+    iko:alias "security device",
+        "tracker",
+        "tracking device" ;
+    iko:supportedBy iko:passage_d28d5e76261ec3453bf6 .
+
+iko:directline_b4c_uploaded_0622_exclusion_unlocked_vehicle a iko:Exclusion ;
+    rdfs:label "Theft/security exclusion for car left unattended unlocked" ;
+    iko:alias "car keys",
+        "security",
+        "unlocked car" ;
+    iko:supportedBy iko:passage_22361026899186466507 .
+
+iko:directline_b4c_uploaded_0622_exclusion_wear_tear a iko:Exclusion ;
+    rdfs:label "General policy exclusion: wear and tear and depreciation" ;
+    iko:alias "depreciation",
+        "wear and tear" ;
+    iko:supportedBy iko:passage_b3365a7a65104ebc7899 .
+
+iko:esure_uploaded_booklet_claimcondition_prompt_incident_report a iko:ClaimCondition ;
+    rdfs:label "Report incidents as soon as safe to do so" ;
+    iko:alias "accident notice",
+        "as soon as possible",
+        "report claim" ;
+    iko:supportedBy iko:passage_b1ea3b86896bc7915af0 .
+
+iko:esure_uploaded_booklet_coveragelimit_own_repairer_100 a iko:CoverageLimit ;
+    rdfs:label "If using own repairer, claim contribution capped at GBP 100" ;
+    iko:alias "100 pounds",
+        "own repairer",
+        "repairer limit" ;
+    iko:supportedBy iko:passage_c0aecc35a7a0a98184e5 .
+
+iko:esure_uploaded_booklet_deductible_glass_excess_schedule a iko:Deductible ;
+    rdfs:label "Glass excess amounts are specified in policy schedule" ;
+    iko:alias "deductible",
+        "glass excess",
+        "windscreen excess" ;
+    iko:supportedBy iko:passage_9a973a7920741d0a64a9 .
+
+iko:esure_uploaded_booklet_deductible_schedule_excess_and_extra_repairer a iko:Deductible ;
+    rdfs:label "Excess specified in schedule, with additional GBP 200 if non-recommended repairer is used" ;
+    iko:alias "deductible",
+        "excess",
+        "non recommended repairer" ;
+    iko:supportedBy iko:passage_52c7b38c6d4266c8f894 .
+
+iko:esure_uploaded_booklet_exclusion_convertible_hood a iko:Exclusion ;
+    rdfs:label "Convertible or cabriolet hood/roof structure not replaced under glass section" ;
+    iko:alias "convertible roof",
+        "hood",
+        "roof structure" ;
+    iko:supportedBy iko:passage_80e1d0e345b431e7d53f .
+
+iko:esure_uploaded_booklet_exclusion_mechanical_computer_failure a iko:Exclusion ;
+    rdfs:label "Mechanical, electrical, computer failure and breakdown excluded" ;
+    iko:alias "cyber attack",
+        "electrical failure",
+        "mechanical breakdown" ;
+    iko:supportedBy iko:passage_accb6fecc6f549085155 .
+
+iko:esure_uploaded_booklet_exclusion_staged_accident a iko:Exclusion ;
+    rdfs:label "Deliberately staged accident excluded" ;
+    iko:alias "deliberate accident",
+        "staged accident" ;
+    iko:supportedBy iko:passage_255eda45efd676ede21f .
+
+iko:esure_uploaded_booklet_exclusion_sunroof_panels a iko:Exclusion ;
+    rdfs:label "Sunroofs and glass roof panels excluded from glass-damage section" ;
+    iko:alias "glass roof",
+        "roof panel",
+        "sunroof" ;
+    iko:supportedBy iko:passage_8d298c022476b4098381 .
+
+iko:esure_uploaded_booklet_exclusion_wear_and_tear a iko:Exclusion ;
+    rdfs:label "Everyday wear and tear excluded" ;
+    iko:alias "depreciation",
+        "wear and tear" ;
+    iko:supportedBy iko:passage_0c99a570ce0f5ce3d3db .
+
+iko:passage_014ab51b2849bb6b6cdd a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 15 ;
+    iko:sourceQuote "If you use your own repairer, for up to 21 days in a row while they’re repairing your car." .
+
+iko:passage_033c8de4bfabad2ba5f0 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 12 ;
+    iko:sourceQuote "A courtesy vehicle will not be provided if you are making a claim solely under Section" .
+
+iko:passage_08e342982c4ac4bec710 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 17 ;
+    iko:sourceQuote "If you choose a different supplier for repairs, we’ll pay up to £40. > If you choose a different supplier for replacement, we’ll pay up to £125." .
+
+iko:passage_0c99a570ce0f5ce3d3db a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 19 ;
+    iko:sourceQuote "Wear and tear The wear and tear you’d expect from using your car day to day." .
+
+iko:passage_1b7f9862390e9f6dcdbe a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 12 ;
+    iko:sourceQuote "If the repairer chosen is not one of our approved repairers, a courtesy vehicle will not" .
+
+iko:passage_1bcc30a74989e0114084 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 5 ;
+    iko:sourceQuote "Let us know as soon as you can. You can go to aviva.co.uk/make-a-claim. Or, if you" .
+
+iko:passage_22361026899186466507 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 14 ;
+    iko:sourceQuote "We won’t cover loss or damage to your car if the person using it doesn’t take" .
+
+iko:passage_225972490325f2594cba a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 14 ;
+    iko:sourceQuote "We won’t cover loss or damage to your car if someone takes it by fraud or" .
+
+iko:passage_235595f634f15bb38069 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 13 ;
+    iko:sourceQuote "Loss of use, wear and tear, loss or damage which happens gradually, loss of value following repair, depreciation, failure of electronics, mechanical breakdown or breakage, or tyre damage caused by braking, punctures, cuts or bursts." .
+
+iko:passage_255eda45efd676ede21f a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 18 ;
+    iko:sourceQuote "Deliberate accidents If you or a named driver deliberately stage an accident that involves your car, or arrange for someone else to." .
+
+iko:passage_29af28a44f606b47df30 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 23 ;
+    iko:sourceQuote "If your windscreen is chipped, cracked or smashed, we'll ﬁx or replace it. Claiming for a" .
+
+iko:passage_37af500a13d2ca2c59fe a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 16 ;
+    iko:sourceQuote "We won’t cover the cost of draining, flushing or replacing the fuel if the wrong fuel" .
+
+iko:passage_3fb118553bde604568e5 a iko:SourcePassage ;
+    iko:sourceDocumentId "admiral_car_policy.pdf" ;
+    iko:sourcePage 18 ;
+    iko:sourceQuote "When required, we will also cover the costs to recalibrate your vehicle’s ADAS (Advanced Driver Assistance System) after the replacement of your windscreen." .
+
+iko:passage_4e58c8932a74c80e2742 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 6 ;
+    iko:sourceQuote "For some claims, you’ll need to pay an excess. You can find your excesses on your" .
+
+iko:passage_52c7b38c6d4266c8f894 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 18 ;
+    iko:sourceQuote "You'll ﬁnd your excesses detailed in your schedule. You’ll need to pay them unless your car is stolen from a private, locked garage or the damage was caused by someone in the motor trade while they were ﬁxing or servicing it on licensed premises. If you get your car ﬁxed by someone who isn’t one of our recommended repairers, there’ll be an additional excess of £200 on top of your other excesses." .
+
+iko:passage_531019ab316cb48af9fe a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 30 ;
+    iko:sourceQuote "We won’t cover any failure caused by a mechanical, electrical or computer problem. (If your policy" .
+
+iko:passage_54e67b886726d87419a3 a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 10 ;
+    iko:sourceQuote "Any loss or damage resulting from putting the wrong fuel in your car including draining and flushing." .
+
+iko:passage_5798829c92e87025d8c3 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 13 ;
+    iko:sourceQuote "(unless you have reported them to the Police)." .
+
+iko:passage_5e3a01ade856104d2161 a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 10 ;
+    iko:sourceQuote "Loss or damage caused by any mechanical, electrical, computer breakdown, failure or breakage." .
+
+iko:passage_62770e285c75ee96539a a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 10 ;
+    iko:sourceQuote "Loss or damage caused by rust, corrosion, wear and tear or any loss of value, including following repair." .
+
+iko:passage_6394cf0e1d170a8d123b a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 12 ;
+    iko:sourceQuote "If your vehicle cannot be repaired or is stolen, a courtesy vehicle will be provided for" .
+
+iko:passage_80e1d0e345b431e7d53f a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 24 ;
+    iko:sourceQuote "We won't pay to replace the hood or roof structure of your convertible or cabriolet car." .
+
+iko:passage_8d298c022476b4098381 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 24 ;
+    iko:sourceQuote "We won’t pay for the repair or replacement of damaged glass in sunroofs or ﬁxed or moveable glass roof panels." .
+
+iko:passage_901a88a1b528f0d6824c a iko:SourcePassage ;
+    iko:sourceDocumentId "admiral_car_policy.pdf" ;
+    iko:sourcePage 15 ;
+    iko:sourceQuote "For wear and tear" .
+
+iko:passage_9a973a7920741d0a64a9 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 23 ;
+    iko:sourceQuote "The amounts are shown in your schedule." .
+
+iko:passage_ab9f963732bd1c302278 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 13 ;
+    iko:sourceQuote "Loss or damage if, at the time of the incident, it was being driven or used without your permission by someone you know (unless you have reported them to the Police)." .
+
+iko:passage_ababe6cd3e569e26fab9 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 8 ;
+    iko:sourceQuote "The most we will pay is the market value of your vehicle. There is no cover" .
+
+iko:passage_accb6fecc6f549085155 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 19 ;
+    iko:sourceQuote "Mechanical, electrical or computer failures Including breakdowns, defects, user errors and the effect of cyber attacks/events." .
+
+iko:passage_ae43f2967191e4bad2d5 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 13 ;
+    iko:sourceQuote "Loss or damage arising from use of your vehicle while taking part in a Track day or driving on the Nürburgring Nordschleife." .
+
+iko:passage_b1ea3b86896bc7915af0 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 8 ;
+    iko:sourceQuote "It's important that you report anything that happens to your vehicle as soon as it's safe" .
+
+iko:passage_b3365a7a65104ebc7899 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 30 ;
+    iko:sourceQuote "We won’t cover any loss or damage caused by general wear and tear or depreciation. Improvement" .
+
+iko:passage_b58db839db56dba15afa a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 46 ;
+    iko:sourceQuote "in any type of incident, accident, claim or loss regardless of fault you must: a) tell us as soon as possible." .
+
+iko:passage_b8b3efd73eb1ab42f508 a iko:SourcePassage ;
+    iko:sourceDocumentId "admiral_car_policy.pdf" ;
+    iko:sourcePage 15 ;
+    iko:sourceQuote "The excess shown on your current Policy Schedule" .
+
+iko:passage_c0aecc35a7a0a98184e5 a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 23 ;
+    iko:sourceQuote "If you choose to use your own repairer the most we'll pay towards your claim is" .
+
+iko:passage_d28d5e76261ec3453bf6 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 14 ;
+    iko:sourceQuote "We won’t cover any loss or damage if we required a tracking device to be installed on your car and: • It hasn’t been fitted." .
+
+iko:passage_ed915388f82a0190274c a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 16 ;
+    iko:sourceQuote "If you do not use our approved repairer, the most we will pay for any windscreen replacement claim under this section is £100, or £50 for any windscreen repair." .
+
+iko:passage_ede3000fd579fe85bbb8 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 6 ;
+    iko:sourceQuote "Even if you don’t make a claim on your car, it’s important to let us know" .
+
+iko:passage_f04d31b2fbb414ab59a6 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 12 ;
+    iko:sourceQuote "A courtesy vehicle will only be provided when your claim has been accepted. • A courtesy" .
+
+iko:passage_f30d76672fc72350296c a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 23 ;
+    iko:sourceQuote "Important note • You must get in touch with us before any work is carried out. You can report your glass claim online at aviva.co.uk/myaviva or you can call us. We will direct you to our approved repairer. • If the repairer chosen to replace your glass is not one of our approved repairers, we will apply a limit to the amount we will contribute as shown in your schedule. • If you have purchased the optional courtesy vehicle cover under Section 1, we do not provide a courtesy vehicle if you are making a claim solely under this section. • It is important to get any windscreen dependent ADAS (such as autonomous emergency braking, adaptive headlights, lane departure and traffic sign recognition) repaired or recalibrated as part of your glass claim." .
+
+iko:passage_fa21c9bf3ff6fd2bb68c a iko:SourcePassage ;
+    iko:sourceDocumentId "admiral_car_policy.pdf" ;
+    iko:sourcePage 15 ;
+    iko:sourceQuote "For any loss or damage caused by mechanical, electrical, electronic, cyber incident, computer failure, breakdown, breakage or malfunction" .
+
+iko:passage_fc7d3370d930a0f43ba9 a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 10 ;
+    iko:sourceQuote "The sum of all policy excesses shown in the schedule." .
+
+iko:passage_fd4f8816007ab5f7aef8 a iko:SourcePassage ;
+    iko:sourceDocumentId "admiral_car_policy.pdf" ;
+    iko:sourcePage 5 ;
+    iko:sourceQuote "Even if you do not intend on making a claim, please notify us within 48 hours. Our claims handlers are" .
+
+iko:passage_fe99af009a5af58ef676 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 13 ;
+    iko:sourceQuote "We’ll put things right if your car is stolen, damaged by an attempted theft, or damaged" .
+
+iko:passage_fee0dcdd64478fdf4cf0 a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 11 ;
+    iko:sourceQuote "Your schedule will show the excesses you will have to pay towards any claim. If more" .
+
+iko:Claim a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:DamageType a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Policy a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:Policyholder a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:SuspiciousPattern a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:aviva_signature_uploaded_exclusion_unapproved_driver a iko:Exclusion ;
+    rdfs:label "Use without permission exclusion (with police-report qualification)" ;
+    iko:alias "unauthorised use",
+        "without permission" ;
+    iko:hasException iko:aviva_signature_uploaded_exception_police_report_qualification ;
+    iko:supportedBy iko:passage_ab9f963732bd1c302278 .
+
+iko:hasLimit a owl:ObjectProperty ;
+    rdfs:domain iko:Coverage ;
+    rdfs:range iko:CoverageLimit .
+
+iko:passage_0c5cef624900ff941a35 a iko:SourcePassage ;
+    iko:sourceDocumentId "axa_car_policy.pdf" ;
+    iko:sourcePage 9 ;
+    iko:sourceQuote "What is covered under this section We will pay for loss of or damage to 1. Your car." .
+
+iko:passage_6d7df7eb22c7d943e62f a iko:SourcePassage ;
+    iko:sourceDocumentId "esure_car_policy.pdf" ;
+    iko:sourcePage 16 ;
+    iko:sourceQuote "Accidental or malicious damage to your car and its accessories. Loss or damage to your car and its accessories due to ﬁre, lightning, explosion, theft or attempted theft." .
+
+iko:passage_c8ca8d47318e8480c370 a iko:SourcePassage ;
+    iko:sourceDocumentId "directline_car_policy.pdf" ;
+    iko:sourcePage 16 ;
+    iko:sourceQuote "If your car is accidentally damaged, we can choose to either: > Repair – we’ll repair the damage ourselves or pay to repair it. > Replace – we’ll replace whatever is lost or damaged, if that’s more cost-effective. > Repay – we’ll settle your claim by sending a payment." .
+
+iko:passage_cb79e63f5bdbb7b69f6f a iko:SourcePassage ;
+    iko:sourceDocumentId "aviva_car_policy.pdf" ;
+    iko:sourcePage 8 ;
+    iko:sourceQuote "If your vehicle is lost, stolen, or damaged, we will: • repair your vehicle unless you notify us that you want us to pay someone else to repair it; or • pay you a cash amount equal to the loss or damage" .
+
+iko:passage_eb57e9f755ee862b5f0b a iko:SourcePassage ;
+    iko:sourceDocumentId "admiral_car_policy.pdf" ;
+    iko:sourcePage 14 ;
+    iko:sourceQuote "If your vehicle is lost or damaged due to: y an accident y vandalism y fire or lightning y theft or attempted theft you will be covered for damage to: y your vehicle" .
+
+iko:CoverageLimit a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:AutoPolicy a owl:Class ;
+    rdfs:subClassOf iko:Policy .
+
+iko:admiral_uploaded_guide_coverage_damage_section_2 a iko:Coverage ;
+    rdfs:label "Damage to your vehicle, Section 2" ;
+    iko:alias "accident damage",
+        "accidental damage",
+        "collision",
+        "section 2",
+        "vehicle damage" ;
+    iko:hasDeductible iko:admiral_uploaded_guide_deductible_schedule_excess ;
+    iko:hasExclusion iko:admiral_uploaded_guide_exclusion_mechanical_electrical,
+        iko:admiral_uploaded_guide_exclusion_wear_and_tear ;
+    iko:supportedBy iko:passage_eb57e9f755ee862b5f0b .
+
+iko:admiral_uploaded_guide_policyversion_uploaded_pdf_edition_date_unconfirmed a iko:PolicyVersion ;
+    rdfs:label "Admiral Your Car Insurance Guide (uploaded edition) version uploaded_PDF_edition_date_unconfirmed" ;
+    iko:alias "uploaded_PDF_edition_date_unconfirmed" ;
+    iko:hasClaimCondition iko:admiral_uploaded_guide_claimcondition_claim_48_hour_notice ;
+    iko:hasCoverage iko:admiral_uploaded_guide_coverage_damage_section_2,
+        iko:admiral_uploaded_guide_coverage_windscreen_adas_section_3_v82 ;
+    iko:policyVersionIdentifier "uploaded_PDF_edition_date_unconfirmed" .
+
+iko:aviva_signature_uploaded_coverage_optional_courtesy_vehicle a iko:Coverage ;
+    rdfs:label "Optional courtesy vehicle (only if shown in schedule and applicable tier)" ;
+    iko:alias "courtesy vehicle",
+        "hire car",
+        "optional cover",
+        "replacement car" ;
+    iko:hasExclusion iko:aviva_signature_uploaded_exclusion_glass_only_claim,
+        iko:aviva_signature_uploaded_exclusion_nonapproved_repairer ;
+    iko:hasLimit iko:aviva_signature_uploaded_coveragelimit_max_28_days ;
+    iko:supportedBy iko:passage_f04d31b2fbb414ab59a6 .
+
+iko:axa_uploaded_wording_policyversion_uploaded_pdf_edition_date_unconfirmed a iko:PolicyVersion ;
+    rdfs:label "AXA Car Insurance (uploaded sample wording) version uploaded_PDF_edition_date_unconfirmed" ;
+    iko:alias "uploaded_PDF_edition_date_unconfirmed" ;
+    iko:hasClaimCondition iko:axa_uploaded_wording_claimcondition_incident_notification ;
+    iko:hasCoverage iko:axa_uploaded_wording_coverage_damage_section_a,
+        iko:axa_uploaded_wording_coverage_windscreen_window_section_d_v82 ;
+    iko:policyVersionIdentifier "uploaded_PDF_edition_date_unconfirmed" .
+
+iko:directline_b4c_uploaded_0622_coverage_fire_theft_section_2 a iko:Coverage ;
+    rdfs:label "Section 2: Fire and theft" ;
+    iko:alias "attempted theft",
+        "fire",
+        "section 2",
+        "stolen car",
+        "theft" ;
+    iko:hasExclusion iko:directline_b4c_uploaded_0622_exclusion_fraudulent_buyer,
+        iko:directline_b4c_uploaded_0622_exclusion_tracker_not_operational,
+        iko:directline_b4c_uploaded_0622_exclusion_unlocked_vehicle ;
+    iko:supportedBy iko:passage_fe99af009a5af58ef676 .
+
+iko:esure_uploaded_booklet_policyversion_source_pdf_edition_date_not_established a iko:PolicyVersion ;
+    rdfs:label "esure Car Insurance (uploaded booklet) version source_PDF_edition_date_not_established" ;
+    iko:alias "source_PDF_edition_date_not_established" ;
+    iko:hasClaimCondition iko:esure_uploaded_booklet_claimcondition_prompt_incident_report ;
+    iko:hasCoverage iko:esure_uploaded_booklet_coverage_glass_damage_section_05,
+        iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 ;
+    iko:policyVersionIdentifier "source_PDF_edition_date_not_established" .
+
+iko:hasClaimCondition a owl:ObjectProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range iko:ClaimCondition .
+
+iko:hasVersion a owl:ObjectProperty ;
+    rdfs:domain iko:Policy ;
+    rdfs:range iko:PolicyVersion .
+
+iko:ClaimCondition a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:aviva_signature_uploaded_policyversion_source_pdf_edition_date_not_established a iko:PolicyVersion ;
+    rdfs:label "Aviva Signature Motor Insurance (uploaded wording) version source_PDF_edition_date_not_established" ;
+    iko:alias "source_PDF_edition_date_not_established" ;
+    iko:hasClaimCondition iko:aviva_signature_uploaded_claimcondition_prompt_claim_notice ;
+    iko:hasCoverage iko:aviva_signature_uploaded_coverage_optional_courtesy_vehicle,
+        iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1,
+        iko:aviva_signature_uploaded_coverage_windscreen_glass_adas_v82 ;
+    iko:policyVersionIdentifier "source_PDF_edition_date_not_established" .
+
+iko:axa_uploaded_wording_coverage_damage_section_a a iko:Coverage ;
+    rdfs:label "Accidental vehicle damage, Section A" ;
+    iko:alias "accidental damage",
+        "damage",
+        "damage to your car",
+        "section a",
+        "vehicle damage" ;
+    iko:hasDeductible iko:axa_uploaded_wording_deductible_schedule_excess ;
+    iko:hasExclusion iko:axa_uploaded_wording_exclusion_breakdown,
+        iko:axa_uploaded_wording_exclusion_wear_and_tear,
+        iko:axa_uploaded_wording_exclusion_wrong_fuel ;
+    iko:supportedBy iko:passage_0c5cef624900ff941a35 .
+
+iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4 a iko:Coverage ;
+    rdfs:label "Section 4: accidental damage to car" ;
+    iko:alias "accident",
+        "accidental damage",
+        "car damage",
+        "collision",
+        "section 4" ;
+    iko:hasDeductible iko:directline_b4c_uploaded_0622_deductible_claim_excess ;
+    iko:hasExclusion iko:directline_b4c_uploaded_0622_exclusion_car_failure,
+        iko:directline_b4c_uploaded_0622_exclusion_misfuel_drain_cost,
+        iko:directline_b4c_uploaded_0622_exclusion_wear_tear ;
+    iko:supportedBy iko:passage_c8ca8d47318e8480c370 .
+
+iko:esure_uploaded_booklet_coverage_glass_damage_section_05 a iko:Coverage ;
+    rdfs:label "Section 05: windscreen and other glass damage" ;
+    iko:alias "glass damage",
+        "rear window",
+        "side window",
+        "windscreen" ;
+    iko:hasDeductible iko:esure_uploaded_booklet_deductible_glass_excess_schedule ;
+    iko:hasExclusion iko:esure_uploaded_booklet_exclusion_convertible_hood,
+        iko:esure_uploaded_booklet_exclusion_sunroof_panels ;
+    iko:hasLimit iko:esure_uploaded_booklet_coveragelimit_own_repairer_100 ;
+    iko:supportedBy iko:passage_29af28a44f606b47df30 .
+
+iko:esure_uploaded_booklet_coverage_loss_or_damage_section_04 a iko:Coverage ;
+    rdfs:label "Section 04: loss or damage to car (policy tier and schedule apply)" ;
+    iko:alias "accidental damage",
+        "car damage",
+        "collision",
+        "malicious damage",
+        "theft" ;
+    iko:hasDeductible iko:esure_uploaded_booklet_deductible_schedule_excess_and_extra_repairer ;
+    iko:hasExclusion iko:esure_uploaded_booklet_exclusion_mechanical_computer_failure,
+        iko:esure_uploaded_booklet_exclusion_staged_accident,
+        iko:esure_uploaded_booklet_exclusion_wear_and_tear ;
+    iko:supportedBy iko:passage_6d7df7eb22c7d943e62f .
+
+iko:hasDeductible a owl:ObjectProperty ;
+    rdfs:domain iko:Coverage ;
+    rdfs:range iko:Deductible .
+
+iko:Deductible a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:aviva_signature_uploaded_coverage_vehicle_loss_damage_section_1 a iko:Coverage ;
+    rdfs:label "Section 1: loss of or damage to vehicle (cover depends on policy tier)" ;
+    iko:alias "accidental damage",
+        "damage to vehicle",
+        "section 1",
+        "theft",
+        "vehicle damage",
+        "vehicle loss" ;
+    iko:hasDeductible iko:aviva_signature_uploaded_deductible_schedule_excess ;
+    iko:hasExclusion iko:aviva_signature_uploaded_exclusion_gradual_damage_wear_breakdown,
+        iko:aviva_signature_uploaded_exclusion_track_day_use,
+        iko:aviva_signature_uploaded_exclusion_unapproved_driver ;
+    iko:hasLimit iko:aviva_signature_uploaded_coveragelimit_market_value_limit ;
+    iko:supportedBy iko:passage_cb79e63f5bdbb7b69f6f .
+
+iko:directline_b4c_uploaded_0622_policyversion_booklet_0622_not_individual_policy_schedule a iko:PolicyVersion ;
+    rdfs:label "Direct Line Car Insurance (June 2022 booklet, uploaded) version booklet_0622_not_individual_policy_schedule" ;
+    iko:alias "booklet_0622_not_individual_policy_schedule" ;
+    iko:hasClaimCondition iko:directline_b4c_uploaded_0622_claimcondition_prompt_accident_report ;
+    iko:hasCoverage iko:directline_b4c_uploaded_0622_coverage_accidental_damage_section_4,
+        iko:directline_b4c_uploaded_0622_coverage_fire_theft_section_2,
+        iko:directline_b4c_uploaded_0622_coverage_guaranteed_hire_car_section_3_v82,
+        iko:directline_b4c_uploaded_0622_coverage_windscreen_section_5_v82 ;
+    iko:policyVersionIdentifier "booklet_0622_not_individual_policy_schedule" .
+
+iko:PolicyVersion a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:hasCoverage a owl:ObjectProperty ;
+    rdfs:domain iko:PolicyVersion ;
+    rdfs:range iko:Coverage .
+
+iko:Coverage a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:hasExclusion a owl:ObjectProperty ;
+    rdfs:domain iko:Coverage ;
+    rdfs:range iko:Exclusion .
+
+iko:Exclusion a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+
+iko:InsuranceEntity a owl:Class .
+
+iko:SourcePassage a owl:Class .
+
+iko:RelationshipAssertion a owl:Class ;
+    rdfs:subClassOf iko:InsuranceEntity .
+

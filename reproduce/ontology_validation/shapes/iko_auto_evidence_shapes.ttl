@@ -1,0 +1,56 @@
+@prefix iko: <https://example.org/iko-auto/v2#> .
+@prefix cv: <https://example.org/iko-auto/comment7/validation#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Separate validation vocabulary; NOT incorporated into the frozen research graphs.
+# SHACL Core with one SHACL-SPARQL source-triple correspondence constraint.
+
+cv:PolicyShape a sh:NodeShape ;
+  sh:targetClass iko:AutoPolicy ;
+  sh:property [ sh:path iko:policyIdentifier ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:Literal ; sh:minLength 1 ; sh:message "Policy requires one non-empty identifier" ] ;
+  sh:property [ sh:path iko:hasVersion ; sh:minCount 1 ; sh:maxCount 1 ; sh:class iko:PolicyVersion ; sh:message "Registered policy must link one version" ] .
+
+cv:VersionShape a sh:NodeShape ;
+  sh:targetClass iko:PolicyVersion ;
+  sh:property [ sh:path iko:policyVersionIdentifier ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:Literal ; sh:minLength 1 ; sh:message "Policy version requires an identifier" ] ;
+  sh:property [ sh:path iko:hasCoverage ; sh:minCount 1 ; sh:class iko:Coverage ; sh:message "Registered version requires at least one typed coverage" ] ;
+  sh:property [ sh:path iko:hasClaimCondition ; sh:class iko:ClaimCondition ; sh:message "Claims conditions must have the expected type" ] .
+
+cv:CoverageShape a sh:NodeShape ;
+  sh:targetClass iko:Coverage ;
+  sh:property [ sh:path iko:hasExclusion ; sh:class iko:Exclusion ] ;
+  sh:property [ sh:path iko:hasDeductible ; sh:class iko:Deductible ] ;
+  sh:property [ sh:path iko:hasLimit ; sh:class iko:CoverageLimit ] .
+
+cv:ExclusionShape a sh:NodeShape ;
+  sh:targetClass iko:Exclusion ;
+  sh:property [ sh:path iko:hasException ; sh:class iko:Exception ] .
+
+cv:SourcePassageShape a sh:NodeShape ;
+  sh:targetClass iko:SourcePassage ;
+  sh:property [ sh:path iko:sourceDocumentId ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:Literal ; sh:minLength 1 ; sh:message "Evidence passage needs one source document identifier" ] ;
+  sh:property [ sh:path iko:sourcePage ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ; sh:message "Evidence page must be a positive integer in 1-based PDF numbering" ] ;
+  sh:property [ sh:path iko:sourceQuote ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:Literal ; sh:minLength 10 ; sh:message "Evidence passage needs a non-trivial quotation" ] .
+
+cv:AssertionShape a sh:NodeShape ;
+  sh:targetClass iko:RelationshipAssertion ;
+  sh:property [ sh:path iko:assertionSubject ; sh:minCount 1 ; sh:maxCount 1 ; sh:class iko:InsuranceEntity ; sh:nodeKind sh:IRI ; sh:message "Reified subject must be a single typed insurance entity" ] ;
+  sh:property [ sh:path iko:assertionPredicate ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ;
+    sh:in ( iko:hasVersion iko:hasCoverage iko:hasExclusion iko:hasException iko:hasDeductible iko:hasLimit iko:hasClaimCondition ) ;
+    sh:message "Only the seven implemented contractual relation predicates are allowed in this fixed research scope" ] ;
+  sh:property [ sh:path iko:assertionObject ; sh:minCount 1 ; sh:maxCount 1 ; sh:class iko:InsuranceEntity ; sh:nodeKind sh:IRI ; sh:message "Reified object must be a single typed insurance entity" ] ;
+  sh:property [ sh:path iko:supportedBy ; sh:minCount 1 ; sh:class iko:SourcePassage ; sh:nodeKind sh:IRI ; sh:message "Every assertion requires a typed source-passage node" ] ;
+  sh:sparql [ a sh:SPARQLConstraint ;
+    sh:message "Reified subject-predicate-object must exist as a direct RDF triple" ;
+    sh:select """
+      PREFIX iko: <https://example.org/iko-auto/v2#>
+      SELECT $this WHERE {
+        $this iko:assertionSubject ?s ;
+              iko:assertionPredicate ?p ;
+              iko:assertionObject ?o .
+        FILTER NOT EXISTS { ?s ?p ?o }
+      }
+    """ ] .

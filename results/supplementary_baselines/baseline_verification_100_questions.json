@@ -1,0 +1,34 @@
+{
+  "status": "VERIFIED",
+  "split_checks": {
+    "Development": {
+      "questions": 50,
+      "exact_top5": 50,
+      "mismatch_ids": []
+    },
+    "H1": {
+      "questions": 50,
+      "exact_top5": 50,
+      "mismatch_ids": []
+    }
+  },
+  "source_hashes": {
+    "corpus": {
+      "admiral_car_policy.pdf": "fcbe3696d110630f27f1af8aff1dcc3964397166d4a60053dbb09ec13a4b3d77",
+      "aviva_car_policy.pdf": "9b6b0774129e9821e33c217eda60054ef5ed7308a2f056c771d12d11227121db",
+      "axa_car_policy.pdf": "0c0356ad5424c433a0c07ea77b9d35259bea9468a84c8c73252c60144dd388f8",
+      "directline_car_policy.pdf": "b1b40c4ee2b78d96656782d12591b3f6a69f16397a5479cd47f8ff58959c7b8d",
+      "esure_car_policy.pdf": "c88c00478abf625c59fffdd39043ac771c5cccc3c35ff2ba078476c84d02aeb3"
+    },
+    "ontology_Gplus": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+    "development_questions_50.csv": "a9f0cf37c5522c2b01b8b73dc5c6bff8034ead52b33f55135bcd04342fd580c1",
+    "DEV_RANKINGS_PUBLIC.csv": "94094708e306c9d759369a8fbe2453c5393d68fb115150b3495cef7fb14bd160",
+    "h1_questions_50.csv": "88e4af29e3f02aa54d83ac21de4d1264de57c70f5326558a9edae54976c01444",
+    "H1_RANKINGS_PUBLIC.csv": "0c1ee4e43aa04e43856f9d29119941a1d5e52a9478b4df153f50e48da280ae40"
+  },
+  "backend": "rank_bm25.BM25Okapi",
+  "passages": 717,
+  "pdf_pages": 232,
+  "created_utc": "2026-11-19T12:58:45.763042+00:00",
+  "interpretation": "Exact historical M2 Top-5 output reproduced on both question sets."
+}

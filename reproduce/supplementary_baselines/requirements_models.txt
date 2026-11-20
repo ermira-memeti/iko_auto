@@ -1,0 +1,2 @@
+# Install after requirements_basic.txt; downloads weights from Hugging Face on first run.
+sentence-transformers>=5,<6

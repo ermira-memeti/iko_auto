@@ -1,0 +1,6 @@
+{
+  "cache_key": "733ef98834006085a053b0b3f04a863d3bd3d0c23238f77b64d0c20ed469c783",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "rows": 717,
+  "columns": 384
+}

@@ -1,0 +1,5 @@
+# Python 3.12 is supported.
+numpy>=1.26,<3
+pypdf>=5,<7
+rank-bm25==0.2.2
+rdflib>=7,<8

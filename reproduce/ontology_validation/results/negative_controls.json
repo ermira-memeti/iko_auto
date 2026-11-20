@@ -1,0 +1,74 @@
+{
+  "G0/missing_quote": {
+    "detected": true,
+    "violations": [
+      "sh:MinCountConstraintComponent"
+    ]
+  },
+  "G0/zero_page": {
+    "detected": true,
+    "violations": [
+      "sh:MinInclusiveConstraintComponent"
+    ]
+  },
+  "G0/missing_direct_relation": {
+    "detected": true,
+    "violations": [
+      "sh:SPARQLConstraintComponent"
+    ]
+  },
+  "G0/duplicate_assertion_subject": {
+    "detected": true,
+    "violations": [
+      "sh:MaxCountConstraintComponent",
+      "sh:ClassConstraintComponent",
+      "sh:SPARQLConstraintComponent"
+    ]
+  },
+  "G0/disjoint_class_clash": {
+    "detected": true,
+    "violations": [
+      {
+        "individual": "iko:passage_033c8de4bfabad2ba5f0",
+        "type1": "iko:InsuranceEntity",
+        "type2": "iko:SourcePassage"
+      }
+    ]
+  },
+  "Gplus/missing_quote": {
+    "detected": true,
+    "violations": [
+      "sh:MinCountConstraintComponent"
+    ]
+  },
+  "Gplus/zero_page": {
+    "detected": true,
+    "violations": [
+      "sh:MinInclusiveConstraintComponent"
+    ]
+  },
+  "Gplus/missing_direct_relation": {
+    "detected": true,
+    "violations": [
+      "sh:SPARQLConstraintComponent"
+    ]
+  },
+  "Gplus/duplicate_assertion_subject": {
+    "detected": true,
+    "violations": [
+      "sh:MaxCountConstraintComponent",
+      "sh:ClassConstraintComponent",
+      "sh:SPARQLConstraintComponent"
+    ]
+  },
+  "Gplus/disjoint_class_clash": {
+    "detected": true,
+    "violations": [
+      {
+        "individual": "iko:passage_014ab51b2849bb6b6cdd",
+        "type1": "iko:InsuranceEntity",
+        "type2": "iko:SourcePassage"
+      }
+    ]
+  }
+}

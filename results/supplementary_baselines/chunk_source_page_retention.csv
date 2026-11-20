@@ -1,0 +1,7 @@
+split,chunk_words,overlap_words,n_chunks,n_questions,mean_top5_source_page_intersection,mean_page_set_jaccard,top1_same_page_count,known_historical_direct_hit_questions,known_hit_page_retained_top5_count,known_hit_page_retention_rate,interpretation
+Development,120,30,980,50,2.88,0.638,43,22,22,1.0,DIAGNOSTIC ONLY; page match does not establish passage relevance
+Development,170,45,717,50,4.02,1.0,50,22,22,1.0,DIAGNOSTIC ONLY; page match does not establish passage relevance
+Development,240,60,520,50,3.3,0.707,40,22,21,0.955,DIAGNOSTIC ONLY; page match does not establish passage relevance
+H1,120,30,980,50,3.1,0.685,45,39,39,1.0,DIAGNOSTIC ONLY; page match does not establish passage relevance
+H1,170,45,717,50,3.98,1.0,50,39,39,1.0,DIAGNOSTIC ONLY; page match does not establish passage relevance
+H1,240,60,520,50,3.2,0.67,43,39,38,0.974,DIAGNOSTIC ONLY; page match does not establish passage relevance

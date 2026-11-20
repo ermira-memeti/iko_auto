@@ -1,0 +1,27 @@
+{
+  "engines": {
+    "pyshacl": "0.40.2",
+    "owlrl": "7.6.2"
+  },
+  "scope": "SHACL SPARQL + Core validation on frozen graphs; OWL-RL closure only on copies enriched with optional companion profile (not the published retrieval graphs)",
+  "G0": {
+    "input_sha256": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+    "shacl_conforms": true,
+    "owl_rl_rule_closure_triples_total": 2476,
+    "owl_rl_additional_triples": 1516,
+    "owl_rl_missing_as_owl_nothing": 0,
+    "owl_rl_profile_disjointness_conflicts": 0,
+    "companion_inverses_inferred": 106,
+    "note": "OWL RL reasoning is not a full OWL 2 DL consistency check. Lack of conflicts under this profile does not prove semantic completeness or retrieval effectiveness."
+  },
+  "Gplus": {
+    "input_sha256": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+    "shacl_conforms": true,
+    "owl_rl_rule_closure_triples_total": 2700,
+    "owl_rl_additional_triples": 1643,
+    "owl_rl_missing_as_owl_nothing": 0,
+    "owl_rl_profile_disjointness_conflicts": 0,
+    "companion_inverses_inferred": 121,
+    "note": "OWL RL reasoning is not a full OWL 2 DL consistency check. Lack of conflicts under this profile does not prove semantic completeness or retrieval effectiveness."
+  }
+}

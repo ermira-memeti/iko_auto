@@ -1,0 +1,192 @@
+{
+  "research_scope": "IKO-Auto Reviewer 1 Comment 7; original G0/Gplus retained byte-identically",
+  "offline_execution": {
+    "engine": "RDFLib self-contained SHACL Core COMPONENT-SUBSET and SHACL-SPARQL checker",
+    "rdflib_version": "7.5.0",
+    "python_version": "3.13.5",
+    "general_purpose_shacl_engine_run": false,
+    "full_owl_2_dl_reasoner_run": false,
+    "limitations": "Validation follows the published shape constraints and graph integrity checks; certified pySHACL and OWL-RL rerun supplied separately, requires dependency installation."
+  },
+  "source_schema": {
+    "triples": 144,
+    "owl_classes": 28,
+    "owl_object_properties": 22,
+    "owl_datatype_properties": 7,
+    "owl_restrictions": 0,
+    "owl_disjoint_with_triples": 0,
+    "owl_inverse_of_triples": 0,
+    "owl_cardinality_statements": 0,
+    "sourcePage_declaration_missing": true
+  },
+  "shapes_total_triples": 119,
+  "companion_owl_profile_triples": 28,
+  "graphs": {
+    "G0": {
+      "source_sha256": "34b350540630667a65c42277c52e29e5f669dc9899ab1c1380eb593f048f5ad7",
+      "triple_count": 932,
+      "class_instances": {
+        "iko:AutoPolicy": 5,
+        "iko:PolicyVersion": 5,
+        "iko:Coverage": 8,
+        "iko:Exclusion": 21,
+        "iko:Exception": 1,
+        "iko:Deductible": 6,
+        "iko:CoverageLimit": 3,
+        "iko:ClaimCondition": 5,
+        "iko:SourcePassage": 44,
+        "iko:RelationshipAssertion": 49
+      },
+      "shacl_offline": {
+        "conforms": true,
+        "findings": [],
+        "component_checks": 1416,
+        "focus_nodes_by_shape": {
+          "cv:AssertionShape": 49,
+          "cv:CoverageShape": 8,
+          "cv:ExclusionShape": 21,
+          "cv:PolicyShape": 5,
+          "cv:SourcePassageShape": 44,
+          "cv:VersionShape": 5
+        }
+      },
+      "assertion_integrity": {
+        "reified_assertions_missing_direct_triple": 0,
+        "direct_contract_relations_without_complete_evidence_assertion": 0,
+        "issues": []
+      },
+      "owl_targeted_companion": {
+        "profile_disjoint_class_pairs": 4,
+        "disjointness_clashes": [],
+        "new_inverse_triples_inferred_in_companion_only": 106,
+        "inferred_type_assertions_from_existing_subclass_hierarchy": 157,
+        "domain_range_typing_consequences_not_explicitly_asserted": 0,
+        "owl2_dl_consistency_proved": false,
+        "note": "Targeted RDF/OWL vocabulary and inverse/disjointness checks only; full OWL 2 DL consistency reasoner was not executed."
+      },
+      "source_page_datatype_property_declaration_present": false,
+      "source_chunk_id_values": 0,
+      "effective_date_values": 0
+    },
+    "Gplus": {
+      "source_sha256": "b50a8e5b17a26db776a4114084fbef78455c2be72295031add7993ce74fcc729",
+      "triple_count": 1029,
+      "class_instances": {
+        "iko:AutoPolicy": 5,
+        "iko:PolicyVersion": 5,
+        "iko:Coverage": 13,
+        "iko:Exclusion": 21,
+        "iko:Exception": 1,
+        "iko:Deductible": 6,
+        "iko:CoverageLimit": 3,
+        "iko:ClaimCondition": 5,
+        "iko:SourcePassage": 49,
+        "iko:RelationshipAssertion": 54
+      },
+      "shacl_offline": {
+        "conforms": true,
+        "findings": [],
+        "component_checks": 1561,
+        "focus_nodes_by_shape": {
+          "cv:AssertionShape": 54,
+          "cv:CoverageShape": 13,
+          "cv:ExclusionShape": 21,
+          "cv:PolicyShape": 5,
+          "cv:SourcePassageShape": 49,
+          "cv:VersionShape": 5
+        }
+      },
+      "assertion_integrity": {
+        "reified_assertions_missing_direct_triple": 0,
+        "direct_contract_relations_without_complete_evidence_assertion": 0,
+        "issues": []
+      },
+      "owl_targeted_companion": {
+        "profile_disjoint_class_pairs": 4,
+        "disjointness_clashes": [],
+        "new_inverse_triples_inferred_in_companion_only": 121,
+        "inferred_type_assertions_from_existing_subclass_hierarchy": 172,
+        "domain_range_typing_consequences_not_explicitly_asserted": 0,
+        "owl2_dl_consistency_proved": false,
+        "note": "Targeted RDF/OWL vocabulary and inverse/disjointness checks only; full OWL 2 DL consistency reasoner was not executed."
+      },
+      "source_page_datatype_property_declaration_present": false,
+      "source_chunk_id_values": 0,
+      "effective_date_values": 0
+    }
+  },
+  "negative_controls": {
+    "G0/missing_quote": {
+      "detected": true,
+      "violations": [
+        "sh:MinCountConstraintComponent"
+      ]
+    },
+    "G0/zero_page": {
+      "detected": true,
+      "violations": [
+        "sh:MinInclusiveConstraintComponent"
+      ]
+    },
+    "G0/missing_direct_relation": {
+      "detected": true,
+      "violations": [
+        "sh:SPARQLConstraintComponent"
+      ]
+    },
+    "G0/duplicate_assertion_subject": {
+      "detected": true,
+      "violations": [
+        "sh:MaxCountConstraintComponent",
+        "sh:ClassConstraintComponent",
+        "sh:SPARQLConstraintComponent"
+      ]
+    },
+    "G0/disjoint_class_clash": {
+      "detected": true,
+      "violations": [
+        {
+          "individual": "iko:passage_033c8de4bfabad2ba5f0",
+          "type1": "iko:InsuranceEntity",
+          "type2": "iko:SourcePassage"
+        }
+      ]
+    },
+    "Gplus/missing_quote": {
+      "detected": true,
+      "violations": [
+        "sh:MinCountConstraintComponent"
+      ]
+    },
+    "Gplus/zero_page": {
+      "detected": true,
+      "violations": [
+        "sh:MinInclusiveConstraintComponent"
+      ]
+    },
+    "Gplus/missing_direct_relation": {
+      "detected": true,
+      "violations": [
+        "sh:SPARQLConstraintComponent"
+      ]
+    },
+    "Gplus/duplicate_assertion_subject": {
+      "detected": true,
+      "violations": [
+        "sh:MaxCountConstraintComponent",
+        "sh:ClassConstraintComponent",
+        "sh:SPARQLConstraintComponent"
+      ]
+    },
+    "Gplus/disjoint_class_clash": {
+      "detected": true,
+      "violations": [
+        {
+          "individual": "iko:passage_014ab51b2849bb6b6cdd",
+          "type1": "iko:InsuranceEntity",
+          "type2": "iko:SourcePassage"
+        }
+      ]
+    }
+  }
+}
